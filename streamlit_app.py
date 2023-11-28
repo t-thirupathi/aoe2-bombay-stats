@@ -43,7 +43,6 @@ def player_rating(player):
     return player_df.sort_values(by='date')
 
 player_df = player_rating(player)
-#st.write(sns.lineplot(data=player_df, x='date', y='player_rating'))
 st.line_chart(data=player_df, x='date', y='player_rating')
 
 
@@ -73,9 +72,11 @@ def player_map_stats(player):
     results = results[['map', 'total', 'won', 'lost']]
     results['win_rate'] = round(results['won'] / results['total'] * 100, 2)
     print(results[['total', 'won', 'lost']].sum(), round(results['won'].sum() / results['total'].sum() * 100, 2))
-    return results[results['total'] >= 10].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
+    results = results[results['total'] >= 10].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
+    results.index += 1
+    return results
 
-st.write(player_map_stats(player))
+st.dataframe(player_map_stats(player))
 
 
 def teammate_stats(df, player):
@@ -109,7 +110,9 @@ def teammate_stats(df, player):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(teammate_stats).sort_values(by='win_rate', ascending=False)
-    return stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results.index += 1
+    return results
 
 def opponent_stats(df, player):
     # Filter matches involving the given player
@@ -142,7 +145,9 @@ def opponent_stats(df, player):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(opponent_stats).sort_values(by='win_rate', ascending=False)
-    return stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results.index += 1
+    return results
 
 
 st.write(teammate_stats(df, player))
