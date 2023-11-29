@@ -45,6 +45,32 @@ def player_rating(player):
 player_df = player_rating(player)
 st.line_chart(data=player_df, x='date', y='player_rating')
 
+def avg_rating(player):
+    player_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player) |
+            (df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
+    def player_rating(row, player):
+        if row['w1'] == player:
+            return row['w1_nr']
+        if row['w2'] == player:
+            return row['w2_nr']
+        if row['w3'] == player:
+            return row['w3_nr']
+        if row['w4'] == player:
+            return row['w4_nr']
+        if row['l1'] == player:
+            return row['l1_nr']
+        if row['l2'] == player:
+            return row['l2_nr']
+        if row['l3'] == player:
+            return row['l3_nr']
+        if row['l4'] == player:
+            return row['l4_nr']
+    player_df['player_rating'] = player_df.apply(player_rating, player=player, axis=1)
+    return player_df[player_df['date'] >= '2023-10-01']['player_rating'].mean()
+
+st.write('Last 2 months')
+st.write('Games played', len(player_df[player_df['date'] >= '2023-10-01'].index))
+st.write('Avg rating', round(avg_rating(player), 2))
 
 # skeleton column of all months
 all_months = ('2022-01', '2022-02', '2022-03', '2022-04', '2022-05', '2022-06', 
