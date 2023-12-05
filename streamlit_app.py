@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('matches.csv')
+df.sort_values(by='match_id', inplace=True)
+
 all_players = list(set(
                     df['w1'].values.tolist() + 
                     df['w2'].values.tolist() + 
@@ -15,62 +17,67 @@ all_players = list(set(
                     df['l3'].values.tolist() + 
                     df['l4'].values.tolist()
                     ))
-print(all_players)
 
 player = st.selectbox('Select a player', ['Sephiroth'] + all_players)
 
-def player_rating(player):
-    player_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player) |
-            (df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
-    def player_rating(row, player):
-        if row['w1'] == player:
-            return row['w1_nr']
-        if row['w2'] == player:
-            return row['w2_nr']
-        if row['w3'] == player:
-            return row['w3_nr']
-        if row['w4'] == player:
-            return row['w4_nr']
-        if row['l1'] == player:
-            return row['l1_nr']
-        if row['l2'] == player:
-            return row['l2_nr']
-        if row['l3'] == player:
-            return row['l3_nr']
-        if row['l4'] == player:
-            return row['l4_nr']
-    player_df['player_rating'] = player_df.apply(player_rating, player=player, axis=1)
-    return player_df.sort_values(by='date')
+# Filter matches involving the given player
+player_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player) |
+        (df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
 
-player_df = player_rating(player)
+player_df['won'] = (player_df['w1'] == player) | (player_df['w2'] == player) | (player_df['w3'] == player) | (player_df['w4'] == player)
+
+def get_player_rating(row, player):
+    if row['w1'] == player:
+        return row['w1_nr']
+    if row['w2'] == player:
+        return row['w2_nr']
+    if row['w3'] == player:
+        return row['w3_nr']
+    if row['w4'] == player:
+        return row['w4_nr']
+    if row['l1'] == player:
+        return row['l1_nr']
+    if row['l2'] == player:
+        return row['l2_nr']
+    if row['l3'] == player:
+        return row['l3_nr']
+    if row['l4'] == player:
+        return row['l4_nr']
+player_df['player_rating'] = player_df.apply(get_player_rating, player=player, axis=1)
+st.write(player_df)
+
+date_skeleton = pd.DataFrame(pd.date_range(min(player_df['date']), max(player_df['date']), freq='d').astype('str'), columns=['date'])
+plot = sns.lineplot(data=date_skeleton.merge(player_df, on='date', how='left'), x='date', y='player_rating')
+for ind, label in enumerate(plot.get_xticklabels()):
+    if ind % 28 == 0:  # every 10th label is kept
+        label.set_visible(True)
+    else:
+        label.set_visible(False)
+plt.xticks(rotation=90);
+st.pyplot(plot.get_figure())
 st.line_chart(data=player_df, x='date', y='player_rating')
 
-def avg_rating(player):
-    player_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player) |
-            (df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
-    def player_rating(row, player):
-        if row['w1'] == player:
-            return row['w1_nr']
-        if row['w2'] == player:
-            return row['w2_nr']
-        if row['w3'] == player:
-            return row['w3_nr']
-        if row['w4'] == player:
-            return row['w4_nr']
-        if row['l1'] == player:
-            return row['l1_nr']
-        if row['l2'] == player:
-            return row['l2_nr']
-        if row['l3'] == player:
-            return row['l3_nr']
-        if row['l4'] == player:
-            return row['l4_nr']
-    player_df['player_rating'] = player_df.apply(player_rating, player=player, axis=1)
-    return player_df[player_df['date'] >= '2023-10-01']['player_rating'].mean()
+def player_stats(df):
+    matches = len(df.index)
+    won = len(df[df['won']].index)
+    lost = matches - won
+    win_rate = round((won / matches) * 100, 2)
+    avg_rating = round(df['player_rating'].mean(), 0)
 
+    stats = {'Played': matches, 
+             'Won': won, 
+             'Lost': lost, 
+             'Win rate': win_rate, 
+             'Avg rating': avg_rating
+             }
+
+    return pd.DataFrame(stats, index=[0])
+
+st.write('Overall')
+st.write(player_stats(player_df))
 st.write('Last 2 months')
-st.write('Games played', len(player_df[player_df['date'] >= '2023-10-01'].index))
-st.write('Avg rating', round(avg_rating(player), 2))
+st.write(player_stats(player_df[player_df['date'] >= '2023-10-01']))
+
 
 # skeleton column of all months
 all_months = ('2022-01', '2022-02', '2022-03', '2022-04', '2022-05', '2022-06', 
@@ -88,10 +95,8 @@ matches_by_month = all_months_df.merge(matches_by_month.reset_index(), how='left
 st.bar_chart(matches_by_month)
 
 def player_map_stats(player):
-    won_games = df[(df['w1'] == player) | (df['w2'] == player)  | (df['w3'] == player) | (df['w4'] == player)].\
-            groupby('map')['match_id'].count().sort_values(ascending=False).reset_index()
-    lost_games = df[(df['l1'] == player) | (df['l2'] == player)  | (df['l3'] == player) | (df['l4'] == player)].\
-            groupby('map')['match_id'].count().sort_values(ascending=False).reset_index()
+    won_games = player_df[player_df['won']].groupby('map')['match_id'].count().sort_values(ascending=False).reset_index() 
+    lost_games = player_df[~player_df['won']].groupby('map')['match_id'].count().sort_values(ascending=False).reset_index() 
 
     results = won_games.merge(lost_games, on='map').rename(columns={'match_id_x': 'won', 'match_id_y': 'lost'})
     results['total'] = results['won'] + results['lost']
@@ -105,77 +110,77 @@ def player_map_stats(player):
 st.dataframe(player_map_stats(player))
 
 
-def teammate_stats(df, player):
-    # Filter matches involving the given player
-    won_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player)]
-    lost_df = df[(df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
+def teammate_stats(df, player, teammate=True):
+    won_df = player_df[player_df['won']]
+    lost_df = player_df[~player_df['won']]
 
-    teammate_stats = []
-    for teammate in all_players:
-        if teammate == player:
+    stats = []
+    for other_player in all_players:
+        if other_player == player:
             continue
             
         won = len(won_df[
-                            (won_df['w1'] == teammate) | 
-                            (won_df['w2'] == teammate) | 
-                            (won_df['w3'] == teammate) | 
-                            (won_df['w4'] == teammate)
+                            (won_df['w1'] == other_player) | 
+                            (won_df['w2'] == other_player) | 
+                            (won_df['w3'] == other_player) | 
+                            (won_df['w4'] == other_player)
                             ].index)
         lost = len(lost_df[
-                            (lost_df['l1'] == teammate) | 
-                            (lost_df['l2'] == teammate) | 
-                            (lost_df['l3'] == teammate) | 
-                            (lost_df['l4'] == teammate)
+                            (lost_df['l1'] == other_player) | 
+                            (lost_df['l2'] == other_player) | 
+                            (lost_df['l3'] == other_player) | 
+                            (lost_df['l4'] == other_player)
                             ].index)
         if won+lost > 0:
-            teammate_stats.append({
-                'teammate': teammate, 
+            stats.append({
+                'teammate': other_player, 
                 'total': won+lost, 
                 'won': won, 
                 'lost': lost, 
                 'win_rate': round(won*100/(won+lost), 2)
             })
-    stats_df = pd.DataFrame(teammate_stats).sort_values(by='win_rate', ascending=False)
+    stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
     results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
     results.index += 1
     return results
 
 def opponent_stats(df, player):
-    # Filter matches involving the given player
-    won_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player)]
-    lost_df = df[(df['l1'] == player) | (df['l2'] == player) | (df['l3'] == player) | (df['l4'] == player)]
+    won_df = player_df[player_df['won']]
+    lost_df = player_df[~player_df['won']]
 
-    opponent_stats = []
-    for opponent in all_players:
-        if opponent == player:
+    stats = []
+    for other_player in all_players:
+        if other_player == player:
             continue
 
         won = len(won_df[
-                            (won_df['l1'] == opponent) |
-                            (won_df['l2'] == opponent) |
-                            (won_df['l3'] == opponent) |
-                            (won_df['l4'] == opponent)
+                            (won_df['l1'] == other_player) |
+                            (won_df['l2'] == other_player) |
+                            (won_df['l3'] == other_player) |
+                            (won_df['l4'] == other_player)
                             ].index)
         lost = len(lost_df[
-                            (lost_df['w1'] == opponent) |
-                            (lost_df['w2'] == opponent) |
-                            (lost_df['w3'] == opponent) |
-                            (lost_df['w4'] == opponent)
+                            (lost_df['w1'] == other_player) |
+                            (lost_df['w2'] == other_player) |
+                            (lost_df['w3'] == other_player) |
+                            (lost_df['w4'] == other_player)
                             ].index)
         if won+lost > 0:
-            opponent_stats.append({
-                'opponent': opponent,
+            stats.append({
+                'opponent': other_player,
                 'total': won+lost,
                 'won': won,
                 'lost': lost,
                 'win_rate': round(won*100/(won+lost), 2)
             })
-    stats_df = pd.DataFrame(opponent_stats).sort_values(by='win_rate', ascending=False)
+    stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
     results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
     results.index += 1
     return results
 
 
+st.write('Teammate stats')
 st.write(teammate_stats(df, player))
+st.write('Opponent stats')
 st.write(opponent_stats(df, player))
 

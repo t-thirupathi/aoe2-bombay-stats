@@ -75,10 +75,10 @@ class MyClient(discord.Client):
                 pass
 
         match_starts_df = pd.DataFrame(match_starts)
-        match_starts_df.to_csv('match_starts.csv', index=False)
+        match_starts_df.to_csv('match_starts_new.csv', index=False)
 
         match_results_df = pd.DataFrame(match_results)
-        match_results_df.to_csv('match_results_raw.csv', index=False)
+        match_results_df.to_csv('match_results_raw_new.csv', index=False)
         print('done')
 
 
