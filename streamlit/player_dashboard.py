@@ -50,7 +50,7 @@ st.write(player_df.sort_values(by='match_id', ascending=False).head())
 date_skeleton = pd.DataFrame(pd.date_range(min(player_df['date']), max(player_df['date']), freq='d').astype('str'), columns=['date'])
 plot = sns.lineplot(data=date_skeleton.merge(player_df, on='date', how='left'), x='date', y='player_rating')
 for ind, label in enumerate(plot.get_xticklabels()):
-    if ind % 28 == 0:  # every 10th label is kept
+    if ind % 28 == 0:  # every 28th label is kept
         label.set_visible(True)
     else:
         label.set_visible(False)

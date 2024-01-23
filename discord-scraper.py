@@ -48,12 +48,6 @@ class MyClient(discord.Client):
                 if str(msg.content).startswith('```markdown\nDomestic'):
                     match_results.append(str(msg.content))
                     #print(str(msg.content))
-                    #count += 1
-                    #print(count)
-                    #if count % 10 == 0:
-                    #    df = pd.DataFrame(match_results)
-                    #    df.to_csv(f'game_results/{str(count//10)}.csv', index=False)
-                    #    match_results = []
                     #Domestic(742942) results
                     #-------------
                     #0. A 952 ⟼ 974
@@ -75,12 +69,11 @@ class MyClient(discord.Client):
                 pass
 
         match_starts_df = pd.DataFrame(match_starts)
-        match_starts_df.to_csv('match_starts_new.csv', index=False)
+        match_starts_df.to_csv('data/match_starts_new.csv', index=False)
 
         match_results_df = pd.DataFrame(match_results)
-        match_results_df.to_csv('match_results_raw_new.csv', index=False)
+        match_results_df.to_csv('data/match_results_raw_new.csv', index=False)
         print('done')
-
 
 
 intents = discord.Intents.default()
