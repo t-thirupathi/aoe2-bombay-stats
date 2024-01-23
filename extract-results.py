@@ -23,7 +23,7 @@ for s in df['0']:
         winners_old_rating = []
         winners_new_rating = []
         for line_no in range(4, 4+player_count):
-            winners.append(' '.join(s[line_no].split(' ')[1:-3]))
+            winners.append(' '.join(s[line_no].split(' ')[1:-3]).strip(' |'))
             winners_old_rating.append(s[line_no].split(' ')[-3].strip('`'))
             winners_new_rating.append(s[line_no].split(' ')[-1].strip('`'))
 
@@ -31,7 +31,7 @@ for s in df['0']:
         losers_old_rating = []
         losers_new_rating = []
         for line_no in range(5+player_count, 5+2*player_count):
-            losers.append(' '.join(s[line_no].split(' ')[1:-3]))
+            losers.append(' '.join(s[line_no].split(' ')[1:-3]).strip(' |'))
             losers_old_rating.append(s[line_no].split(' ')[-3].strip('`'))
             losers_new_rating.append(s[line_no].split(' ')[-1].strip('`'))
 

@@ -3,8 +3,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 
-df = pd.read_csv('matches.csv')
+df = pd.read_csv('../data/matches.csv')
 df.sort_values(by='match_id', inplace=True)
 
 all_players = list(set(
@@ -18,7 +20,7 @@ all_players = list(set(
                     df['l4'].values.tolist()
                     ))
 
-player = st.selectbox('Select a player', ['Sephiroth'] + all_players)
+player = st.selectbox('Select a player', ['Thiru'] + all_players)
 
 # Filter matches involving the given player
 player_df = df[(df['w1'] == player) | (df['w2'] == player) | (df['w3'] == player) | (df['w4'] == player) |
@@ -76,15 +78,19 @@ def player_stats(df):
 
 st.write('Overall')
 st.write(player_stats(player_df))
+
 st.write('Last 2 months')
-st.write(player_stats(player_df[(player_df['date'] >= '2023-10-01') & (player_df['date'] <= '2023-11-30')]))
+today = datetime.today()
+two_months_ago = (today - relativedelta(months=2)).strftime('%Y-%m-%d')
+st.write(player_stats(player_df[(player_df['date'] >= two_months_ago)]))
 
 
 # skeleton column of all months
 all_months = ('2022-01', '2022-02', '2022-03', '2022-04', '2022-05', '2022-06', 
               '2022-07', '2022-08', '2022-09', '2022-10', '2022-11', '2022-12', 
               '2023-01', '2023-02', '2023-03', '2023-04', '2023-05', '2023-06', 
-              '2023-07', '2023-08', '2023-09', '2023-10', '2023-11')
+              '2023-07', '2023-08', '2023-09', '2023-10', '2023-11', '2023-12', 
+              '2024-01')
 all_months_df = pd.DataFrame(all_months, columns=['year_month'])
 
 player_matches = df[(df['w1'] == player) | (df['w2'] == player)  | (df['w3'] == player) | (df['w4'] == player) |
