@@ -12,10 +12,14 @@ class MyClient(discord.Client):
         match_starts = []
         match_results = []
         count = 0
-        async for msg in channel.history(limit=50000):
+        #async for msg in channel.history(limit=20000):
+        async for msg in channel.history(limit=50000000):
             try:
                 if str(msg.author) == 'Pubobot#8845' and len(msg.embeds) > 0: #TG-Bot
-                    if msg.embeds[0].title == '__**Domestic** has started!__':
+                    #if msg.embeds[0].title == '__**Domestic** has started!__':
+                    if msg.embeds[0].title and msg.embeds[0].title.endswith('has started!__'):
+                        queue = (msg.embeds[0].title).split('**')[1]
+                        #print(queue)
                         #all_start_msg_data = {}
                         #fields = [i.value for i in msg.embeds[0].fields]
                         #footer = msg.embeds[0].footer.text
@@ -45,7 +49,11 @@ class MyClient(discord.Client):
 
                         match_starts.append(match_start_data)
 
-                if str(msg.content).startswith('```markdown\nDomestic'):
+                #if str(msg.content).startswith('```markdown\nDomestic'):
+                if str(msg.content).startswith('```markdown\n'):
+                    #print(msg.content)
+                    queue = (msg.content).split('\n')[1].split('(')[0]
+                    #print(queue)
                     match_results.append(str(msg.content))
                     #print(str(msg.content))
                     #Domestic(742942) results
@@ -62,6 +70,7 @@ class MyClient(discord.Client):
                     #> adirath 628 ⟼ 606```
             except Exception as e:
                 print(e)
+                print(msg.embeds[0].title)
                 print(msg.content)
                 print(msg.embeds[0].footer.text)
                 for i in msg.embeds[0].fields:

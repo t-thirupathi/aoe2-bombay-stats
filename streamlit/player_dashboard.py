@@ -5,9 +5,20 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from collections import Counter
 
 df = pd.read_csv('../data/matches.csv')
 df.sort_values(by='match_id', inplace=True)
+all_player_games = df['w1'].values.tolist() + \
+    df['w2'].values.tolist() + \
+    df['w3'].values.tolist() + \
+    df['w4'].values.tolist() + \
+    df['l1'].values.tolist() + \
+    df['l2'].values.tolist() + \
+    df['l3'].values.tolist() + \
+    df['l4'].values.tolist()
+
+player_game_count = Counter(all_player_games)
 
 all_players = list(set(
                     df['w1'].values.tolist() + 
@@ -62,6 +73,9 @@ st.pyplot(plot.get_figure())
 
 def player_stats(df):
     matches = len(df.index)
+    if matches == 0:
+        return pd.DataFrame()
+
     won = len(df[df['won']].index)
     lost = matches - won
     win_rate = round((won / matches) * 100, 2)
@@ -107,10 +121,11 @@ def player_map_stats(player):
 
     results = won_games.merge(lost_games, on='map').rename(columns={'match_id_x': 'won', 'match_id_y': 'lost'})
     results['total'] = results['won'] + results['lost']
-    results = results[['map', 'total', 'won', 'lost']]
+    results['play_rate'] = round(results['total'] * 100 / player_game_count[player], 2)
+    results = results[['map', 'total', 'play_rate', 'won', 'lost']]
     results['win_rate'] = round(results['won'] / results['total'] * 100, 2)
     print(results[['total', 'won', 'lost']].sum(), round(results['won'].sum() / results['total'].sum() * 100, 2))
-    results = results[results['total'] >= 10].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
+    results = results[results['total'] >= 5].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
     results.index += 1
     return results
 
