@@ -13,7 +13,7 @@ class MyClient(discord.Client):
         match_results = []
         count = 0
         #async for msg in channel.history(limit=20000):
-        async for msg in channel.history(limit=50000000):
+        async for msg in channel.history(limit=5000000000):
             try:
                 if str(msg.author) == 'Pubobot#8845' and len(msg.embeds) > 0: #TG-Bot
                     #if msg.embeds[0].title == '__**Domestic** has started!__':
