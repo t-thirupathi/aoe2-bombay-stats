@@ -4,7 +4,7 @@ from collections import Counter
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-res = pd.read_csv('data/match_results.csv')
+res = pd.read_csv('tw_data/match_results.csv')
 
 for col in ['w1_or', 'w2_or', 'w3_or', 'w4_or', 
             'w1_nr', 'w2_nr', 'w3_nr', 'w4_nr', 
@@ -15,7 +15,7 @@ for col in ['w1_or', 'w2_or', 'w3_or', 'w4_or',
     res[col] = res[col].astype(int)
     
 
-start = pd.read_csv('data/match_starts.csv')
+start = pd.read_csv('tw_data/match_starts.csv')
 
 start = start.drop_duplicates(subset=['match_id'])
 
@@ -126,7 +126,7 @@ def fix_map_only_name(map_):
 combined['map'] = combined['map'].apply(fix_map_name)
 combined['map_only'] = combined['map'].apply(fix_map_only_name)
 
-combined.to_csv('data/matches.csv', index=False)
+combined.to_csv('tw_data/matches.csv', index=False)
 
 print(combined.head())
 

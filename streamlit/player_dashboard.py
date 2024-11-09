@@ -7,7 +7,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from collections import Counter
 
-df = pd.read_csv('../data/matches.csv')
+df = pd.read_csv('../tw_data/matches.csv')
 df.sort_values(by='match_id', inplace=True)
 all_player_games = df['w1'].values.tolist() + \
     df['w2'].values.tolist() + \
@@ -107,6 +107,7 @@ all_months = ('2022-01', '2022-02', '2022-03', '2022-04', '2022-05', '2022-06',
               '2024-01', '2024-02', '2024-03', '2024-04', '2024-05', '2024-06', 
               '2024-07', '2024-08', '2024-09', '2024-10', '2024-11', '2024-12', 
             )
+all_months = df['year_month'].unique()
 all_months_df = pd.DataFrame(all_months, columns=['year_month'])
 
 player_matches = df[(df['w1'] == player) | (df['w2'] == player)  | (df['w3'] == player) | (df['w4'] == player) |
@@ -127,7 +128,7 @@ def player_map_stats(player):
     results = results[['map', 'total', 'play_rate', 'won', 'lost']]
     results['win_rate'] = round(results['won'] / results['total'] * 100, 2)
     print(results[['total', 'won', 'lost']].sum(), round(results['won'].sum() / results['total'].sum() * 100, 2))
-    results = results[results['total'] >= 5].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
+    results = results[results['total'] >= 1].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
     results.index += 1
     return results
 
@@ -164,7 +165,7 @@ def teammate_stats(df, player, teammate=True):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
-    results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= 1].reset_index(drop=True)
     results.index += 1
     return results
 
@@ -198,7 +199,7 @@ def opponent_stats(df, player):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
-    results = stats_df[stats_df['total'] >= 10].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= 1].reset_index(drop=True)
     results.index += 1
     return results
 

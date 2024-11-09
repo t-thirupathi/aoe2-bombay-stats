@@ -1,7 +1,7 @@
 import pandas as pd
 
 results = {}
-df = pd.read_csv('data/match_results_raw.csv')
+df = pd.read_csv('tw_data/match_results_raw.csv')
 
 for s in df['0']:
     try:
@@ -104,5 +104,5 @@ for s in df['0']:
         print(e)
 
 df = pd.DataFrame(results).T.rename_axis('match_id')
-df.to_csv('data/match_results.csv')
+df.to_csv('tw_data/match_results.csv')
     

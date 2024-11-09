@@ -1,0 +1,708 @@
+match_id,date,year_month,map,w1,w2,w3,w4,l1,l2,l3,l4,w1_or,w2_or,w3_or,w4_or,w1_nr,w2_nr,w3_nr,w4_nr,l1_or,l2_or,l3_or,l4_or,l1_nr,l2_nr,l3_nr,l4_nr,map_only
+1063670,2024-11-09,2024-11,African Clearing,Thiru,f33d3r.raj,xpm0083,vijay1989,thelivi,centurion12,mikecbe,darkknight7282,2109,1419,1318,1067,2123,1433,1332,1081,1629,1619,1528,1133,1615,1605,1514,1119,African Clearing
+1063637,2024-11-09,2024-11,Land Nomad,arkantos3801,typo,vijay1989,Gajini,centurion12,f33d3r.raj,darkknight7282,silentdeath4869,1401,1076,1058,1004,1410,1085,1067,1013,1628,1428,1142,214,1619,1419,1133,159,Land Nomad
+1063599,2024-11-09,2024-11,African Clearing,Thiru,centurion12,typo,vijay1989,aadvanced,mikecbe,f33d3r.raj,zaszrespawned,2095,1614,1062,1044,2109,1628,1076,1058,1892,1542,1442,955,1878,1528,1428,941,African Clearing
+1063545,2024-11-09,2024-11,African Clearing,thelivi,centurion12,vijay1989,zaszrespawned,rcbfan009,darkknight7282,sundar7238,Gajini,1614,1599,1029,940,1629,1614,1044,955,1916,1157,1117,1019,1901,1142,1102,1004,African Clearing
+1063505,2024-11-09,2024-11,Land Nomad,rcbfan009,aravind2705,Gajini,zaszrespawned,mikecbe,f33d3r.raj,arkantos3801,vijay1989,1901,1616,1004,925,1916,1631,1019,940,1557,1457,1416,1044,1542,1442,1401,1029,Land Nomad
+1063398,2024-11-09,2024-11,African Clearing,rcbfan009,thelivi,centurion12,typo,Thiru,f33d3r.raj,arkantos3801,sundar7238,1887,1600,1585,1048,1901,1614,1599,1062,2109,1471,1430,1131,2095,1457,1416,1117,African Clearing
+1063382,2024-11-09,2024-11,Land Nomad,aadvanced,thelivi,f33d3r.raj,feedertony,Thiru,rcbfan009,typo,Gajini,1880,1588,1459,1212,1892,1600,1471,1224,2121,1899,1060,1016,2109,1887,1048,1004,Land Nomad
+1063354,2024-11-09,2024-11,African Clearing,rcbfan009,typo,Gajini,,thelivi,feedertony,sundar7238,,1881,1042,998,0,1899,1060,1016,0,1606,1230,1149,0,1588,1212,1131,0,African Clearing
+1063316,2024-11-09,2024-11,Land Nomad,aadvanced,f33d3r.raj,arkantos3801,thiyagup,rcbfan009,feedertony,sundar7238,typo,1868,1447,1418,680,1880,1459,1430,692,1893,1242,1161,1054,1881,1230,1149,1042,Land Nomad
+1063305,2024-11-09,2024-11,African Clearing,thelivi,f33d3r.raj,Gajini,zaszrespawned,rcbfan009,feedertony,typo,thiyagup,1592,1433,984,911,1606,1447,998,925,1907,1256,1068,694,1893,1242,1054,680,African Clearing
+1063295,2024-11-09,2024-11,Land Nomad,thelivi,f33d3r.raj,Gajini,,rcbfan009,typo,zaszrespawned,,1578,1419,970,0,1592,1433,984,0,1921,1082,925,0,1907,1068,911,0,Land Nomad
+1062653,2024-11-08,2024-11,African Clearing,Thiru,sundar7238,typo,silentdeath4869,thelivi,vijay1989,Gajini,zaszrespawned,2105,1145,1066,100,2121,1161,1082,214,1594,1060,986,941,1578,1044,970,925,African Clearing
+1062633,2024-11-08,2024-11,Land Nomad,Thiru,arunaoe,Gajini,vetrierai,thelivi,sundar7238,typo,vijay1989,2092,1253,973,633,2105,1266,986,646,1607,1158,1079,1073,1594,1145,1066,1060,Land Nomad
+1059460,2024-11-03,2024-11,African Clearing,thelivi,centurion12,arkantos3801,feedertony,Thiru,f33d3r.raj,typo,vijay1989,1597,1575,1408,1246,1607,1585,1418,1256,2102,1429,1089,1083,2092,1419,1079,1073,African Clearing
+1059437,2024-11-03,2024-11,Land Nomad,thelivi,f33d3r.raj,xpm0083,typo,centurion12,arkantos3801,feedertony,vijay1989,1584,1416,1305,1076,1597,1429,1318,1089,1588,1421,1259,1096,1575,1408,1246,1083,Land Nomad
+1059407,2024-11-03,2024-11,African Clearing,Thiru,centurion12,typo,zaszrespawned,thelivi,arkantos3801,f33d3r.raj,vijay1989,2091,1577,1065,930,2102,1588,1076,941,1595,1432,1427,1107,1584,1421,1416,1096,African Clearing
+1059373,2024-11-03,2024-11,Land Nomad,rcbfan009,bcappu,thelivi,xpm0083,Thiru,mikecbe,f33d3r.raj,feedertony,1907,1612,1581,1291,1921,1626,1595,1305,2105,1571,1441,1273,2091,1557,1427,1259,Land Nomad
+1059354,2024-11-03,2024-11,African Clearing,rcbfan009,arkantos3801,xpm0083,feedertony,bcappu,thelivi,f33d3r.raj,vijay1989,1895,1420,1279,1261,1907,1432,1291,1273,1624,1593,1453,1119,1612,1581,1441,1107,African Clearing
+1059324,2024-11-03,2024-11,Land Nomad,aravind2705,mikecbe,vijay1989,typo,thelivi,f33d3r.raj,arkantos3801,thundubeedi,1604,1559,1107,1053,1616,1571,1119,1065,1605,1465,1432,757,1593,1453,1420,745,Land Nomad
+1059304,2024-11-03,2024-11,African Clearing,aadvanced,bcappu,thelivi,thiyagup,aravind2705,f33d3r.raj,arkantos3801,vijay1989,1857,1613,1594,683,1868,1624,1605,694,1615,1476,1443,1118,1604,1465,1432,1107,African Clearing
+1059275,2024-11-03,2024-11,Land Nomad,Thiru,bcappu,typo,Gajini,aravind2705,f33d3r.raj,arkantos3801,vijay1989,2090,1598,1038,958,2105,1613,1053,973,1630,1491,1458,1133,1615,1476,1443,1118,Land Nomad
+1059242,2024-11-03,2024-11,African Clearing,Thiru,f33d3r.raj,Gajini,thundubeedi,thelivi,arkantos3801,vijay1989,typo,2075,1476,943,742,2090,1491,958,757,1609,1473,1148,1053,1594,1458,1133,1038,African Clearing
+1059219,2024-11-03,2024-11,Land Nomad,rcbfan009,centurion12,feedertony,vijay1989,aravind2705,thelivi,f33d3r.raj,typo,1881,1563,1247,1134,1895,1577,1261,1148,1644,1623,1490,1067,1630,1609,1476,1053,Land Nomad
+1059202,2024-11-03,2024-11,African Clearing,centurion12,f33d3r.raj,vijay1989,typo,aravind2705,xpm0083,feedertony,stylishsteam,1549,1476,1120,1053,1563,1490,1134,1067,1658,1293,1261,1006,1644,1279,1247,992,African Clearing
+1059178,2024-11-03,2024-11,Land Nomad,rcbfan009,aravind2705,thelivi,vetrierai,mikecbe,centurion12,lotterymartin,xpm0083,1864,1641,1606,615,1881,1658,1623,633,1576,1566,1389,1310,1559,1549,1372,1293,Land Nomad
+1059152,2024-11-03,2024-11,African Clearing,aravind2705,xpm0083,feedertony,typo,mikecbe,f33d3r.raj,vijay1989,stylishsteam,1626,1295,1246,1038,1641,1310,1261,1053,1591,1491,1135,1021,1576,1476,1120,1006,African Clearing
+1059130,2024-11-03,2024-11,Land Nomad,aadvanced,Blitz,vijay1989,vetrierai,f33d3r.raj,lotterymartin,feedertony,thundubeedi,1842,1297,1120,599,1857,1348,1135,615,1506,1404,1261,757,1491,1389,1246,742,Land Nomad
+1059112,2024-11-03,2024-11,African Clearing,rcbfan009,centurion12,feedertony,Blitz,aravind2705,thelivi,mikecbe,typo,1851,1553,1248,1246,1864,1566,1261,1297,1639,1619,1604,1051,1626,1606,1591,1038,African Clearing
+1059087,2024-11-03,2024-11,Land Nomad,f33d3r.raj,arkantos3801,vijay1989,typo,thelivi,centurion12,feedertony,vetrierai,1493,1460,1107,1038,1506,1473,1120,1051,1632,1566,1261,613,1619,1553,1248,599,Land Nomad
+1059059,2024-11-03,2024-11,African Clearing,aadvanced,mikecbe,feedertony,typo,thelivi,centurion12,f33d3r.raj,Gajini,1828,1590,1247,1024,1842,1604,1261,1038,1646,1580,1507,957,1632,1566,1493,943,African Clearing
+1059040,2024-11-03,2024-11,Land Nomad,centurion12,f33d3r.raj,Gajini,,mikecbe,feedertony,vijay1989,,1565,1492,942,0,1580,1507,957,0,1605,1262,1122,0,1590,1247,1107,0,Land Nomad
+1059004,2024-11-03,2024-11,African Clearing,aadvanced,mikecbe,Gajini,,centurion12,f33d3r.raj,feedertony,,1810,1587,924,0,1828,1605,942,0,1583,1510,1280,0,1565,1492,1262,0,African Clearing
+1058572,2024-11-02,2024-11,Land Nomad,thelivi,xpm0083,feedertony,vijay1989,aadvanced,mikecbe,zaszrespawned,Gajini,1632,1281,1266,1108,1646,1295,1280,1122,1824,1601,944,938,1810,1587,930,924,Land Nomad
+1058543,2024-11-02,2024-11,African Clearing,thelivi,feedertony,vijay1989,zaszrespawned,aravind2705,f33d3r.raj,Gajini,thundubeedi,1618,1252,1094,930,1632,1266,1108,944,1653,1524,952,771,1639,1510,938,757,African Clearing
+1058513,2024-11-02,2024-11,Land Nomad,aadvanced,f33d3r.raj,vijay1989,zaszrespawned,Thiru,feedertony,sundar7238,thundubeedi,1810,1510,1080,916,1824,1524,1094,930,2089,1266,1172,785,2075,1252,1158,771,Land Nomad
+1058499,2024-11-02,2024-11,African Clearing,Thiru,sundar7238,vijay1989,Gajini,thelivi,f33d3r.raj,feedertony,thundubeedi,2075,1158,1066,938,2089,1172,1080,952,1632,1524,1280,799,1618,1510,1266,785,African Clearing
+1058360,2024-11-02,2024-11,Land Nomad,feedertony,zaszrespawned,thundubeedi,,stylishsteam,Gajini,ninjavarier,,1266,902,785,0,1280,916,799,0,1035,952,927,0,1021,938,913,0,Land Nomad
+1058347,2024-11-02,2024-11,African Clearing,f33d3r.raj,ninjavarier,zaszrespawned,,sundar7238,stylishsteam,Gajini,,1513,916,891,0,1524,927,902,0,1169,1046,963,0,1158,1035,952,0,African Clearing
+1058329,2024-11-02,2024-11,Land Nomad,Thiru,stylishsteam,Gajini,zaszrespawned,f33d3r.raj,feedertony,sundar7238,ninjavarier,2061,1032,949,877,2075,1046,963,891,1527,1280,1183,930,1513,1266,1169,916,Land Nomad
+1058321,2024-11-02,2024-11,African Clearing,aadvanced,feedertony,sundar7238,Gajini,Thiru,f33d3r.raj,ninjavarier,zaszrespawned,1810,1280,1183,949,1818,1288,1191,957,2061,1527,930,877,2053,1519,922,869,African Clearing
+1057696,2024-11-01,2024-11,Land Nomad,aadvanced,arkantos3801,feedertony,arunaoe,Thiru,thelivi,vijay1989,zaszrespawned,1799,1449,1269,1242,1810,1460,1280,1253,2072,1643,1077,888,2061,1632,1066,877,Land Nomad
+1057656,2024-11-01,2024-11,African Clearing,thelivi,arkantos3801,Gajini,zaszrespawned,mikecbe,sundar7238,vijay1989,stylishsteam,1626,1432,932,871,1643,1449,949,888,1618,1200,1094,1049,1601,1183,1077,1032,African Clearing
+1057610,2024-11-01,2024-11,Land Nomad,aadvanced,arkantos3801,feedertony,zaszrespawned,Thiru,sundar7238,vijay1989,Gajini,1784,1417,1254,856,1799,1432,1269,871,2087,1215,1109,947,2072,1200,1094,932,Land Nomad
+1057516,2024-11-01,2024-11,African Clearing,Thiru,arunaoe,zaszrespawned,,aadvanced,arkantos3801,Gajini,,2068,1223,837,0,2087,1242,856,0,1803,1436,966,0,1784,1417,947,0,African Clearing
+1057409,2024-11-01,2024-11,Land Nomad,aravind2705,bcappu,arkantos3801,zaszrespawned,aadvanced,f33d3r.raj,vijay1989,Gajini,1639,1584,1422,823,1653,1598,1436,837,1817,1541,1123,980,1803,1527,1109,966,Land Nomad
+1057376,2024-11-01,2024-11,African Clearing,Thiru,f33d3r.raj,stylishsteam,thundubeedi,aadvanced,aravind2705,vijay1989,zaszrespawned,2052,1525,1033,769,2068,1541,1049,785,1833,1655,1139,839,1817,1639,1123,823,African Clearing
+1057356,2024-11-01,2024-11,African Clearing,aadvanced,Gajini,ninjavarier,thundubeedi,f33d3r.raj,arkantos3801,zaszrespawned,vetrierai,1819,966,916,755,1833,980,930,769,1539,1436,853,629,1525,1422,839,613,African Clearing
+1057327,2024-11-01,2024-11,Land Nomad,aadvanced,aravind2705,zaszrespawned,,Thiru,Gajini,ninjavarier,,1814,1650,848,0,1819,1655,853,0,2057,971,921,0,2052,966,916,0,Land Nomad
+1057294,2024-11-01,2024-11,African Clearing,aravind2705,f33d3r.raj,zaszrespawned,,Thiru,Gajini,ninjavarier,,1634,1523,832,0,1650,1539,848,0,2073,987,937,0,2057,971,921,0,African Clearing
+1057285,2024-11-01,2024-11,Land Nomad,aadvanced,sundar7238,darkknight7282,ninjavarier,aravind2705,arunaoe,vijay1989,Gajini,1802,1203,1145,925,1814,1215,1157,937,1646,1235,1151,999,1634,1223,1139,987,Land Nomad
+1057278,2024-11-01,2024-11,African Clearing,aravind2705,f33d3r.raj,Gajini,,aadvanced,arunaoe,vijay1989,,1624,1501,977,0,1646,1523,999,0,1824,1257,1173,0,1802,1235,1151,0,African Clearing
+1056901,2024-10-31,2024-10,Land Nomad,aadvanced,f33d3r.raj,sundar7238,vijay1989,thelivi,mikecbe,bcappu,zaszrespawned,1807,1484,1186,1156,1824,1501,1203,1173,1643,1635,1601,849,1626,1618,1584,832,Land Nomad
+1056877,2024-10-31,2024-10,African Clearing,aadvanced,bcappu,sundar7238,vijay1989,thelivi,mikecbe,f33d3r.raj,zaszrespawned,1794,1588,1173,1143,1807,1601,1186,1156,1656,1648,1497,862,1643,1635,1484,849,African Clearing
+1056829,2024-10-31,2024-10,Land Nomad,aadvanced,thelivi,vijay1989,,mikecbe,f33d3r.raj,xpm0083,,1782,1644,1131,0,1794,1656,1143,0,1660,1509,1293,0,1648,1497,1281,0,Land Nomad
+1056701,2024-10-31,2024-10,African Clearing,aadvanced,f33d3r.raj,sundar7238,,mikecbe,bcappu,vijay1989,,1766,1493,1157,0,1782,1509,1173,0,1676,1604,1147,0,1660,1588,1131,0,African Clearing
+1056693,2024-10-31,2024-10,Land Nomad,aadvanced,mikecbe,ninjavarier,,bcappu,f33d3r.raj,sundar7238,,1751,1661,910,0,1766,1676,925,0,1619,1508,1172,0,1604,1493,1157,0,Land Nomad
+1056187,2024-10-30,2024-10,African Clearing,Thiru,f33d3r.raj,Blitz,vijay1989,thelivi,bcappu,arunaoe,feedertony,2062,1497,1200,1136,2073,1508,1246,1147,1655,1630,1268,1265,1644,1619,1257,1254,African Clearing
+1056163,2024-10-30,2024-10,Land Nomad,Thiru,f33d3r.raj,arunaoe,vijay1989,thelivi,bcappu,xpm0083,feedertony,2049,1484,1255,1123,2062,1497,1268,1136,1668,1643,1306,1278,1655,1630,1293,1265,Land Nomad
+1056128,2024-10-30,2024-10,African Clearing,thelivi,mikecbe,feedertony,vijay1989,bcappu,f33d3r.raj,xpm0083,sundar7238,1655,1648,1265,1110,1668,1661,1278,1123,1656,1497,1319,1185,1643,1484,1306,1172,African Clearing
+1056096,2024-10-30,2024-10,Land Nomad,Thiru,feedertony,sundar7238,Gajini,thelivi,f33d3r.raj,Blitz,vijay1989,2036,1252,1172,964,2049,1265,1185,977,1668,1510,1157,1123,1655,1497,1091,1110,Land Nomad
+1056073,2024-10-30,2024-10,African Clearing,thelivi,f33d3r.raj,vijay1989,Blitz,Thiru,arunaoe,stylishsteam,Gajini,1656,1498,1111,1089,1668,1510,1123,1157,2048,1267,1045,976,2036,1255,1033,964,African Clearing
+1056049,2024-10-30,2024-10,Land Nomad,bcappu,thelivi,ninjavarier,zaszrespawned,aadvanced,vijay1989,stylishsteam,Gajini,1645,1645,899,851,1656,1656,910,862,1762,1122,1056,987,1751,1111,1045,976,Land Nomad
+1056025,2024-10-30,2024-10,African Clearing,aadvanced,thelivi,sundar7238,zaszrespawned,centurion12,f33d3r.raj,feedertony,Gajini,1748,1631,1158,837,1762,1645,1172,851,1597,1512,1266,1001,1583,1498,1252,987,African Clearing
+1055949,2024-10-30,2024-10,Land Nomad,centurion12,f33d3r.raj,feedertony,,aadvanced,bcappu,zaszrespawned,,1584,1499,1253,0,1597,1512,1266,0,1761,1658,850,0,1748,1645,837,0,Land Nomad
+1055906,2024-10-30,2024-10,African Clearing,aadvanced,bcappu,f33d3r.raj,sundar7238,Thiru,centurion12,feedertony,vijay1989,1746,1643,1484,1143,1761,1658,1499,1158,2063,1599,1268,1137,2048,1584,1253,1122,African Clearing
+1055891,2024-10-30,2024-10,Land Nomad,Thiru,f33d3r.raj,sundar7238,vijay1989,aadvanced,bcappu,feedertony,stylishsteam,2049,1470,1129,1123,2063,1484,1143,1137,1760,1657,1282,1070,1746,1643,1268,1056,Land Nomad
+1055794,2024-10-30,2024-10,African Clearing,f33d3r.raj,feedertony,arunaoe,vijay1989,aravind2705,centurion12,typo,zaszrespawned,1454,1266,1251,1107,1470,1282,1267,1123,1640,1615,1040,866,1624,1599,1024,850,African Clearing
+1055771,2024-10-30,2024-10,Land Nomad,aadvanced,centurion12,arunaoe,zaszrespawned,aravind2705,f33d3r.raj,feedertony,typo,1745,1600,1236,851,1760,1615,1251,866,1655,1469,1281,1055,1640,1454,1266,1040,Land Nomad
+1055326,2024-10-29,2024-10,African Clearing,Thiru,bcappu,vijay1989,zaszrespawned,aadvanced,f33d3r.raj,feedertony,typo,2035,1643,1093,837,2049,1657,1107,851,1759,1483,1295,1069,1745,1469,1281,1055,African Clearing
+1055311,2024-10-29,2024-10,Land Nomad,Thiru,mikecbe,vijay1989,zaszrespawned,bcappu,f33d3r.raj,feedertony,typo,2022,1635,1080,824,2035,1648,1093,837,1656,1496,1308,1082,1643,1483,1295,1069,Land Nomad
+1055287,2024-10-29,2024-10,African Clearing,Thiru,mikecbe,f33d3r.raj,vijay1989,aadvanced,bcappu,thelivi,typo,2008,1621,1482,1066,2022,1635,1496,1080,1773,1670,1645,1096,1759,1656,1631,1082,African Clearing
+1055267,2024-10-29,2024-10,Land Nomad,aravind2705,thelivi,typo,vijay1989,bcappu,f33d3r.raj,feedertony,zaszrespawned,1644,1634,1085,1055,1655,1645,1096,1066,1681,1493,1319,835,1670,1482,1308,824,Land Nomad
+1055249,2024-10-29,2024-10,African Clearing,aadvanced,f33d3r.raj,stylishsteam,zaszrespawned,bcappu,thelivi,vijay1989,thiyagup,1760,1480,1057,822,1773,1493,1070,835,1694,1647,1068,696,1681,1634,1055,683,African Clearing
+1053817,2024-10-27,2024-10,Land Nomad,Thiru,mikecbe,typo,,aadvanced,thelivi,vijay1989,,1999,1612,1076,0,2008,1621,1085,0,1769,1656,1077,0,1760,1647,1068,0,Land Nomad
+1053587,2024-10-27,2024-10,Land Nomad,aravind2705,arkantos3801,feedertony,Gajini,mikecbe,f33d3r.raj,xpm0083,zaszrespawned,1632,1424,1321,989,1644,1436,1333,1001,1638,1506,1331,834,1626,1494,1319,822,Land Nomad
+1053564,2024-10-27,2024-10,African Clearing,Thiru,xpm0083,stylishsteam,zaszrespawned,f33d3r.raj,arkantos3801,vijay1989,typo,1972,1318,1044,821,1985,1331,1057,834,1519,1437,1090,1089,1506,1424,1077,1076,African Clearing
+1053548,2024-10-27,2024-10,Land Nomad,aadvanced,xpm0083,vijay1989,typo,Thiru,feedertony,stylishsteam,zaszrespawned,1770,1305,1077,1076,1783,1318,1090,1089,1985,1334,1057,834,1972,1321,1044,821,Land Nomad
+1053463,2024-10-27,2024-10,African Clearing,aadvanced,f33d3r.raj,feedertony,typo,mikecbe,aravind2705,arunaoe,vijay1989,1757,1506,1321,1063,1770,1519,1334,1076,1651,1645,1249,1090,1638,1632,1236,1077,African Clearing
+1053449,2024-10-27,2024-10,Land Nomad,aadvanced,aravind2705,feedertony,zaszrespawned,mikecbe,f33d3r.raj,arunaoe,typo,1743,1631,1307,820,1757,1645,1321,834,1665,1520,1263,1077,1651,1506,1249,1063,Land Nomad
+1053419,2024-10-27,2024-10,African Clearing,feedertony,arunaoe,Gajini,,f33d3r.raj,typo,zaszrespawned,,1293,1249,975,0,1307,1263,989,0,1534,1091,834,0,1520,1077,820,0,African Clearing
+1052991,2024-10-26,2024-10,Land Nomad,bcappu,mikecbe,xpm0083,Gajini,Thiru,arkantos3801,typo,vijay1989,1662,1647,1287,957,1680,1665,1305,975,2003,1455,1109,1108,1985,1437,1091,1090,Land Nomad
+1052965,2024-10-26,2024-10,African Clearing,bcappu,thelivi,arkantos3801,typo,Thiru,aadvanced,vijay1989,zaszrespawned,1651,1645,1444,1098,1662,1656,1455,1109,2014,1754,1119,845,2003,1743,1108,834,African Clearing
+1052948,2024-10-26,2024-10,Land Nomad,bcappu,thelivi,arkantos3801,vijay1989,Thiru,aadvanced,typo,zaszrespawned,1639,1633,1432,1107,1651,1645,1444,1119,2026,1766,1110,857,2014,1754,1098,845,Land Nomad
+1052918,2024-10-26,2024-10,African Clearing,bcappu,thelivi,aravind2705,Gajini,Thiru,aadvanced,stylishsteam,zaszrespawned,1627,1621,1619,945,1639,1633,1631,957,2038,1778,1069,869,2026,1766,1057,857,African Clearing
+1052842,2024-10-26,2024-10,Land Nomad,rcbfan009,feedertony,typo,,bcappu,thelivi,Gajini,,1818,1274,1091,0,1837,1293,1110,0,1646,1640,964,0,1627,1621,945,0,Land Nomad
+1052808,2024-10-26,2024-10,African Clearing,aadvanced,bcappu,Blitz,,rcbfan009,thelivi,zaszrespawned,,1765,1633,1000,0,1778,1646,1089,0,1831,1653,882,0,1818,1640,869,0,African Clearing
+1052733,2024-10-26,2024-10,Land Nomad,Thiru,aadvanced,feedertony,typo,rcbfan009,thelivi,bcappu,Gajini,2024,1751,1260,1077,2038,1765,1274,1091,1845,1667,1647,978,1831,1653,1633,964,Land Nomad
+1052702,2024-10-26,2024-10,African Clearing,aadvanced,typo,stylishsteam,,bcappu,feedertony,Gajini,,1731,1057,1049,0,1751,1077,1069,0,1667,1280,998,0,1647,1260,978,0,African Clearing
+1052636,2024-10-26,2024-10,Land Nomad,centurion12,f33d3r.raj,feedertony,vijay1989,Thiru,rcbfan009,zaszrespawned,thiyagup,1585,1519,1265,1092,1600,1534,1280,1107,2039,1860,897,711,2024,1845,882,696,Land Nomad
+1052623,2024-10-26,2024-10,African Clearing,rcbfan009,centurion12,vijay1989,typo,Thiru,f33d3r.raj,feedertony,thiyagup,1844,1569,1076,1041,1860,1585,1092,1057,2055,1535,1281,727,2039,1519,1265,711,African Clearing
+1052602,2024-10-26,2024-10,Land Nomad,aadvanced,f33d3r.raj,sundar7238,zaszrespawned,rcbfan009,feedertony,typo,Gajini,1718,1522,1116,884,1731,1535,1129,897,1857,1294,1054,1011,1844,1281,1041,998,Land Nomad
+1052582,2024-10-26,2024-10,African Clearing,rcbfan009,thelivi,typo,thiyagup,aadvanced,f33d3r.raj,sundar7238,zaszrespawned,1841,1651,1038,711,1857,1667,1054,727,1734,1538,1132,900,1718,1522,1116,884,African Clearing
+1052558,2024-10-26,2024-10,Land Nomad,thelivi,f33d3r.raj,sundar7238,zaszrespawned,aadvanced,feedertony,typo,Gajini,1639,1526,1120,888,1651,1538,1132,900,1746,1306,1050,1023,1734,1294,1038,1011,Land Nomad
+1052134,2024-10-25,2024-10,African Clearing,Thiru,mikecbe,xpm0083,typo,rcbfan009,thelivi,feedertony,vijay1989,2044,1636,1276,1039,2055,1647,1287,1050,1852,1650,1317,1087,1841,1639,1306,1076,African Clearing
+1052098,2024-10-25,2024-10,Land Nomad,aadvanced,centurion12,feedertony,arunaoe,Thiru,thelivi,vijay1989,typo,1730,1553,1301,1233,1746,1569,1317,1249,2060,1666,1103,1055,2044,1650,1087,1039,Land Nomad
+1052073,2024-10-25,2024-10,African Clearing,rcbfan009,bcappu,thelivi,typo,Thiru,aadvanced,arunaoe,vijay1989,1839,1654,1653,1042,1852,1667,1666,1055,2073,1743,1246,1116,2060,1730,1233,1103,African Clearing
+1052034,2024-10-25,2024-10,Land Nomad,Thiru,bcappu,arunaoe,Gajini,rcbfan009,thelivi,feedertony,sundar7238,2058,1639,1231,1008,2073,1654,1246,1023,1854,1668,1316,1135,1839,1653,1301,1120,Land Nomad
+1051997,2024-10-25,2024-10,African Clearing,rcbfan009,centurion12,arkantos3801,Gajini,Thiru,bcappu,vijay1989,zaszrespawned,1841,1540,1419,995,1854,1553,1432,1008,2071,1652,1129,901,2058,1639,1116,888,African Clearing
+1051980,2024-10-25,2024-10,Land Nomad,Thiru,centurion12,vijay1989,zaszrespawned,rcbfan009,bcappu,typo,Gajini,2057,1526,1115,887,2071,1540,1129,901,1855,1666,1056,1009,1841,1652,1042,995,Land Nomad
+1048564,2024-10-20,2024-10,African Clearing,rcbfan009,feedertony,sundar7238,typo,aadvanced,mikecbe,Gajini,zaszrespawned,1841,1302,1121,1042,1855,1316,1135,1056,1757,1650,1023,901,1743,1636,1009,887,African Clearing
+1048529,2024-10-20,2024-10,Land Nomad,aadvanced,sundar7238,thundubeedi,thiyagup,feedertony,typo,Gajini,zaszrespawned,1742,1106,726,696,1757,1121,741,711,1317,1057,1038,916,1302,1042,1023,901,Land Nomad
+1048501,2024-10-20,2024-10,African Clearing,rcbfan009,Gajini,zaszrespawned,thiyagup,feedertony,sundar7238,typo,ninjavarier,1827,1024,902,682,1841,1038,916,696,1331,1120,1071,913,1317,1106,1057,899,African Clearing
+1048480,2024-10-20,2024-10,Land Nomad,rcbfan009,centurion12,sundar7238,thundubeedi,thelivi,feedertony,typo,Gajini,1813,1512,1106,712,1827,1526,1120,726,1682,1345,1085,1038,1668,1331,1071,1024,Land Nomad
+1048465,2024-10-20,2024-10,African Clearing,thelivi,mikecbe,stylishsteam,thundubeedi,centurion12,feedertony,typo,Gajini,1669,1637,1036,699,1682,1650,1049,712,1525,1358,1098,1051,1512,1345,1085,1038,African Clearing
+1048427,2024-10-20,2024-10,Land Nomad,thelivi,lotterymartin,feedertony,,Thiru,vijay1989,typo,,1656,1391,1345,0,1669,1404,1358,0,2070,1128,1111,0,2057,1115,1098,0,Land Nomad
+1048347,2024-10-20,2024-10,African Clearing,thelivi,f33d3r.raj,feedertony,vijay1989,aadvanced,mikecbe,typo,Gajini,1643,1513,1332,1115,1656,1526,1345,1128,1755,1650,1124,1064,1742,1637,1111,1051,African Clearing
+1048319,2024-10-20,2024-10,Land Nomad,mikecbe,thelivi,arunaoe,vijay1989,aadvanced,f33d3r.raj,feedertony,Gajini,1649,1642,1230,1114,1650,1643,1231,1115,1756,1514,1333,1065,1755,1513,1332,1064,Land Nomad
+1048301,2024-10-20,2024-10,African Clearing,aadvanced,arunaoe,Gajini,,f33d3r.raj,feedertony,vijay1989,,1740,1214,1049,0,1756,1230,1065,0,1530,1349,1130,0,1514,1333,1114,0,African Clearing
+1047899,2024-10-19,2024-10,Land Nomad,aadvanced,bcappu,thelivi,vijay1989,Thiru,mikecbe,arunaoe,typo,1727,1653,1629,1117,1740,1666,1642,1130,2083,1662,1227,1137,2070,1649,1214,1124,Land Nomad
+1047876,2024-10-19,2024-10,African Clearing,Thiru,aadvanced,arunaoe,typo,mikecbe,bcappu,thelivi,vijay1989,2069,1713,1213,1123,2083,1727,1227,1137,1676,1667,1643,1131,1662,1653,1629,1117,African Clearing
+1047835,2024-10-19,2024-10,Land Nomad,Thiru,thelivi,vijay1989,sundar7238,mikecbe,bcappu,arunaoe,typo,2061,1635,1123,1098,2069,1643,1131,1106,1684,1675,1221,1131,1676,1667,1213,1123,Land Nomad
+1047800,2024-10-19,2024-10,African Clearing,Thiru,arunaoe,vijay1989,Gajini,bcappu,thelivi,typo,zaszrespawned,2047,1207,1109,1035,2061,1221,1123,1049,1689,1649,1145,916,1675,1635,1131,902,African Clearing
+1047773,2024-10-19,2024-10,Land Nomad,Thiru,sundar7238,stylishsteam,ninjavarier,aadvanced,thelivi,zaszrespawned,thiyagup,2034,1085,1023,900,2047,1098,1036,913,1726,1662,929,695,1713,1649,916,682,Land Nomad
+1047724,2024-10-19,2024-10,African Clearing,bcappu,thelivi,feedertony,sundar7238,Thiru,centurion12,vijay1989,Gajini,1674,1647,1334,1070,1689,1662,1349,1085,2049,1540,1124,1050,2034,1525,1109,1035,African Clearing
+1047693,2024-10-19,2024-10,Land Nomad,centurion12,sundar7238,thiyagup,,typo,Gajini,zaszrespawned,,1528,1058,683,0,1540,1070,695,0,1157,1062,941,0,1145,1050,929,0,Land Nomad
+1047674,2024-10-19,2024-10,African Clearing,aadvanced,feedertony,sundar7238,thiyagup,centurion12,typo,Gajini,zaszrespawned,1712,1320,1044,669,1726,1334,1058,683,1542,1171,1076,955,1528,1157,1062,941,African Clearing
+1047647,2024-10-19,2024-10,Land Nomad,centurion12,typo,Gajini,sundar7238,aadvanced,feedertony,stylishsteam,thiyagup,1528,1157,1062,1030,1542,1171,1076,1044,1726,1334,1037,683,1712,1320,1023,669,Land Nomad
+1047553,2024-10-19,2024-10,African Clearing,f33d3r.raj,Gajini,sundar7238,,centurion12,stylishsteam,zaszrespawned,,1515,1047,1015,0,1530,1062,1030,0,1543,1052,970,0,1528,1037,955,0,African Clearing
+1047526,2024-10-19,2024-10,Land Nomad,f33d3r.raj,Gajini,sundar7238,zaszrespawned,centurion12,typo,stylishsteam,vetrierai,1503,1035,1003,958,1515,1047,1015,970,1555,1169,1064,643,1543,1157,1052,629,Land Nomad
+1047433,2024-10-19,2024-10,African Clearing,aadvanced,f33d3r.raj,sundar7238,ninjavarier,centurion12,arunaoe,typo,Gajini,1714,1491,991,888,1726,1503,1003,900,1567,1219,1181,1047,1555,1207,1169,1035,African Clearing
+1047405,2024-10-19,2024-10,Land Nomad,centurion12,f33d3r.raj,sundar7238,zaszrespawned,aadvanced,arunaoe,Gajini,ninjavarier,1555,1479,979,946,1567,1491,991,958,1726,1231,1059,900,1714,1219,1047,888,Land Nomad
+1047395,2024-10-19,2024-10,African Clearing,centurion12,f33d3r.raj,sundar7238,zaszrespawned,aadvanced,arunaoe,Gajini,ninjavarier,1539,1463,963,930,1555,1479,979,946,1742,1247,1075,916,1726,1231,1059,900,African Clearing
+1046902,2024-10-18,2024-10,Land Nomad,mikecbe,thelivi,typo,zaszrespawned,aadvanced,centurion12,Gajini,sundar7238,1671,1634,1168,917,1684,1647,1181,930,1755,1552,1088,976,1742,1539,1075,963,Land Nomad
+1046883,2024-10-18,2024-10,African Clearing,aadvanced,typo,Gajini,stylishsteam,thelivi,centurion12,sundar7238,zaszrespawned,1737,1150,1070,1046,1755,1168,1088,1064,1652,1570,994,935,1634,1552,976,917,African Clearing
+1046869,2024-10-18,2024-10,Land Nomad,aadvanced,typo,Gajini,,thelivi,centurion12,zaszrespawned,,1702,1115,1035,0,1737,1150,1070,0,1687,1605,970,0,1652,1570,935,0,Land Nomad
+1046818,2024-10-18,2024-10,African Clearing,centurion12,typo,sundar7238,,aravind2705,Gajini,zaszrespawned,,1589,1099,978,0,1605,1115,994,0,1635,1051,986,0,1619,1035,970,0,African Clearing
+1046220,2024-10-17,2024-10,Land Nomad,aadvanced,centurion12,ninjavarier,,Thiru,zaszrespawned,sundar7238,,1691,1578,905,0,1702,1589,916,0,2060,997,989,0,2049,986,978,0,Land Nomad
+1045777,2024-10-16,2024-10,African Clearing,Thiru,aadvanced,vijay1989,,thelivi,centurion12,f33d3r.raj,,2047,1678,1111,0,2060,1691,1124,0,1700,1591,1476,0,1687,1578,1463,0,African Clearing
+1045767,2024-10-16,2024-10,Land Nomad,Thiru,centurion12,f33d3r.raj,vijay1989,thelivi,aadvanced,bcappu,sundar7238,2036,1580,1465,1100,2047,1591,1476,1111,1711,1689,1685,1000,1700,1678,1674,989,Land Nomad
+1045702,2024-10-16,2024-10,African Clearing,aadvanced,aravind2705,sundar7238,zaszrespawned,Thiru,f33d3r.raj,vijay1989,vetrierai,1674,1620,985,982,1689,1635,1000,997,2051,1480,1115,661,2036,1465,1100,643,African Clearing
+1045182,2024-10-15,2024-10,African Clearing,thelivi,f33d3r.raj,stylishsteam,sundar7238,wardaddy6968,lotterymartin,typo,ninjavarier,1684,1479,1019,958,1698,1493,1033,972,1706,1405,1126,919,1690,1391,1112,905,African Clearing
+1045170,2024-10-15,2024-10,Land Nomad,f33d3r.raj,lotterymartin,typo,Gajini,wardaddy6968,thelivi,sundar7238,vetrierai,1463,1389,1110,1035,1479,1405,1126,1051,1724,1700,974,681,1706,1684,958,661,Land Nomad
+1045127,2024-10-15,2024-10,African Clearing,bcappu,vijay1989,typo,,aadvanced,f33d3r.raj,vetrierai,,1669,1112,1094,0,1685,1128,1110,0,1690,1479,701,0,1674,1463,681,0,African Clearing
+1045115,2024-10-15,2024-10,Land Nomad,f33d3r.raj,vijay1989,stylishsteam,sundar7238,aadvanced,bcappu,typo,,1466,1099,1006,0,1479,1112,1019,0,1497,1703,1682,0,1484,1690,1669,0,Land Nomad
+1045042,2024-10-15,2024-10,African Clearing,aadvanced,vijay1989,vetrierai,,f33d3r.raj,sundar7238,ninjavarier,,1690,1086,683,0,1703,1099,701,0,1479,974,932,0,1466,961,919,0,African Clearing
+1045037,2024-10-15,2024-10,Land Nomad,f33d3r.raj,vijay1989,ninjavarier,,aadvanced,sundar7238,vetrierai,,1466,1073,919,0,1479,1086,932,0,1703,987,702,0,1690,974,683,0,Land Nomad
+1044050,2024-10-13,2024-10,African Clearing,thelivi,typo,vijay1989,sundar7238,aadvanced,arunaoe,darkknight7282,thiyagup,1686,1093,1059,973,1700,1107,1073,987,1717,1261,1159,697,1703,1247,1145,683,African Clearing
+1044037,2024-10-13,2024-10,Land Nomad,thelivi,darkknight7282,vijay1989,sundar7238,aadvanced,arunaoe,typo,thiyagup,1672,1145,1045,959,1686,1159,1059,973,1731,1275,1107,711,1717,1261,1093,697,Land Nomad
+1044031,2024-10-13,2024-10,African Clearing,aadvanced,vijay1989,sundar7238,,arunaoe,darkknight7282,typo,,1751,1065,979,0,1731,1045,959,0,1255,1125,1087,0,1275,1145,1107,0,African Clearing
+1043902,2024-10-13,2024-10,Land Nomad,aadvanced,centurion12,f33d3r.raj,vetrierai,mikecbe,arkantos3801,xpm0083,Gajini,1737,1566,1452,681,1751,1580,1466,702,1685,1433,1290,1049,1671,1419,1276,1035,Land Nomad
+1043875,2024-10-13,2024-10,African Clearing,centurion12,xpm0083,typo,vijay1989,f33d3r.raj,arkantos3801,feedertony,vetrierai,1552,1276,1073,1051,1566,1290,1087,1065,1466,1447,1348,703,1452,1433,1334,681,African Clearing
+1043842,2024-10-13,2024-10,Land Nomad,mikecbe,f33d3r.raj,xpm0083,vetrierai,thelivi,feedertony,vijay1989,ninjavarier,1672,1453,1263,682,1685,1466,1276,703,1685,1361,1064,932,1672,1348,1051,919,Land Nomad
+1043826,2024-10-13,2024-10,African Clearing,centurion12,arkantos3801,lotterymartin,stylishsteam,thelivi,f33d3r.raj,typo,vijay1989,1538,1433,1375,992,1552,1447,1389,1006,1699,1467,1087,1078,1685,1453,1073,1064,African Clearing
+1043811,2024-10-13,2024-10,Land Nomad,mikecbe,xpm0083,zaszrespawned,thundubeedi,thelivi,vijay1989,Gajini,vetrierai,1658,1249,968,685,1672,1263,982,699,1713,1092,1063,706,1699,1078,1049,682,Land Nomad
+1043795,2024-10-13,2024-10,African Clearing,f33d3r.raj,arkantos3801,vijay1989,typo,mikecbe,xpm0083,darkknight7282,zaszrespawned,1452,1418,1077,1072,1467,1433,1092,1087,1673,1264,1140,983,1658,1249,1125,968,African Clearing
+1043769,2024-10-13,2024-10,Land Nomad,aravind2705,arkantos3801,feedertony,vijay1989,thelivi,f33d3r.raj,typo,Gajini,1622,1407,1350,1066,1633,1418,1361,1077,1724,1463,1083,1074,1713,1452,1072,1063,Land Nomad
+1043739,2024-10-13,2024-10,African Clearing,mikecbe,aravind2705,typo,vijay1989,f33d3r.raj,arkantos3801,feedertony,Gajini,1661,1610,1071,1054,1673,1622,1083,1066,1475,1419,1362,1086,1463,1407,1350,1074,African Clearing
+1043722,2024-10-13,2024-10,Land Nomad,aadvanced,aravind2705,irfan099259,typo,mikecbe,arkantos3801,lotterymartin,feedertony,1725,1598,1500,1059,1737,1610,1583,1071,1673,1431,1387,1374,1661,1419,1375,1362,Land Nomad
+1043669,2024-10-13,2024-10,African Clearing,centurion12,lotterymartin,feedertony,zaszrespawned,aadvanced,f33d3r.raj,Gajini,ninjavarier,1522,1371,1358,967,1538,1387,1374,983,1741,1491,1102,948,1725,1475,1086,932,African Clearing
+1043300,2024-10-12,2024-10,Land Nomad,thelivi,f33d3r.raj,typo,vijay1989,mikecbe,arkantos3801,xpm0083,zaszrespawned,1705,1472,1040,1035,1724,1491,1059,1054,1692,1450,1283,986,1673,1431,1264,967,Land Nomad
+1043282,2024-10-12,2024-10,African Clearing,thelivi,xpm0083,arunaoe,typo,mikecbe,arkantos3801,vijay1989,zaszrespawned,1691,1269,1241,1026,1705,1283,1255,1040,1706,1464,1049,1000,1692,1450,1035,986,African Clearing
+1043244,2024-10-12,2024-10,Land Nomad,bcappu,f33d3r.raj,arunaoe,sundar7238,thelivi,arkantos3801,vijay1989,typo,1669,1459,1228,966,1682,1472,1241,979,1704,1477,1062,1039,1691,1464,1049,1026,Land Nomad
+1043187,2024-10-12,2024-10,African Clearing,bcappu,lotterymartin,vijay1989,typo,centurion12,f33d3r.raj,Gajini,sundar7238,1655,1357,1048,1025,1669,1371,1062,1039,1536,1473,1116,980,1522,1459,1102,966,African Clearing
+1043127,2024-10-12,2024-10,Land Nomad,centurion12,arkantos3801,Gajini,sundar7238,f33d3r.raj,feedertony,darkknight7282,zaszrespawned,1523,1464,1103,967,1536,1477,1116,980,1486,1371,1153,1013,1473,1358,1140,1000,Land Nomad
+1043100,2024-10-12,2024-10,African Clearing,wardaddy6968,arkantos3801,lotterymartin,typo,aadvanced,f33d3r.raj,darkknight7282,Gajini,1707,1449,1342,1010,1724,1464,1357,1025,1756,1501,1168,1118,1741,1486,1153,1103,African Clearing
+1043067,2024-10-12,2024-10,Land Nomad,wardaddy6968,aravind2705,f33d3r.raj,sundar7238,aadvanced,centurion12,lotterymartin,typo,1692,1585,1488,954,1707,1598,1501,967,1769,1536,1355,1023,1756,1523,1342,1010,Land Nomad
+1043040,2024-10-12,2024-10,African Clearing,aravind2705,f33d3r.raj,arkantos3801,sundar7238,wardaddy6968,centurion12,Gajini,typo,1571,1474,1435,940,1585,1488,1449,954,1709,1550,1132,1037,1692,1536,1118,1023,African Clearing
+1042983,2024-10-12,2024-10,Land Nomad,centurion12,typo,zaszrespawned,,f33d3r.raj,Gajini,sundar7238,,1532,1019,995,0,1550,1037,1013,0,1492,1150,958,0,1474,1132,940,0,Land Nomad
+1042976,2024-10-12,2024-10,African Clearing,f33d3r.raj,Gajini,sundar7238,,centurion12,typo,zaszrespawned,,1474,1132,940,0,1492,1150,958,0,1550,1037,1013,0,1532,1019,995,0,African Clearing
+1042960,2024-10-12,2024-10,Land Nomad,f33d3r.raj,Gajini,zaszrespawned,,centurion12,typo,sundar7238,,1458,1116,997,0,1474,1132,1013,0,1566,1053,956,0,1550,1037,940,0,Land Nomad
+1042934,2024-10-12,2024-10,African Clearing,f33d3r.raj,stylishsteam,sundar7238,,Gajini,typo,zaszrespawned,,1449,983,947,0,1458,992,956,0,1125,1062,1006,0,1116,1053,997,0,African Clearing
+1042512,2024-10-11,2024-10,Land Nomad,centurion12,f33d3r.raj,typo,,wardaddy6968,Gajini,vijay1989,,1555,1438,1051,0,1566,1449,1062,0,1723,1136,1059,0,1709,1125,1048,0,Land Nomad
+1042481,2024-10-11,2024-10,African Clearing,f33d3r.raj,lotterymartin,Gajini,zaszrespawned,centurion12,arunaoe,typo,stylishsteam,1425,1342,1123,993,1438,1355,1136,1006,1568,1241,1064,996,1555,1228,1051,983,African Clearing
+1042462,2024-10-11,2024-10,Land Nomad,centurion12,arunaoe,typo,zaszrespawned,aadvanced,f33d3r.raj,sundar7238,vetrierai,1551,1224,1047,976,1568,1241,1064,993,1786,1442,964,738,1769,1425,947,706,Land Nomad
+1042444,2024-10-11,2024-10,African Clearing,centurion12,f33d3r.raj,zaszrespawned,vetrierai,feedertony,arunaoe,typo,ninjavarier,1538,1429,963,712,1551,1442,976,738,1384,1237,1060,961,1371,1224,1047,948,African Clearing
+1042414,2024-10-11,2024-10,Land Nomad,centurion12,arunaoe,sundar7238,,f33d3r.raj,Gajini,typo,,1524,1223,950,0,1538,1237,964,0,1443,1137,1074,0,1429,1123,1060,0,Land Nomad
+1042384,2024-10-11,2024-10,African Clearing,bcappu,centurion12,typo,sundar7238,aadvanced,f33d3r.raj,Gajini,vetrierai,1642,1511,1061,937,1655,1524,1074,950,1799,1456,1150,739,1786,1443,1137,712,African Clearing
+1039675,2024-10-06,2024-10,Land Nomad,aadvanced,arkantos3801,Gajini,vijay1989,mikecbe,f33d3r.raj,arunaoe,zaszrespawned,1785,1421,1136,1045,1799,1435,1150,1059,1720,1470,1237,977,1706,1456,1223,963,Land Nomad
+1039517,2024-10-06,2024-10,African Clearing,mikecbe,thelivi,feedertony,zaszrespawned,aadvanced,f33d3r.raj,arkantos3801,vijay1989,1704,1688,1368,961,1720,1704,1384,977,1801,1486,1437,1061,1785,1470,1421,1045,African Clearing
+1039468,2024-10-06,2024-10,Land Nomad,thelivi,f33d3r.raj,Gajini,zaszrespawned,bcappu,arkantos3801,feedertony,thiyagup,1674,1472,1122,947,1688,1486,1136,961,1656,1451,1382,725,1642,1437,1368,711,Land Nomad
+1039444,2024-10-06,2024-10,African Clearing,bcappu,feedertony,Gajini,thiyagup,f33d3r.raj,arkantos3801,ninjavarier,zaszrespawned,1640,1366,1106,709,1656,1382,1122,725,1488,1467,977,963,1472,1451,961,947,African Clearing
+1038927,2024-10-05,2024-10,Land Nomad,thelivi,f33d3r.raj,ninjavarier,,darkknight7282,Gajini,zaszrespawned,thiyagup,1663,1477,966,0,1674,1488,977,0,1179,1117,974,0,1168,1106,963,0,Land Nomad
+1038908,2024-10-05,2024-10,African Clearing,thelivi,f33d3r.raj,ninjavarier,,darkknight7282,Gajini,zaszrespawned,thiyagup,1649,1463,952,0,1663,1477,966,0,1193,1131,988,0,1179,1117,974,0,African Clearing
+1035406,2024-09-29,2024-09,Land Nomad,Thiru,arunaoe,vijay1989,,mikecbe,feedertony,darkknight7282,,2035,1221,1045,0,2051,1237,1061,0,1720,1382,1209,0,1704,1366,1193,0,Land Nomad
+1035374,2024-09-29,2024-09,African Clearing,thelivi,arkantos3801,arunaoe,darkknight7282,mikecbe,feedertony,xpm0083,typo,1635,1453,1207,1195,1649,1467,1221,1209,1734,1396,1283,1075,1720,1382,1269,1061,African Clearing
+1035341,2024-09-29,2024-09,Land Nomad,thelivi,xpm0083,arunaoe,,mikecbe,darkknight7282,typo,,1620,1268,1192,0,1635,1283,1207,0,1749,1210,1090,0,1734,1195,1075,0,Land Nomad
+1035328,2024-09-29,2024-09,African Clearing,thelivi,arunaoe,Gajini,typo,mikecbe,xpm0083,darkknight7282,thiyagup,1605,1177,1116,1075,1620,1192,1131,1090,1764,1283,1225,749,1749,1268,1210,734,African Clearing
+1035293,2024-09-29,2024-09,Land Nomad,thelivi,typo,thiyagup,,xpm0083,Gajini,sundar7238,,1589,1059,733,0,1605,1075,749,0,1299,1132,953,0,1283,1116,937,0,Land Nomad
+1035223,2024-09-29,2024-09,African Clearing,f33d3r.raj,feedertony,arunaoe,typo,thelivi,xpm0083,Gajini,zaszrespawned,1449,1382,1163,1045,1463,1396,1177,1059,1603,1313,1146,1002,1589,1299,1132,988,African Clearing
+1035197,2024-09-29,2024-09,Land Nomad,thelivi,f33d3r.raj,xpm0083,typo,mikecbe,feedertony,Gajini,zaszrespawned,1589,1435,1299,1031,1603,1449,1313,1045,1778,1396,1160,1016,1764,1382,1146,1002,Land Nomad
+1035178,2024-09-29,2024-09,African Clearing,mikecbe,thelivi,Gajini,vijay1989,aravind2705,f33d3r.raj,feedertony,typo,1766,1577,1148,1033,1778,1589,1160,1045,1583,1447,1408,1043,1571,1435,1396,1031,African Clearing
+1035161,2024-09-29,2024-09,Land Nomad,aravind2705,f33d3r.raj,vijay1989,,thelivi,Gajini,typo,,1575,1439,1025,0,1583,1447,1033,0,1585,1156,1051,0,1577,1148,1043,0,Land Nomad
+1035101,2024-09-29,2024-09,African Clearing,feedertony,xpm0083,typo,,f33d3r.raj,Gajini,vijay1989,,1394,1285,1037,0,1408,1299,1051,0,1453,1170,1039,0,1439,1156,1025,0,African Clearing
+1035072,2024-09-29,2024-09,Land Nomad,thelivi,f33d3r.raj,feedertony,vetrierai,mikecbe,Gajini,vijay1989,typo,1573,1441,1382,713,1585,1453,1394,739,1778,1182,1051,1049,1766,1170,1039,1037,Land Nomad
+1035035,2024-09-29,2024-09,African Clearing,mikecbe,feedertony,Gajini,,f33d3r.raj,vijay1989,typo,vetrierai,1763,1367,1167,0,1778,1382,1182,0,1456,1066,1064,0,1441,1051,1049,0,African Clearing
+1030668,2024-09-22,2024-09,Land Nomad,centurion12,f33d3r.raj,arkantos3801,,rcbfan009,feedertony,Gajini,,1494,1439,1436,0,1511,1456,1453,0,1830,1384,1184,0,1813,1367,1167,0,Land Nomad
+1030644,2024-09-22,2024-09,African Clearing,mikecbe,wardaddy6968,Gajini,crazyguy0505,rcbfan009,centurion12,f33d3r.raj,sundar7238,1750,1705,1171,1124,1763,1723,1184,1167,1843,1507,1452,966,1830,1494,1439,953,African Clearing
+1030620,2024-09-22,2024-09,Land Nomad,wardaddy6968,f33d3r.raj,arkantos3801,sundar7238,rcbfan009,thelivi,xpm0083,thundubeedi,1689,1440,1424,954,1705,1452,1436,966,1855,1585,1297,697,1843,1573,1285,685,Land Nomad
+1030591,2024-09-22,2024-09,African Clearing,mikecbe,centurion12,crazyguy0505,sundar7238,thelivi,feedertony,darkknight7282,stylishsteam,1737,1494,1079,941,1750,1507,1124,954,1598,1397,1238,1009,1585,1384,1225,996,African Clearing
+1030593,2024-09-22,2024-09,African Clearing,rcbfan009,xpm0083,zaszrespawned,,f33d3r.raj,arkantos3801,Gajini,,1841,1283,1002,0,1855,1297,1016,0,1454,1438,1185,0,1440,1424,1171,0,African Clearing
+1030569,2024-09-22,2024-09,Land Nomad,rcbfan009,f33d3r.raj,Gajini,crazyguy0505,aravind2705,arkantos3801,xpm0083,vijay1989,1830,1443,1174,1037,1841,1454,1185,1079,1586,1449,1294,1077,1575,1438,1283,1066,Land Nomad
+1030541,2024-09-22,2024-09,African Clearing,thelivi,aravind2705,f33d3r.raj,darkknight7282,rcbfan009,mikecbe,vijay1989,crazyguy0505,1587,1575,1432,1227,1598,1586,1443,1238,1841,1748,1088,1087,1830,1737,1077,1037,African Clearing
+1030493,2024-09-22,2024-09,Land Nomad,feedertony,darkknight7282,Gajini,typo,bcappu,f33d3r.raj,zaszrespawned,thundubeedi,1382,1212,1159,1049,1397,1227,1174,1064,1655,1447,1017,712,1640,1432,1002,697,Land Nomad
+1030462,2024-09-22,2024-09,African Clearing,mikecbe,thelivi,typo,thiyagup,centurion12,feedertony,Gajini,zaszrespawned,1732,1571,1033,717,1748,1587,1049,733,1510,1398,1175,1033,1494,1382,1159,1017,African Clearing
+1030426,2024-09-22,2024-09,Land Nomad,aravind2705,f33d3r.raj,vijay1989,sundar7238,mikecbe,centurion12,typo,thiyagup,1559,1431,1072,925,1575,1447,1088,941,1748,1526,1049,733,1732,1510,1033,717,Land Nomad
+1030400,2024-09-22,2024-09,African Clearing,thelivi,f33d3r.raj,feedertony,sundar7238,aravind2705,centurion12,vijay1989,typo,1558,1418,1385,912,1571,1431,1398,925,1572,1539,1085,1062,1559,1526,1072,1049,African Clearing
+1030387,2024-09-22,2024-09,Land Nomad,mikecbe,aravind2705,zaszrespawned,sundar7238,centurion12,feedertony,Gajini,typo,1734,1558,1019,898,1748,1572,1033,912,1553,1399,1189,1076,1539,1385,1175,1062,Land Nomad
+1030349,2024-09-22,2024-09,African Clearing,mikecbe,aravind2705,typo,zaszrespawned,centurion12,f33d3r.raj,feedertony,sundar7238,1721,1545,1063,1006,1734,1558,1076,1019,1566,1431,1412,911,1553,1418,1399,898,African Clearing
+1029999,2024-09-21,2024-09,Land Nomad,wardaddy6968,thelivi,vijay1989,typo,mikecbe,f33d3r.raj,darkknight7282,sundar7238,1669,1545,1072,1050,1689,1558,1085,1063,1734,1444,1225,924,1721,1431,1212,911,Land Nomad
+1029971,2024-09-21,2024-09,African Clearing,aravind2705,arkantos3801,f33d3r.raj,typo,centurion12,thelivi,Gajini,vijay1989,1532,1436,1431,1037,1545,1449,1444,1050,1579,1558,1202,1085,1566,1545,1189,1072,African Clearing
+1029938,2024-09-21,2024-09,Land Nomad,centurion12,Gajini,typo,,arkantos3801,f33d3r.raj,sundar7238,,1559,1182,1017,0,1579,1202,1037,0,1456,1451,944,0,1436,1431,924,0,Land Nomad
+1029880,2024-09-21,2024-09,African Clearing,aravind2705,f33d3r.raj,thiyagup,thundubeedi,feedertony,typo,zaszrespawned,sundar7238,1516,1435,717,696,1532,1451,733,712,1428,1033,1022,960,1412,1017,1006,944,African Clearing
+1029859,2024-09-21,2024-09,Land Nomad,wardaddy6968,feedertony,Gajini,thiyagup,arkantos3801,f33d3r.raj,zaszrespawned,sundar7238,1649,1415,1169,704,1669,1428,1182,717,1469,1448,1035,973,1456,1435,1022,960,Land Nomad
+1029831,2024-09-21,2024-09,African Clearing,bcappu,f33d3r.raj,feedertony,stylishsteam,wardaddy6968,centurion12,Gajini,zaszrespawned,1642,1435,1402,996,1655,1448,1415,1009,1671,1572,1182,1048,1649,1559,1169,1035,African Clearing
+1029814,2024-09-21,2024-09,Land Nomad,wardaddy6968,feedertony,zaszrespawned,sundar7238,bcappu,f33d3r.raj,Gajini,thundubeedi,1650,1389,1035,960,1671,1402,1048,973,1655,1448,1195,709,1642,1435,1182,696,Land Nomad
+1029794,2024-09-21,2024-09,African Clearing,bcappu,centurion12,vijay1989,zaszrespawned,aravind2705,f33d3r.raj,feedertony,sundar7238,1638,1555,1068,1018,1655,1572,1085,1035,1533,1465,1406,977,1516,1448,1389,960,African Clearing
+1029727,2024-09-21,2024-09,Land Nomad,wardaddy6968,centurion12,feedertony,Gajini,Thiru,f33d3r.raj,darkknight7282,stylishsteam,1624,1540,1391,1180,1650,1555,1406,1195,2050,1480,1240,1011,2035,1465,1225,996,Land Nomad
+1029677,2024-09-21,2024-09,African Clearing,wardaddy6968,centurion12,feedertony,zaszrespawned,thelivi,f33d3r.raj,darkknight7282,Gajini,1598,1526,1377,1004,1624,1540,1391,1018,1572,1494,1254,1194,1558,1480,1240,1180,African Clearing
+1029215,2024-09-20,2024-09,Land Nomad,Thiru,thelivi,vijay1989,thundubeedi,bcappu,aravind2705,arunaoe,sundar7238,2035,1557,1053,694,2050,1572,1068,709,1653,1548,1178,992,1638,1533,1163,977,Land Nomad
+1029192,2024-09-20,2024-09,African Clearing,thelivi,arunaoe,typo,,Thiru,sundar7238,thundubeedi,,1538,1159,1014,0,1557,1178,1033,0,2054,1011,713,0,2035,992,694,0,African Clearing
+1026456,2024-09-15,2024-09,Land Nomad,bcappu,thelivi,Gajini,,rcbfan009,f33d3r.raj,typo,,1634,1519,1175,0,1653,1538,1194,0,1860,1513,1033,0,1841,1494,1014,0,Land Nomad
+1026414,2024-09-15,2024-09,African Clearing,bcappu,thelivi,f33d3r.raj,darkknight7282,rcbfan009,mikecbe,Gajini,typo,1621,1506,1500,1241,1634,1519,1513,1254,1873,1747,1188,1046,1860,1734,1175,1033,African Clearing
+1026389,2024-09-15,2024-09,Land Nomad,rcbfan009,mikecbe,darkknight7282,typo,bcappu,thelivi,f33d3r.raj,Gajini,1859,1733,1227,1032,1873,1747,1241,1046,1635,1520,1514,1202,1621,1506,1500,1188,Land Nomad
+1026366,2024-09-15,2024-09,African Clearing,rcbfan009,darkknight7282,Gajini,,bcappu,thelivi,typo,,1844,1212,1187,0,1859,1227,1202,0,1650,1535,1047,0,1635,1520,1032,0,African Clearing
+1026331,2024-09-15,2024-09,Land Nomad,thelivi,f33d3r.raj,Gajini,,rcbfan009,darkknight7282,typo,,1521,1500,1173,0,1535,1514,1187,0,1858,1226,1061,0,1844,1212,1047,0,Land Nomad
+1026313,2024-09-15,2024-09,African Clearing,rcbfan009,xpm0083,Gajini,,mikecbe,f33d3r.raj,ninjavarier,,1844,1280,1159,0,1858,1294,1173,0,1747,1514,966,0,1733,1500,952,0,African Clearing
+1026279,2024-09-15,2024-09,Land Nomad,mikecbe,thelivi,f33d3r.raj,,rcbfan009,centurion12,Gajini,,1738,1512,1505,0,1747,1521,1514,0,1853,1535,1168,0,1844,1526,1159,0,Land Nomad
+1025810,2024-09-14,2024-09,African Clearing,centurion12,thelivi,Gajini,,bcappu,aravind2705,thundubeedi,,1528,1505,1161,0,1535,1512,1168,0,1657,1555,720,0,1650,1548,713,0,African Clearing
+1025793,2024-09-14,2024-09,Land Nomad,centurion12,thelivi,Gajini,,bcappu,aravind2705,thundubeedi,,1520,1497,1153,0,1528,1505,1161,0,1665,1563,728,0,1657,1555,720,0,Land Nomad
+1025633,2024-09-14,2024-09,African Clearing,wardaddy6968,feedertony,vijay1989,zaszrespawned,centurion12,darkknight7282,Gajini,stylishsteam,1571,1364,1040,991,1598,1377,1053,1004,1533,1239,1166,1024,1520,1226,1153,1011,African Clearing
+1025619,2024-09-14,2024-09,Land Nomad,wardaddy6968,centurion12,stylishsteam,,bcappu,darkknight7282,vijay1989,,1545,1521,1012,0,1571,1533,1024,0,1677,1251,1052,0,1665,1239,1040,0,Land Nomad
+1025596,2024-09-14,2024-09,African Clearing,rcbfan009,Gajini,ninjavarier,,wardaddy6968,darkknight7282,vijay1989,,1839,1152,952,0,1853,1166,966,0,1578,1265,1066,0,1545,1251,1052,0,African Clearing
+1025575,2024-09-14,2024-09,Land Nomad,wardaddy6968,centurion12,f33d3r.raj,ninjavarier,rcbfan009,feedertony,Gajini,vijay1989,1545,1508,1492,939,1578,1521,1505,952,1852,1377,1165,1079,1839,1364,1152,1066,Land Nomad
+1025553,2024-09-14,2024-09,African Clearing,aravind2705,centurion12,vijay1989,,f33d3r.raj,feedertony,Gajini,,1548,1493,1064,0,1563,1508,1079,0,1507,1392,1180,0,1492,1377,1165,0,African Clearing
+1025535,2024-09-14,2024-09,Land Nomad,rcbfan009,centurion12,Gajini,,aravind2705,f33d3r.raj,feedertony,,1835,1476,1163,0,1852,1493,1180,0,1565,1524,1409,0,1548,1507,1392,0,Land Nomad
+1025529,2024-09-14,2024-09,African Clearing,f33d3r.raj,centurion12,feedertony,Gajini,rcbfan009,aravind2705,vijay1989,stylishsteam,1510,1462,1395,1149,1524,1476,1409,1163,1849,1579,1078,1026,1835,1565,1064,1012,African Clearing
+1025498,2024-09-14,2024-09,Land Nomad,rcbfan009,centurion12,zaszrespawned,,aravind2705,f33d3r.raj,vijay1989,,1835,1448,977,0,1849,1462,991,0,1593,1524,1092,0,1579,1510,1078,0,Land Nomad
+1024840,2024-09-13,2024-09,African Clearing,wardaddy6968,thelivi,centurion12,ninjavarier,aravind2705,f33d3r.raj,typo,zaszrespawned,1523,1489,1440,931,1545,1497,1448,939,1601,1532,1069,985,1593,1524,1061,977,African Clearing
+1024809,2024-09-13,2024-09,Land Nomad,f33d3r.raj,wardaddy6968,centurion12,ninjavarier,bcappu,aravind2705,typo,zaszrespawned,1518,1481,1426,917,1532,1523,1440,931,1691,1615,1083,999,1677,1601,1069,985,Land Nomad
+1021567,2024-09-08,2024-09,African Clearing,bcappu,wardaddy6968,typo,ninjavarier,f33d3r.raj,thelivi,xpm0083,thundubeedi,1679,1442,1071,905,1691,1481,1083,917,1530,1501,1292,740,1518,1489,1280,728,African Clearing
+1021551,2024-09-08,2024-09,Land Nomad,bcappu,aravind2705,typo,zaszrespawned,f33d3r.raj,thelivi,xpm0083,ninjavarier,1666,1602,1058,986,1679,1615,1071,999,1543,1514,1305,918,1530,1501,1292,905,Land Nomad
+1021535,2024-09-08,2024-09,African Clearing,bcappu,aravind2705,Gajini,stylishsteam,f33d3r.raj,thelivi,centurion12,zaszrespawned,1647,1583,1130,1007,1666,1602,1149,1026,1562,1533,1445,1005,1543,1514,1426,986,African Clearing
+1021531,2024-09-08,2024-09,Land Nomad,f33d3r.raj,thelivi,centurion12,stylishsteam,bcappu,aravind2705,sundar7238,zaszrespawned,1555,1526,1438,1000,1562,1533,1445,1007,1654,1590,1018,1012,1647,1583,1011,1005,Land Nomad
+1021519,2024-09-08,2024-09,African Clearing,thelivi,centurion12,Gajini,zaszrespawned,bcappu,f33d3r.raj,sundar7238,vetrierai,1513,1425,1117,999,1526,1438,1130,1012,1667,1568,1031,781,1654,1555,1018,749,African Clearing
+1021510,2024-09-08,2024-09,Land Nomad,bcappu,sundar7238,stylishsteam,thundubeedi,centurion12,Gajini,zaszrespawned,vetrierai,1653,1017,986,726,1667,1031,1000,740,1439,1131,1013,818,1425,1117,999,781,Land Nomad
+1021476,2024-09-08,2024-09,African Clearing,bcappu,aravind2705,centurion12,sundar7238,f33d3r.raj,thelivi,lotterymartin,Gajini,1640,1577,1426,1004,1653,1590,1439,1017,1581,1526,1355,1144,1568,1513,1342,1131,African Clearing
+1021456,2024-09-08,2024-09,Land Nomad,bcappu,thelivi,lotterymartin,Gajini,f33d3r.raj,aravind2705,centurion12,sundar7238,1625,1511,1340,1129,1640,1526,1355,1144,1596,1592,1441,1019,1581,1577,1426,1004,Land Nomad
+1021171,2024-09-07,2024-09,African Clearing,bcappu,f33d3r.raj,arunaoe,Gajini,thelivi,wardaddy6968,centurion12,typo,1609,1580,1143,1113,1625,1596,1159,1129,1527,1499,1457,1074,1511,1442,1441,1058,African Clearing
+1021155,2024-09-07,2024-09,Land Nomad,bcappu,f33d3r.raj,xpm0083,Gajini,wardaddy6968,thelivi,centurion12,typo,1593,1564,1289,1097,1609,1580,1305,1113,1564,1543,1473,1090,1499,1527,1457,1074,Land Nomad
+1021141,2024-09-07,2024-09,African Clearing,thelivi,wardaddy6968,arunaoe,Gajini,f33d3r.raj,xpm0083,darkknight7282,typo,1530,1505,1130,1084,1543,1564,1143,1097,1577,1302,1278,1103,1564,1289,1265,1090,African Clearing
+1021116,2024-09-07,2024-09,Land Nomad,thelivi,centurion12,darkknight7282,typo,f33d3r.raj,wardaddy6968,arunaoe,sundar7238,1518,1461,1266,1091,1530,1473,1278,1103,1589,1570,1142,1031,1577,1505,1130,1019,Land Nomad
+1021090,2024-09-07,2024-09,African Clearing,aravind2705,f33d3r.raj,ninjavarier,vetrierai,centurion12,arunaoe,Gajini,sundar7238,1581,1578,907,787,1592,1589,918,818,1472,1153,1095,1042,1461,1142,1084,1031,African Clearing
+1021042,2024-09-07,2024-09,Land Nomad,wardaddy6968,centurion12,typo,sundar7238,f33d3r.raj,thelivi,Gajini,thiyagup,1520,1464,1083,1034,1570,1472,1091,1042,1586,1526,1103,712,1578,1518,1095,704,Land Nomad
+1021009,2024-09-07,2024-09,African Clearing,f33d3r.raj,centurion12,lotterymartin,sundar7238,wardaddy6968,thelivi,Gajini,typo,1575,1453,1329,1023,1586,1464,1340,1034,1600,1537,1114,1094,1520,1526,1103,1083,African Clearing
+1020952,2024-09-07,2024-09,Land Nomad,centurion12,lotterymartin,zaszrespawned,,f33d3r.raj,Gajini,typo,,1433,1309,993,0,1453,1329,1013,0,1595,1134,1114,0,1575,1114,1094,0,Land Nomad
+1020942,2024-09-07,2024-09,African Clearing,f33d3r.raj,bcappu,zaszrespawned,stylishsteam,centurion12,lotterymartin,Gajini,typo,1584,1582,982,975,1595,1593,993,986,1444,1320,1145,1125,1433,1309,1134,1114,African Clearing
+1020935,2024-09-07,2024-09,Land Nomad,bcappu,centurion12,Gajini,stylishsteam,f33d3r.raj,lotterymartin,typo,zaszrespawned,1569,1431,1132,962,1582,1444,1145,975,1597,1333,1138,995,1584,1320,1125,982,Land Nomad
+1020896,2024-09-07,2024-09,African Clearing,aravind2705,centurion12,Gajini,zaszrespawned,f33d3r.raj,darkknight7282,typo,sundar7238,1568,1418,1119,982,1581,1431,1132,995,1610,1279,1151,1036,1597,1266,1138,1023,African Clearing
+1020886,2024-09-07,2024-09,Land Nomad,aravind2705,Gajini,sundar7238,,centurion12,darkknight7282,zaszrespawned,,1550,1101,1018,0,1568,1119,1036,0,1436,1297,1000,0,1418,1279,982,0,Land Nomad
+1020863,2024-09-07,2024-09,African Clearing,f33d3r.raj,typo,zaszrespawned,,centurion12,Gajini,sundar7238,,1591,1132,818,0,1610,1151,838,0,1455,1120,1037,0,1436,1101,1018,0,African Clearing
+1020565,2024-09-06,2024-09,Land Nomad,mikecbe,bcappu,typo,zaszrespawned,thelivi,centurion12,Gajini,sundar7238,1724,1555,1118,803,1738,1569,1132,818,1551,1469,1134,1051,1537,1455,1120,1037,Land Nomad
+1020524,2024-09-06,2024-09,African Clearing,bcappu,thelivi,sundar7238,zaszrespawned,centurion12,arunaoe,Gajini,vijay1989,1541,1537,1037,788,1555,1551,1051,803,1483,1167,1148,1106,1469,1153,1134,1092,African Clearing
+1020503,2024-09-06,2024-09,Land Nomad,bcappu,thelivi,vijay1989,zaszrespawned,aravind2705,arunaoe,typo,sundar7238,1527,1523,1092,772,1541,1537,1106,788,1564,1181,1132,1051,1550,1167,1118,1037,Land Nomad
+1020479,2024-09-06,2024-09,African Clearing,aravind2608,bcappu,typo,zaszrespawned,thelivi,arunaoe,Gajini,sundar7238,1564,1515,1120,758,1648,1527,1132,772,1535,1193,1160,1063,1523,1181,1148,1051,African Clearing
+1018067,2024-09-01,2024-09,Land Nomad,mikecbe,bcappu,Gajini,zaszrespawned,thelivi,darkknight7282,typo,vijay1989,1710,1501,1146,742,1724,1515,1160,758,1549,1311,1134,1106,1535,1297,1120,1092,Land Nomad
+1018049,2024-09-01,2024-09,African Clearing,mikecbe,bcappu,xpm0083,zaszrespawned,thelivi,darkknight7282,typo,vijay1989,1698,1489,1290,727,1710,1501,1302,742,1561,1323,1146,1118,1549,1311,1134,1106,African Clearing
+1018021,2024-09-01,2024-09,Land Nomad,bcappu,vijay1989,sundar7238,thiyagup,darkknight7282,xpm0083,ninjavarier,zaszrespawned,1476,1105,1050,699,1489,1118,1063,712,1336,1303,920,744,1323,1290,907,727,Land Nomad
+1017880,2024-09-01,2024-09,African Clearing,bcappu,typo,Gajini,sundar7238,rcbfan009,xpm0083,vetrierai,zaszrespawned,1463,1133,1133,1037,1476,1146,1146,1050,1848,1316,827,761,1835,1303,787,744,African Clearing
+1017862,2024-09-01,2024-09,Land Nomad,thelivi,xpm0083,typo,sundar7238,rcbfan009,bcappu,vetrierai,zaszrespawned,1549,1304,1121,1025,1561,1316,1133,1037,1860,1475,871,779,1848,1463,827,761,Land Nomad
+1017850,2024-09-01,2024-09,African Clearing,mikecbe,xpm0083,vijay1989,ninjavarier,thelivi,bcappu,sundar7238,zaszrespawned,1688,1294,1095,910,1698,1304,1105,920,1559,1485,1035,794,1549,1475,1025,779,African Clearing
+1017834,2024-09-01,2024-09,Land Nomad,rcbfan009,vijay1989,sundar7238,vetrierai,bcappu,feedertony,Gajini,thiyagup,1847,1082,1022,822,1860,1095,1035,871,1498,1408,1146,712,1485,1395,1133,699,Land Nomad
+1017812,2024-09-01,2024-09,African Clearing,Thiru,feedertony,typo,vijay1989,mikecbe,thelivi,darkknight7282,sundar7238,2038,1392,1105,1066,2054,1408,1121,1082,1704,1575,1352,1038,1688,1559,1336,1022,African Clearing
+1017801,2024-09-01,2024-09,Land Nomad,rcbfan009,darkknight7282,Gajini,sundar7238,mikecbe,feedertony,typo,vijay1989,1833,1338,1132,1024,1847,1352,1146,1038,1718,1406,1119,1080,1704,1392,1105,1066,Land Nomad
+1017778,2024-09-01,2024-09,African Clearing,rcbfan009,feedertony,sundar7238,zaszrespawned,mikecbe,Gajini,typo,stylishsteam,1820,1393,1011,774,1833,1406,1024,794,1731,1145,1132,975,1718,1132,1119,962,African Clearing
+1017406,2024-08-31,2024-08,Land Nomad,mikecbe,bcappu,vijay1989,vetrierai,darkknight7282,xpm0083,arunaoe,typo,1719,1486,1068,770,1731,1498,1080,822,1350,1306,1205,1144,1338,1294,1193,1132,Land Nomad
+1017356,2024-08-31,2024-08,African Clearing,feedertony,darkknight7282,xpm0083,Gajini,mikecbe,bcappu,vijay1989,vetrierai,1380,1337,1293,1132,1393,1350,1306,1145,1732,1499,1081,833,1719,1486,1068,770,African Clearing
+1017320,2024-08-31,2024-08,Land Nomad,mikecbe,feedertony,Gajini,vijay1989,fenrir05,xpm0083,typo,vetrierai,1719,1367,1119,1068,1732,1380,1132,1081,1912,1306,1157,907,1899,1293,1144,833,Land Nomad
+1017292,2024-08-31,2024-08,African Clearing,bcappu,feedertony,typo,vijay1989,fenrir05,Gajini,sundar7238,vetrierai,1486,1354,1144,1055,1499,1367,1157,1068,1925,1132,1024,1000,1912,1119,1011,907,African Clearing
+1017266,2024-08-31,2024-08,Land Nomad,f33d3r.raj,typo,sundar7238,,bcappu,Gajini,vijay1989,,1575,1128,1008,0,1591,1144,1024,0,1502,1148,1071,0,1486,1132,1055,0,Land Nomad
+1017179,2024-08-31,2024-08,African Clearing,f33d3r.raj,sundar7238,zaszrespawned,thiyagup,bcappu,feedertony,Gajini,,1558,991,747,0,1575,1008,774,0,1351,1519,1371,0,1334,1502,1354,0,African Clearing
+1017165,2024-08-31,2024-08,Land Nomad,bcappu,feedertony,Gajini,,f33d3r.raj,sundar7238,zaszrespawned,thiyagup,1503,1355,1149,0,1519,1371,1165,0,1574,1007,776,0,1558,991,747,0,Land Nomad
+1017146,2024-08-31,2024-08,African Clearing,Gajini,sundar7238,zaszrespawned,,bcappu,feedertony,,,1131,989,0,0,1149,1007,0,0,1447,1521,0,0,1429,1503,0,0,African Clearing
+1017094,2024-08-31,2024-08,Land Nomad,f33d3r.raj,Gajini,thiyagup,,darkknight7282,sundar7238,stylishsteam,,1559,1116,696,0,1574,1131,711,0,1352,1004,990,0,1337,989,975,0,Land Nomad
+1017066,2024-08-31,2024-08,African Clearing,f33d3r.raj,feedertony,vijay1989,thiyagup,darkknight7282,typo,Gajini,stylishsteam,1545,1359,1057,682,1559,1373,1071,696,1366,1142,1130,1004,1352,1128,1116,990,African Clearing
+1017054,2024-08-31,2024-08,Land Nomad,Thiru,darkknight7282,Gajini,thiyagup,f33d3r.raj,feedertony,typo,vijay1989,2024,1352,1116,668,2038,1366,1130,682,1559,1373,1156,1071,1545,1359,1142,1057,Land Nomad
+1017027,2024-08-31,2024-08,African Clearing,centurion12,darkknight7282,typo,Gajini,f33d3r.raj,feedertony,vijay1989,sundar7238,1469,1338,1142,1102,1483,1352,1156,1116,1573,1387,1085,1018,1559,1373,1071,1004,African Clearing
+1017005,2024-08-31,2024-08,Land Nomad,bcappu,centurion12,vijay1989,sundar7238,f33d3r.raj,feedertony,darkknight7282,thiyagup,1508,1456,1072,1005,1521,1469,1085,1018,1586,1400,1351,681,1573,1387,1338,668,Land Nomad
+1016996,2024-08-31,2024-08,African Clearing,bcappu,typo,vijay1989,sundar7238,centurion12,feedertony,Gajini,thiyagup,1493,1127,1057,990,1508,1142,1072,1005,1471,1415,1117,696,1456,1400,1102,681,African Clearing
+1016605,2024-08-30,2024-08,Land Nomad,Thiru,xpm0083,typo,vijay1989,thelivi,centurion12,arunaoe,Gajini,2012,1294,1115,1045,2024,1306,1127,1057,1587,1483,1217,1129,1575,1471,1205,1117,Land Nomad
+1016583,2024-08-30,2024-08,African Clearing,mikecbe,centurion12,Gajini,zaszrespawned,Thiru,thelivi,xpm0083,,1707,1471,1117,0,1719,1483,1129,0,1643,2024,1599,0,1631,2012,1587,0,African Clearing
+1016558,2024-08-30,2024-08,Land Nomad,Thiru,mikecbe,arunaoe,zaszrespawned,thelivi,centurion12,xpm0083,Gajini,2013,1696,1206,692,2024,1707,1217,717,1610,1482,1317,1128,1599,1471,1306,1117,Land Nomad
+1016548,2024-08-30,2024-08,African Clearing,mikecbe,centurion12,arunaoe,vijay1989,thelivi,aravind2705,feedertony,zaszrespawned,1684,1470,1194,1033,1696,1482,1206,1045,1622,1576,1427,721,1610,1564,1415,692,African Clearing
+1016529,2024-08-30,2024-08,Land Nomad,Thiru,mikecbe,feedertony,thiyagup,thelivi,aravind2705,centurion12,vijay1989,1999,1670,1413,682,2013,1684,1427,696,1636,1590,1484,1047,1622,1576,1470,1033,Land Nomad
+1016510,2024-08-30,2024-08,African Clearing,Thiru,centurion12,arunaoe,zaszrespawned,mikecbe,feedertony,Gajini,vijay1989,1986,1471,1181,689,1999,1484,1194,721,1683,1426,1141,1060,1670,1413,1128,1047,African Clearing
+1013791,2024-08-25,2024-08,Land Nomad,f33d3r.raj,centurion12,xpm0083,sundar7238,Thiru,feedertony,Gajini,zaszrespawned,1572,1457,1303,976,1586,1471,1317,990,2000,1440,1155,725,1986,1426,1141,689,Land Nomad
+1013774,2024-08-25,2024-08,African Clearing,f33d3r.raj,feedertony,zaszrespawned,,centurion12,Gajini,sundar7238,,1559,1427,685,0,1572,1440,725,0,1470,1168,989,0,1457,1155,976,0,African Clearing
+1013711,2024-08-25,2024-08,Land Nomad,f33d3r.raj,bcappu,feedertony,sundar7238,mikecbe,aravind2705,darkknight7282,zaszrespawned,1547,1481,1415,977,1559,1493,1427,989,1695,1602,1363,725,1683,1590,1351,685,Land Nomad
+1013707,2024-08-25,2024-08,African Clearing,f33d3r.raj,bcappu,centurion12,sundar7238,mikecbe,aravind2705,xpm0083,zaszrespawned,1534,1468,1457,964,1547,1481,1470,977,1708,1615,1316,771,1695,1602,1303,725,African Clearing
+1013685,2024-08-25,2024-08,Land Nomad,aravind2705,f33d3r.raj,darkknight7282,sundar7238,mikecbe,centurion12,feedertony,zaszrespawned,1602,1521,1350,951,1615,1534,1363,964,1721,1470,1428,825,1708,1457,1415,771,Land Nomad
+1013673,2024-08-25,2024-08,African Clearing,feedertony,darkknight7282,xpm0083,Gajini,mikecbe,bcappu,vijay1989,ninjavarier,1414,1336,1302,1154,1428,1350,1316,1168,1735,1482,1074,924,1721,1468,1060,910,African Clearing
+1013643,2024-08-25,2024-08,Land Nomad,mikecbe,aravind2705,Gajini,zaszrespawned,centurion12,feedertony,darkknight7282,sundar7238,1722,1589,1141,766,1735,1602,1154,825,1483,1427,1349,964,1470,1414,1336,951,Land Nomad
+1013620,2024-08-25,2024-08,African Clearing,mikecbe,centurion12,zaszrespawned,,feedertony,darkknight7282,Gajini,,1703,1464,660,0,1722,1483,766,0,1446,1368,1160,0,1427,1349,1141,0,African Clearing
+1013603,2024-08-25,2024-08,Land Nomad,centurion12,darkknight7282,Gajini,,mikecbe,feedertony,zaszrespawned,,1451,1355,1147,0,1464,1368,1160,0,1716,1459,750,0,1703,1446,660,0,Land Nomad
+1013580,2024-08-25,2024-08,African Clearing,feedertony,centurion12,,,mikecbe,Gajini,,,1437,1429,0,0,1459,1451,0,0,1738,1169,0,0,1716,1147,0,0,African Clearing
+1013044,2024-08-24,2024-08,Land Nomad,f33d3r.raj,feedertony,arunaoe,ninjavarier,bcappu,centurion12,vijay1989,sundar7238,1507,1423,1167,910,1521,1437,1181,924,1496,1443,1088,978,1482,1429,1074,964,Land Nomad
+1013021,2024-08-24,2024-08,African Clearing,rcbfan009,f33d3r.raj,vijay1989,sundar7238,bcappu,centurion12,feedertony,ninjavarier,1807,1494,1075,965,1820,1507,1088,978,1509,1456,1436,923,1496,1443,1423,910,African Clearing
+1012514,2024-08-23,2024-08,Land Nomad,thelivi,bcappu,vijay1989,,mikecbe,Gajini,arunaoe,,1623,1496,1062,0,1636,1509,1075,0,1751,1182,1180,0,1738,1169,1167,0,Land Nomad
+1012492,2024-08-23,2024-08,African Clearing,mikecbe,Gajini,arunaoe,,thelivi,bcappu,vijay1989,,1725,1156,1154,0,1751,1182,1180,0,1649,1522,1088,0,1623,1496,1062,0,African Clearing
+1009358,2024-08-18,2024-08,Land Nomad,aravind2705,feedertony,Gajini,,bcappu,centurion12,typo,,1573,1420,1140,0,1589,1436,1156,0,1538,1472,1131,0,1522,1456,1115,0,Land Nomad
+1009355,2024-08-18,2024-08,African Clearing,bcappu,feedertony,Gajini,,aravind2705,centurion12,stylishsteam,,1520,1402,1122,0,1538,1420,1140,0,1591,1490,1022,0,1573,1472,1004,0,African Clearing
+1009336,2024-08-18,2024-08,Land Nomad,centurion12,feedertony,darkknight7282,Gajini,thelivi,bcappu,vijay1989,stylishsteam,1476,1388,1341,1108,1490,1402,1355,1122,1663,1534,1102,1036,1649,1520,1088,1022,Land Nomad
+1009301,2024-08-18,2024-08,African Clearing,centurion12,feedertony,arunaoe,,bcappu,darkknight7282,Gajini,,1457,1369,1135,0,1476,1388,1154,0,1553,1360,1127,0,1534,1341,1108,0,African Clearing
+1009284,2024-08-18,2024-08,Land Nomad,aravind2705,centurion12,feedertony,arunaoe,thelivi,bcappu,Gajini,vijay1989,1577,1443,1355,1121,1591,1457,1369,1135,1677,1567,1141,1116,1663,1553,1127,1102,Land Nomad
+1008880,2024-08-17,2024-08,African Clearing,thelivi,vijay1989,,,aravind2705,centurion12,,,1627,1066,0,0,1677,1116,0,0,1627,1493,0,0,1577,1443,0,0,African Clearing
+1008814,2024-08-17,2024-08,Land Nomad,Thiru,centurion12,feedertony,,bcappu,Gajini,vijay1989,ninjavarier,1987,1480,1342,0,2000,1493,1355,0,1580,1154,1079,0,1567,1141,1066,0,Land Nomad
+1008801,2024-08-17,2024-08,African Clearing,Thiru,feedertony,ninjavarier,,bcappu,centurion12,Gajini,,1969,1324,918,0,1987,1342,936,0,1598,1498,1172,0,1580,1480,1154,0,African Clearing
+1007562,2024-08-15,2024-08,Land Nomad,Thiru,bcappu,xpm0083,Gajini,mikecbe,thelivi,centurion12,vijay1989,1955,1584,1288,1158,1969,1598,1302,1172,1739,1641,1512,1093,1725,1627,1498,1079,Land Nomad
+1007547,2024-08-15,2024-08,African Clearing,mikecbe,thelivi,centurion12,Gajini,Thiru,bcappu,xpm0083,vijay1989,1726,1628,1499,1145,1739,1641,1512,1158,1968,1597,1301,1106,1955,1584,1288,1093,African Clearing
+1007518,2024-08-15,2024-08,Land Nomad,thelivi,aravind2705,bcappu,ninjavarier,Thiru,centurion12,Gajini,vijay1989,1612,1611,1581,902,1628,1627,1597,918,1984,1515,1161,1122,1968,1499,1145,1106,Land Nomad
+1007471,2024-08-15,2024-08,African Clearing,Thiru,feedertony,vijay1989,,bcappu,centurion12,Gajini,,1972,1312,1110,0,1984,1324,1122,0,1593,1527,1173,0,1581,1515,1161,0,African Clearing
+1007448,2024-08-15,2024-08,Land Nomad,thelivi,feedertony,Gajini,,Thiru,centurion12,thiyagup,,1586,1286,1147,0,1612,1312,1173,0,1998,1553,708,0,1972,1527,682,0,Land Nomad
+1007438,2024-08-15,2024-08,African Clearing,feedertony,Gajini,,,centurion12,thiyagup,,,1273,1134,0,0,1286,1147,0,0,1566,721,0,0,1553,708,0,0,African Clearing
+1007383,2024-08-15,2024-08,Land Nomad,aravind2705,centurion12,Gajini,thiyagup,bcappu,feedertony,vijay1989,ninjavarier,1599,1554,1122,709,1611,1566,1134,721,1605,1285,1122,914,1593,1273,1110,902,Land Nomad
+1007366,2024-08-15,2024-08,African Clearing,thelivi,centurion12,Gajini,ninjavarier,bcappu,aravind2705,vijay1989,thiyagup,1574,1542,1110,902,1586,1554,1122,914,1617,1611,1134,721,1605,1599,1122,709,African Clearing
+1007348,2024-08-15,2024-08,Land Nomad,thelivi,f33d3r.raj,vijay1989,Gajini,bcappu,aravind2705,feedertony,thiyagup,1559,1479,1119,1095,1574,1494,1134,1110,1632,1626,1300,736,1617,1611,1285,721,Land Nomad
+1007344,2024-08-15,2024-08,African Clearing,aravind2705,f33d3r.raj,vijay1989,Gajini,bcappu,thelivi,feedertony,thiyagup,1611,1464,1104,1080,1626,1479,1119,1095,1647,1574,1315,751,1632,1559,1300,736,African Clearing
+1006933,2024-08-14,2024-08,Land Nomad,bcappu,Gajini,sundar7238,,centurion12,feedertony,thiyagup,,1631,1064,949,0,1647,1080,965,0,1558,1331,767,0,1542,1315,751,0,Land Nomad
+1006923,2024-08-14,2024-08,African Clearing,centurion12,thiyagup,,,Gajini,sundar7238,,,1552,761,0,0,1558,767,0,0,1070,955,0,0,1064,949,0,0,African Clearing
+1004257,2024-08-10,2024-08,Land Nomad,bcappu,centurion12,,,arunaoe,Gajini,ninjavarier,,1614,1535,0,0,1631,1552,0,0,1138,1087,0,0,1121,1070,0,0,Land Nomad
+1004202,2024-08-10,2024-08,African Clearing,bcappu,centurion12,ninjavarier,,aravind2705,Gajini,sundar7238,,1610,1531,915,0,1614,1535,919,0,1615,1091,959,0,1611,1087,955,0,African Clearing
+1004184,2024-08-10,2024-08,Land Nomad,aravind2705,centurion12,ninjavarier,,bcappu,Gajini,sundar7238,,1610,1526,910,0,1615,1531,915,0,1615,1096,964,0,1610,1091,959,0,Land Nomad
+1004166,2024-08-10,2024-08,African Clearing,Thiru,feedertony,ninjavarier,,bcappu,aravind2705,Gajini,,1972,1305,884,0,1998,1331,910,0,1641,1636,1122,0,1615,1610,1096,0,African Clearing
+1004114,2024-08-10,2024-08,Land Nomad,bcappu,feedertony,thiyagup,,centurion12,Gajini,vijay1989,,1617,1281,737,0,1641,1305,761,0,1550,1146,1128,0,1526,1122,1104,0,Land Nomad
+1004061,2024-08-10,2024-08,African Clearing,thelivi,centurion12,f33d3r.raj,thiyagup,aravind2705,feedertony,Gajini,vijay1989,1561,1537,1451,724,1574,1550,1464,737,1649,1294,1159,1141,1636,1281,1146,1128,African Clearing
+1004038,2024-08-10,2024-08,Land Nomad,centurion12,Gajini,,,f33d3r.raj,feedertony,,,1506,1128,0,0,1537,1159,0,0,1482,1325,0,0,1451,1294,0,0,Land Nomad
+1003573,2024-08-09,2024-08,African Clearing,Thiru,centurion12,sundar7238,,mikecbe,thelivi,Gajini,,1952,1486,944,0,1972,1506,964,0,1746,1581,1148,0,1726,1561,1128,0,African Clearing
+1003552,2024-08-09,2024-08,Land Nomad,Thiru,bcappu,Gajini,vijay1989,mikecbe,thelivi,centurion12,sundar7238,1938,1603,1134,1127,1952,1617,1148,1141,1760,1595,1500,958,1746,1581,1486,944,Land Nomad
+1003539,2024-08-09,2024-08,African Clearing,mikecbe,thelivi,arunaoe,Gajini,Thiru,centurion12,vijay1989,sundar7238,1746,1581,1124,1120,1760,1595,1138,1134,1952,1514,1141,972,1938,1500,1127,958,African Clearing
+1003517,2024-08-09,2024-08,Land Nomad,thelivi,centurion12,feedertony,arunaoe,aravind2705,bcappu,f33d3r.raj,thiyagup,1566,1499,1310,1109,1581,1514,1325,1124,1664,1618,1497,739,1649,1603,1482,724,Land Nomad
+1003507,2024-08-09,2024-08,African Clearing,bcappu,feedertony,vijay1989,sundar7238,thelivi,centurion12,Gajini,thiyagup,1604,1296,1127,958,1618,1310,1141,972,1580,1513,1134,753,1566,1499,1120,739,African Clearing
+1003458,2024-08-09,2024-08,Land Nomad,bcappu,centurion12,f33d3r.raj,,aravind2705,Gajini,sundar7238,thiyagup,1590,1499,1483,0,1604,1513,1497,0,1678,1148,972,0,1664,1134,958,0,Land Nomad
+1000365,2024-08-04,2024-08,African Clearing,mikecbe,lotterymartin,xpm0083,,bcappu,thelivi,arunaoe,,1731,1318,1286,0,1746,1333,1301,0,1605,1595,1124,0,1590,1580,1109,0,African Clearing
+1000204,2024-08-04,2024-08,Land Nomad,mikecbe,darkknight7282,xpm0083,Gajini,bcappu,f33d3r.raj,feedertony,stylishsteam,1717,1346,1272,1134,1731,1360,1286,1148,1619,1497,1310,1050,1605,1483,1296,1036,Land Nomad
+1000189,2024-08-04,2024-08,African Clearing,mikecbe,darkknight7282,feedertony,Gajini,bcappu,f33d3r.raj,xpm0083,stylishsteam,1701,1330,1294,1118,1717,1346,1310,1134,1635,1513,1288,1066,1619,1497,1272,1050,African Clearing
+1000154,2024-08-04,2024-08,Land Nomad,bcappu,f33d3r.raj,feedertony,Gajini,mikecbe,darkknight7282,xpm0083,vijay1989,1621,1499,1280,1104,1635,1513,1294,1118,1715,1344,1302,1141,1701,1330,1288,1127,Land Nomad
+1000112,2024-08-04,2024-08,African Clearing,f33d3r.raj,centurion12,Gajini,,mikecbe,feedertony,ninjavarier,,1489,1489,1094,0,1499,1499,1104,0,1725,1290,894,0,1715,1280,884,0,African Clearing
+1000059,2024-08-04,2024-08,Land Nomad,f33d3r.raj,centurion12,feedertony,ninjavarier,mikecbe,arunaoe,Gajini,stylishsteam,1477,1477,1278,882,1489,1489,1290,894,1737,1136,1106,1078,1725,1124,1094,1066,Land Nomad
+1000045,2024-08-04,2024-08,African Clearing,mikecbe,centurion12,,,feedertony,vijay1989,arunaoe,,1685,1425,0,0,1737,1477,0,0,1330,1193,0,0,1278,1141,0,0,African Clearing
+1000025,2024-08-04,2024-08,Land Nomad,mikecbe,arunaoe,,,feedertony,vijay1989,,,1680,1183,0,0,1685,1188,0,0,1335,1198,0,0,1330,1193,0,0,Land Nomad
+999797,2024-08-03,2024-08,African Clearing,bcappu,f33d3r.raj,Gajini,,mikecbe,arunaoe,typo,,1610,1466,1095,0,1621,1477,1106,0,1691,1194,1142,0,1680,1183,1131,0,African Clearing
+999772,2024-08-03,2024-08,Land Nomad,bcappu,centurion12,darkknight7282,typo,mikecbe,f33d3r.raj,arunaoe,Gajini,1595,1410,1329,1127,1610,1425,1344,1142,1706,1481,1209,1110,1691,1466,1194,1095,Land Nomad
+999749,2024-08-03,2024-08,African Clearing,bcappu,f33d3r.raj,arunaoe,Gajini,mikecbe,darkknight7282,crazyguy0505,typo,1582,1468,1196,1097,1595,1481,1209,1110,1719,1342,1151,1140,1706,1329,1087,1127,African Clearing
+999731,2024-08-03,2024-08,Land Nomad,mikecbe,darkknight7282,vijay1989,typo,bcappu,centurion12,crazyguy0505,Gajini,1707,1329,1186,1128,1719,1342,1198,1140,1594,1422,1223,1109,1582,1410,1151,1097,Land Nomad
+999704,2024-08-03,2024-08,African Clearing,f33d3r.raj,centurion12,darkknight7282,ninjavarier,bcappu,vijay1989,typo,stylishsteam,1455,1409,1315,869,1468,1422,1329,882,1607,1199,1141,1091,1594,1186,1128,1078,African Clearing
+999661,2024-08-03,2024-08,Land Nomad,f33d3r.raj,vijay1989,typo,thiyagup,centurion12,Gajini,stylishsteam,ninjavarier,1440,1184,1126,752,1455,1199,1141,767,1424,1124,1106,884,1409,1109,1091,869,Land Nomad
+999569,2024-08-03,2024-08,African Clearing,bcappu,centurion12,thiyagup,,f33d3r.raj,typo,Gajini,,1591,1408,735,0,1607,1424,752,0,1456,1142,1140,0,1440,1126,1124,0,African Clearing
+999548,2024-08-03,2024-08,Land Nomad,bcappu,centurion12,thiyagup,,crazyguy0505,typo,Gajini,,1580,1397,723,0,1591,1408,735,0,1300,1153,1151,0,1223,1142,1140,0,Land Nomad
+999508,2024-08-03,2024-08,African Clearing,bcappu,centurion12,ninjavarier,,f33d3r.raj,typo,Gajini,,1564,1381,868,0,1580,1397,884,0,1472,1169,1167,0,1456,1153,1151,0,African Clearing
+999414,2024-08-03,2024-08,Land Nomad,bcappu,Gajini,thiyagup,,darkknight7282,vijay1989,ninjavarier,,1548,1151,704,0,1564,1167,723,0,1333,1200,884,0,1315,1184,868,0,Land Nomad
+999410,2024-08-03,2024-08,African Clearing,feedertony,darkknight7282,ninjavarier,,bcappu,Gajini,thiyagup,,1322,1318,871,0,1335,1333,884,0,1561,1164,720,0,1548,1151,704,0,African Clearing
+999405,2024-08-03,2024-08,Land Nomad,bcappu,Gajini,thiyagup,,feedertony,vijay1989,ninjavarier,,1543,1146,697,0,1561,1164,720,0,1340,1218,889,0,1322,1200,871,0,Land Nomad
+999393,2024-08-03,2024-08,African Clearing,feedertony,vijay1989,Gajini,,bcappu,centurion12,thiyagup,,1324,1202,1130,0,1340,1218,1146,0,1559,1397,719,0,1543,1381,697,0,African Clearing
+999384,2024-08-03,2024-08,Land Nomad,centurion12,Gajini,,,feedertony,vijay1989,,,1371,1104,0,0,1397,1130,0,0,1350,1228,0,0,1324,1202,0,0,Land Nomad
+998986,2024-08-02,2024-08,African Clearing,mikecbe,thelivi,bcappu,,centurion12,vijay1989,arunaoe,Gajini,1686,1574,1538,0,1707,1595,1559,0,1392,1249,1217,0,1371,1228,1196,0,African Clearing
+998968,2024-08-02,2024-08,Land Nomad,bcappu,centurion12,arunaoe,,aravind2705,vijay1989,Gajini,,1522,1376,1201,0,1538,1392,1217,0,1694,1265,1141,0,1678,1249,1125,0,Land Nomad
+998942,2024-08-02,2024-08,African Clearing,thelivi,bcappu,arunaoe,,aravind2705,centurion12,Gajini,,1558,1506,1185,0,1574,1522,1201,0,1710,1392,1157,0,1694,1376,1141,0,African Clearing
+995867,2024-07-28,2024-07,Land Nomad,mikecbe,thelivi,xpm0083,arunaoe,Thiru,bcappu,f33d3r.raj,thiyagup,1671,1543,1287,1170,1686,1558,1302,1185,1967,1521,1487,739,1952,1506,1472,719,Land Nomad
+995853,2024-07-28,2024-07,African Clearing,lotterymartin,xpm0083,vijay1989,arunaoe,mikecbe,thelivi,f33d3r.raj,,1312,1281,1259,0,1318,1287,1265,0,1573,1677,1549,0,1567,1671,1543,0,African Clearing
+995709,2024-07-28,2024-07,Land Nomad,mikecbe,bcappu,f33d3r.raj,feedertony,Thiru,thelivi,xpm0083,stylishsteam,1664,1508,1480,1337,1677,1521,1493,1350,1980,1562,1294,1119,1967,1549,1281,1106,Land Nomad
+995677,2024-07-28,2024-07,African Clearing,Thiru,mikecbe,thelivi,guerrillawarfare2,fenrir05,bcappu,feedertony,lotterymartin,1964,1648,1546,927,1980,1664,1562,943,1941,1524,1353,1328,1925,1508,1337,1312,African Clearing
+995208,2024-07-27,2024-07,Amazon Tunnel,fenrir05,bcappu,arunaoe,Gajini,Thiru,thelivi,ddk220,ninjavarier,1927,1510,1150,1143,1941,1524,1164,1157,1978,1560,1304,903,1964,1546,1273,889,Amazon Tunnel
+995199,2024-07-27,2024-07,Arabia,bcappu,arunaoe,ninjavarier,,lotterymartin,Gajini,guerrillawarfare2,,1497,1137,890,0,1510,1150,903,0,1341,1156,940,0,1328,1143,927,0,Arabia
+995182,2024-07-27,2024-07,Michi,Thiru,Gajini,arunaoe,guerrillawarfare2,bcappu,f33d3r.raj,ddk220,ninjavarier,1961,1139,1120,923,1978,1156,1137,940,1514,1497,1346,907,1497,1480,1304,890,Michi
+995170,2024-07-27,2024-07,Arena,Thiru,Gajini,guerrillawarfare2,,bcappu,f33d3r.raj,ninjavarier,,1945,1123,907,0,1961,1139,923,0,1530,1513,923,0,1514,1497,907,0,Arena
+995113,2024-07-27,2024-07,Black Forest,bcappu,vijay1989,guerrillawarfare2,,f33d3r.raj,Gajini,ninjavarier,,1516,1245,893,0,1530,1259,907,0,1527,1137,937,0,1513,1123,923,0,Black Forest
+995094,2024-07-27,2024-07,Nomad,f33d3r.raj,bcappu,Gajini,stylishsteam,Thiru,feedertony,ninjavarier,guerrillawarfare2,1516,1505,1126,1108,1527,1516,1137,1119,1956,1364,948,904,1945,1353,937,893,Nomad
+991472,2024-07-21,2024-07,Land Nomad,mikecbe,thelivi,bcappu,guerrillawarfare2,Thiru,lotterymartin,arunaoe,dannypants5515,1630,1542,1487,886,1648,1560,1505,904,1974,1359,1138,1300,1956,1341,1120,1174,Land Nomad
+991455,2024-07-21,2024-07,Amazon Tunnel,Thiru,mikecbe,xpm0083,typo,fenrir05,thelivi,lotterymartin,arunaoe,1960,1616,1280,1155,1974,1630,1294,1169,1941,1556,1373,1152,1927,1542,1359,1138,Amazon Tunnel
+991430,2024-07-21,2024-07,Arabia,Thiru,xpm0083,typo,arunaoe,fenrir05,thelivi,sundar7238,guerrillawarfare2,1949,1269,1144,1141,1960,1280,1155,1152,1952,1567,983,897,1941,1556,972,886,Arabia
+991405,2024-07-21,2024-07,Michi,f33d3r.raj,bcappu,guerrillawarfare2,,thelivi,Gajini,ninjavarier,,1507,1478,888,0,1516,1487,897,0,1576,1135,957,0,1567,1126,948,0,Michi
+991388,2024-07-21,2024-07,Arena,thelivi,bcappu,feedertony,darkknight7282,mikecbe,f33d3r.raj,lotterymartin,typo,1562,1464,1350,1301,1576,1478,1364,1318,1630,1521,1387,1158,1616,1507,1373,1144,Arena
+991378,2024-07-21,2024-07,Black Forest,mikecbe,thelivi,lotterymartin,sundar7238,f33d3r.raj,bcappu,darkknight7282,typo,1617,1549,1374,970,1630,1562,1387,983,1534,1477,1318,1171,1521,1464,1301,1158,Black Forest
+991372,2024-07-21,2024-07,Nomad,thelivi,lotterymartin,typo,sundar7238,f33d3r.raj,darkknight7282,Gajini,ninjavarier,1535,1360,1157,956,1549,1374,1171,970,1548,1336,1149,971,1534,1318,1135,957,Nomad
+991362,2024-07-21,2024-07,Land Nomad,f33d3r.raj,bcappu,typo,sundar7238,thelivi,darkknight7282,Gajini,ninjavarier,1536,1465,1145,944,1548,1477,1157,956,1547,1353,1161,983,1535,1336,1149,971,Land Nomad
+991338,2024-07-21,2024-07,Amazon Tunnel,mikecbe,bcappu,feedertony,xpm0083,thelivi,f33d3r.raj,darkknight7282,typo,1603,1451,1336,1255,1617,1465,1350,1269,1561,1550,1373,1159,1547,1536,1353,1145,Amazon Tunnel
+991321,2024-07-21,2024-07,Arabia,mikecbe,darkknight7282,Gajini,typo,thelivi,f33d3r.raj,xpm0083,guerrillawarfare2,1587,1348,1145,1143,1603,1373,1161,1159,1577,1566,1271,904,1561,1550,1255,888,Arabia
+991296,2024-07-21,2024-07,Michi,lotterymartin,darkknight7282,feedertony,,thelivi,ddk220,sundar7238,,1348,1328,1324,0,1360,1348,1336,0,1589,1379,956,0,1577,1346,944,0,Michi
+991281,2024-07-21,2024-07,Arena,fenrir05,thelivi,typo,guerrillawarfare2,mikecbe,ddk220,feedertony,Gajini,1939,1577,1131,892,1952,1589,1143,904,1599,1415,1336,1157,1587,1379,1324,1145,Arena
+991250,2024-07-21,2024-07,Black Forest,fenrir05,thelivi,typo,guerrillawarfare2,mikecbe,lotterymartin,feedertony,Gajini,1924,1563,1117,878,1939,1577,1131,892,1613,1362,1350,1171,1599,1348,1336,1157,Black Forest
+990779,2024-07-20,2024-07,Nomad,lotterymartin,darkknight7282,ninjavarier,guerrillawarfare2,f33d3r.raj,Gajini,sundar7238,thiyagup,1349,1306,970,865,1362,1328,983,878,1579,1184,969,758,1566,1171,956,739,Nomad
+990688,2024-07-20,2024-07,Land Nomad,Thiru,Gajini,ninjavarier,sundar7238,f33d3r.raj,bcappu,stylishsteam,guerrillawarfare2,1933,1168,954,953,1949,1184,970,969,1595,1467,1124,881,1579,1451,1108,865,Land Nomad
+990253,2024-07-19,2024-07,Amazon Tunnel,mikecbe,centurion12,Gajini,ninjavarier,thelivi,bcappu,typo,guerrillawarfare2,1599,1378,1154,940,1613,1392,1168,954,1577,1481,1131,895,1563,1467,1117,881,Amazon Tunnel
+990232,2024-07-19,2024-07,Arabia,thelivi,centurion12,Gajini,arunaoe,mikecbe,bcappu,typo,guerrillawarfare2,1565,1366,1142,1129,1577,1378,1154,1141,1611,1493,1143,907,1599,1481,1131,895,Arabia
+990215,2024-07-19,2024-07,Michi,mikecbe,centurion12,sundar7238,guerrillawarfare2,bcappu,typo,Gajini,ninjavarier,1597,1352,939,893,1611,1366,953,907,1507,1157,1156,954,1493,1143,1142,940,Michi
+990196,2024-07-19,2024-07,Arena,bcappu,Gajini,guerrillawarfare2,,centurion12,typo,sundar7238,,1492,1141,878,0,1507,1156,893,0,1367,1172,954,0,1352,1157,939,0,Arena
+990177,2024-07-19,2024-07,Black Forest,arunaoe,stylishsteam,sundar7238,guerrillawarfare2,bcappu,typo,Gajini,,1121,1116,946,0,1129,1124,954,0,1276,1500,1180,0,1268,1492,1172,0,Black Forest
+986831,2024-07-14,2024-07,Nomad,rcbfan009,darkknight7282,xpm0083,,mikecbe,bcappu,arunaoe,,1794,1284,1258,0,1807,1306,1271,0,1610,1513,1134,0,1597,1500,1121,0,Nomad
+986812,2024-07-14,2024-07,Land Nomad,Thiru,lotterymartin,xpm0083,,rcbfan009,thelivi,arunaoe,,1915,1331,1240,0,1933,1349,1258,0,1812,1583,1152,0,1794,1565,1134,0,Land Nomad
+986660,2024-07-14,2024-07,Amazon Tunnel,Thiru,bcappu,xpm0083,,rcbfan009,f33d3r.raj,typo,,1898,1496,1223,0,1915,1513,1240,0,1829,1612,1197,0,1812,1595,1180,0,Amazon Tunnel
+986651,2024-07-14,2024-07,Arabia,rcbfan009,bcappu,typo,ninjavarier,mikecbe,thelivi,xpm0083,sundar7238,1816,1483,1184,941,1829,1496,1197,954,1623,1596,1236,959,1610,1583,1223,946,Arabia
+986640,2024-07-14,2024-07,Michi,rcbfan009,bcappu,sundar7238,,mikecbe,xpm0083,typo,,1806,1473,949,0,1816,1483,959,0,1633,1246,1194,0,1623,1236,1184,0,Michi
+986111,2024-07-13,2024-07,Arena,Thiru,thelivi,darkknight7282,guerrillawarfare2,rcbfan009,bcappu,typo,arunaoe,1881,1579,1251,853,1898,1596,1284,870,1823,1490,1211,1169,1806,1473,1194,1152,Arena
+986082,2024-07-13,2024-07,Black Forest,rcbfan009,bcappu,guerrillawarfare2,,thelivi,darkknight7282,typo,,1808,1475,838,0,1823,1490,853,0,1594,1281,1226,0,1579,1251,1211,0,Black Forest
+986057,2024-07-13,2024-07,Nomad,rcbfan009,f33d3r.raj,Gajini,guerrillawarfare2,Thiru,darkknight7282,arunaoe,sundar7238,1795,1599,1136,825,1808,1612,1149,838,1894,1309,1182,962,1881,1281,1169,949,Nomad
+986047,2024-07-13,2024-07,Land Nomad,f33d3r.raj,typo,sundar7238,,rcbfan009,Gajini,guerrillawarfare2,,1579,1206,942,0,1599,1226,962,0,1815,1156,845,0,1795,1136,825,0,Land Nomad
+986037,2024-07-13,2024-07,Amazon Tunnel,Thiru,f33d3r.raj,typo,,aravind2705,Gajini,sundar7238,guerrillawarfare2,1876,1561,1188,0,1894,1579,1206,0,1728,1174,960,0,1710,1156,942,0,Amazon Tunnel
+985963,2024-07-13,2024-07,Arabia,Thiru,rcbfan009,guerrillawarfare2,thiyagup,f33d3r.raj,bcappu,typo,sundar7238,1863,1802,850,738,1876,1815,863,758,1574,1488,1201,973,1561,1475,1188,960,Arabia
+985944,2024-07-13,2024-07,Michi,Thiru,bcappu,sundar7238,guerrillawarfare2,rcbfan009,centurion12,Gajini,thiyagup,1848,1473,958,835,1863,1488,973,850,1817,1382,1189,761,1802,1367,1174,738,Michi
+985924,2024-07-13,2024-07,Arena,rcbfan009,aravind2705,sundar7238,guerrillawarfare2,bcappu,centurion12,typo,Gajini,1803,1714,944,821,1817,1728,958,835,1487,1396,1215,1203,1473,1382,1201,1189,Arena
+985919,2024-07-13,2024-07,Black Forest,rcbfan009,aravind2705,guerrillawarfare2,,bcappu,centurion12,Gajini,,1794,1705,812,0,1803,1714,821,0,1496,1405,1212,0,1487,1396,1203,0,Black Forest
+985881,2024-07-13,2024-07,Nomad,rcbfan009,darkknight7282,typo,Gajini,thelivi,bcappu,centurion12,sundar7238,1779,1275,1200,1197,1794,1309,1215,1212,1609,1511,1420,959,1594,1496,1405,944,Nomad
+985876,2024-07-13,2024-07,Land Nomad,rcbfan009,thelivi,centurion12,,darkknight7282,typo,Gajini,sundar7238,1767,1597,1408,0,1779,1609,1420,0,1304,1212,1209,0,1275,1200,1197,0,Land Nomad
+985861,2024-07-13,2024-07,Amazon Tunnel,thelivi,centurion12,Gajini,,Thiru,typo,sundar7238,,1585,1396,1197,0,1597,1408,1209,0,1860,1224,983,0,1848,1212,971,0,Amazon Tunnel
+985427,2024-07-12,2024-07,Arabia,rcbfan009,mikecbe,arunaoe,sundar7238,Thiru,thelivi,typo,guerrillawarfare2,1752,1618,1167,968,1767,1633,1182,983,1875,1600,1239,827,1860,1585,1224,812,Arabia
+985410,2024-07-12,2024-07,Michi,Thiru,mikecbe,ninjavarier,guerrillawarfare2,rcbfan009,typo,arunaoe,sundar7238,1862,1605,928,814,1875,1618,941,827,1765,1252,1180,981,1752,1239,1167,968,Michi
+985380,2024-07-12,2024-07,Arena,rcbfan009,thelivi,Gajini,,Thiru,typo,vijay1989,,1754,1589,1186,0,1765,1600,1197,0,1873,1263,1256,0,1862,1252,1245,0,Arena
+985362,2024-07-12,2024-07,Black Forest,thelivi,Gajini,ninjavarier,,centurion12,typo,sundar7238,,1571,1168,910,0,1589,1186,928,0,1414,1281,999,0,1396,1263,981,0,Black Forest
+982631,2024-07-07,2024-07,Nomad,mikecbe,typo,xpm0083,sundar7238,thelivi,bcappu,arunaoe,guerrillawarfare2,1589,1265,1230,983,1605,1281,1246,999,1587,1527,1196,830,1571,1511,1180,814,Nomad
+982594,2024-07-07,2024-07,Land Nomad,mikecbe,bcappu,typo,thiyagup,aadvanced,arunaoe,Gajini,guerrillawarfare2,1576,1514,1252,741,1589,1527,1265,761,1814,1209,1181,843,1801,1196,1168,830,Land Nomad
+982572,2024-07-07,2024-07,Amazon Tunnel,aravind2705,typo,sundar7238,ninjavarier,bcappu,arunaoe,Gajini,guerrillawarfare2,1691,1238,969,896,1705,1252,983,910,1528,1223,1195,857,1514,1209,1181,843,Amazon Tunnel
+982490,2024-07-07,2024-07,Arabia,aravind2705,Gajini,sundar7238,,bcappu,feedertony,guerrillawarfare2,,1676,1180,954,0,1691,1195,969,0,1543,1365,872,0,1528,1350,857,0,Arabia
+982478,2024-07-07,2024-07,Michi,aravind2705,feedertony,Gajini,,aadvanced,bcappu,guerrillawarfare2,,1654,1343,1158,0,1676,1365,1180,0,1836,1565,894,0,1814,1543,872,0,Michi
+982471,2024-07-07,2024-07,Arena,aravind2705,Gajini,stylishsteam,guerrillawarfare2,aadvanced,bcappu,feedertony,,1638,1142,1100,0,1654,1158,1116,0,1597,1852,1581,0,1581,1836,1565,0,Arena
+982418,2024-07-07,2024-07,Black Forest,thelivi,lotterymartin,Gajini,,aravind2705,feedertony,ninjavarier,,1575,1319,1130,0,1587,1331,1142,0,1650,1371,908,0,1638,1359,896,0,Black Forest
+982026,2024-07-06,2024-07,Nomad,thelivi,centurion12,Gajini,sundar7238,aadvanced,darkknight7282,ninjavarier,guerrillawarfare2,1562,1401,1117,941,1575,1414,1130,954,1865,1339,921,891,1852,1304,908,878,Nomad
+982013,2024-07-06,2024-07,Land Nomad,aadvanced,centurion12,ninjavarier,guerrillawarfare2,thelivi,darkknight7282,Gajini,sundar7238,1852,1388,908,878,1865,1401,921,891,1575,1378,1130,954,1562,1339,1117,941,Land Nomad
+981980,2024-07-06,2024-07,Amazon Tunnel,thelivi,centurion12,thundubeedi,,f33d3r.raj,Gajini,guerrillawarfare2,,1560,1373,711,0,1575,1388,726,0,1589,1145,893,0,1574,1130,878,0,Amazon Tunnel
+981969,2024-07-06,2024-07,Arabia,f33d3r.raj,bcappu,stylishsteam,guerrillawarfare2,aadvanced,centurion12,sundar7238,ninjavarier,1574,1566,1085,878,1589,1581,1100,893,1867,1388,969,923,1852,1373,954,908,Arabia
+981935,2024-07-06,2024-07,Michi,Thiru,f33d3r.raj,Gajini,guerrillawarfare2,aadvanced,bcappu,sundar7238,ninjavarier,1861,1562,1133,866,1873,1574,1145,878,1879,1578,981,935,1867,1566,969,923,Michi
+981922,2024-07-06,2024-07,Arena,Thiru,f33d3r.raj,Gajini,,aadvanced,bcappu,guerrillawarfare2,,1851,1552,1123,0,1861,1562,1133,0,1889,1588,876,0,1879,1578,866,0,Arena
+981868,2024-07-06,2024-07,Black Forest,bcappu,centurion12,Gajini,sundar7238,Thiru,f33d3r.raj,guerrillawarfare2,thundubeedi,1573,1373,1108,966,1588,1388,1123,981,1866,1567,891,726,1851,1552,876,711,Black Forest
+981828,2024-07-06,2024-07,Nomad,Thiru,feedertony,darkknight7282,,centurion12,Gajini,sundar7238,guerrillawarfare2,1858,1363,1352,0,1866,1371,1378,0,1381,1116,974,0,1373,1108,966,0,Nomad
+981808,2024-07-06,2024-07,Land Nomad,feedertony,darkknight7282,guerrillawarfare2,,centurion12,Gajini,sundar7238,,1349,1303,885,0,1363,1352,899,0,1395,1130,988,0,1381,1116,974,0,Land Nomad
+981484,2024-07-05,2024-07,Amazon Tunnel,aadvanced,bcappu,centurion12,guerrillawarfare2,mikecbe,thelivi,typo,arunaoe,1877,1561,1383,873,1889,1573,1395,885,1588,1572,1250,1235,1576,1560,1238,1223,Amazon Tunnel
+981474,2024-07-05,2024-07,Arabia,thelivi,bcappu,typo,Gajini,aadvanced,Thiru,sundar7238,thundubeedi,1557,1546,1235,1115,1572,1561,1250,1130,1892,1873,1003,741,1877,1858,988,726,Arabia
+981451,2024-07-05,2024-07,Michi,aadvanced,Thiru,typo,sundar7238,thelivi,bcappu,centurion12,feedertony,1880,1861,1223,991,1892,1873,1235,1003,1569,1558,1395,1361,1557,1546,1383,1349,Michi
+978430,2024-06-30,2024-06,Arena,aadvanced,rcbfan009,typo,guerrillawarfare2,mikecbe,f33d3r.raj,arunaoe,xpm0083,1866,1740,1209,859,1880,1754,1223,873,1602,1581,1249,1244,1588,1567,1235,1230,Arena
+978390,2024-06-30,2024-06,Nomad,f33d3r.raj,thelivi,xpm0083,typo,aadvanced,mikecbe,sundar7238,ninjavarier,1571,1559,1234,1199,1581,1569,1244,1209,1876,1612,1001,945,1866,1602,991,935,Nomad
+978361,2024-06-30,2024-06,Land Nomad,aadvanced,lotterymartin,arunaoe,sundar7238,rcbfan009,thelivi,typo,guerrillawarfare2,1861,1304,1234,986,1876,1319,1249,1001,1755,1574,1214,874,1740,1559,1199,859,Land Nomad
+978333,2024-06-30,2024-06,Black Forest,rcbfan009,lotterymartin,sundar7238,ninjavarier,thelivi,arunaoe,typo,guerrillawarfare2,1740,1290,972,931,1755,1304,986,945,1588,1248,1228,888,1574,1234,1214,874,Black Forest
+978285,2024-06-30,2024-06,Michi,rcbfan009,thelivi,f33d3r.raj,,Thiru,mikecbe,feedertony,,1720,1570,1553,0,1740,1588,1571,0,1879,1630,1379,0,1861,1612,1361,0,Michi
+978248,2024-06-30,2024-06,Arabia,Thiru,f33d3r.raj,Gajini,sundar7238,rcbfan009,thelivi,typo,guerrillawarfare2,1865,1539,1101,958,1879,1553,1115,972,1736,1584,1242,902,1720,1570,1228,888,Arabia
+978206,2024-06-30,2024-06,Amazon Tunnel,aravind2705,mikecbe,feedertony,sundar7238,aadvanced,thelivi,typo,guerrillawarfare2,1633,1613,1362,941,1650,1630,1379,958,1878,1601,1259,919,1861,1584,1242,902,Amazon Tunnel
+978181,2024-06-30,2024-06,Arena,mikecbe,feedertony,stylishsteam,sundar7238,aravind2705,xpm0083,Gajini,guerrillawarfare2,1599,1348,1071,927,1613,1362,1085,941,1647,1248,1115,933,1633,1234,1101,919,Arena
+978164,2024-06-30,2024-06,Nomad,aadvanced,feedertony,xpm0083,guerrillawarfare2,aravind2705,thelivi,Gajini,sundar7238,1865,1335,1235,920,1878,1348,1248,933,1660,1614,1128,940,1647,1601,1115,927,Nomad
+978159,2024-06-30,2024-06,Land Nomad,aadvanced,feedertony,Gajini,,aravind2705,thelivi,guerrillawarfare2,,1851,1321,1114,0,1865,1335,1128,0,1674,1628,934,0,1660,1614,920,0,Land Nomad
+978124,2024-06-30,2024-06,Black Forest,aravind2705,Gajini,sundar7238,,darkknight7282,feedertony,guerrillawarfare2,,1661,1101,927,0,1674,1114,940,0,1355,1334,947,0,1303,1321,934,0,Black Forest
+978082,2024-06-30,2024-06,Michi,aadvanced,aravind2705,lotterymartin,guerrillawarfare2,thelivi,mikecbe,feedertony,Gajini,1837,1647,1276,933,1851,1661,1290,947,1642,1613,1348,1115,1628,1599,1334,1101,Michi
+978054,2024-06-30,2024-06,Arabia,aadvanced,feedertony,Gajini,,aravind2705,mikecbe,sundar7238,,1822,1333,1100,0,1837,1348,1115,0,1662,1628,942,0,1647,1613,927,0,Arabia
+977662,2024-06-29,2024-06,Amazon Tunnel,aadvanced,mikecbe,f33d3r.raj,typo,fenrir05,thelivi,feedertony,xpm0083,1809,1615,1526,1246,1822,1628,1539,1259,1939,1655,1346,1248,1924,1642,1333,1235,Amazon Tunnel
+977393,2024-06-29,2024-06,Arena,feedertony,typo,stylishsteam,ninjavarier,f33d3r.raj,Gajini,sundar7238,guerrillawarfare2,1331,1231,1056,916,1346,1246,1071,931,1541,1115,957,948,1526,1100,942,933,Arena
+977367,2024-06-29,2024-06,Nomad,feedertony,typo,Gajini,ninjavarier,f33d3r.raj,stylishsteam,sundar7238,guerrillawarfare2,1316,1216,1100,901,1331,1231,1115,916,1556,1071,972,963,1541,1056,957,948,Nomad
+977304,2024-06-29,2024-06,Land Nomad,feedertony,Gajini,guerrillawarfare2,,typo,reubenthomas05,sundar7238,,1302,1086,949,0,1316,1100,963,0,1230,1111,986,0,1216,1054,972,0,Land Nomad
+977289,2024-06-29,2024-06,Black Forest,feedertony,Gajini,sundar7238,,typo,reubenthomas05,guerrillawarfare2,,1285,1069,969,0,1302,1086,986,0,1247,1192,966,0,1230,1111,949,0,Black Forest
+976794,2024-06-28,2024-06,Michi,Thiru,bcappu,typo,sundar7238,thelivi,mikecbe,feedertony,guerrillawarfare2,1851,1544,1233,955,1865,1558,1247,969,1669,1629,1299,980,1655,1615,1285,966,Michi
+976764,2024-06-28,2024-06,Arabia,aravind2705,typo,stylishsteam,Gajini,thelivi,feedertony,guerrillawarfare2,sundar7238,1649,1220,1058,1056,1662,1233,1071,1069,1682,1312,993,968,1669,1299,980,955,Arabia
+976708,2024-06-28,2024-06,Amazon Tunnel,aadvanced,aravind2705,guerrillawarfare2,sundar7238,Thiru,lotterymartin,stylishsteam,Gajini,1798,1638,982,957,1809,1649,993,968,1862,1287,1069,1067,1851,1276,1058,1056,Amazon Tunnel
+972594,2024-06-23,2024-06,Arena,mikecbe,f33d3r.raj,centurion12,typo,aadvanced,thelivi,vijay1989,guerrillawarfare2,1614,1541,1380,1205,1629,1556,1395,1220,1813,1697,1271,997,1798,1682,1256,982,Arena
+972561,2024-06-23,2024-06,Nomad,mikecbe,f33d3r.raj,centurion12,vijay1989,aadvanced,thelivi,typo,guerrillawarfare2,1600,1527,1366,1257,1614,1541,1380,1271,1827,1711,1219,1011,1813,1697,1205,997,Nomad
+972535,2024-06-23,2024-06,Land Nomad,aadvanced,vijay1989,xpm0083,typo,mikecbe,f33d3r.raj,centurion12,guerrillawarfare2,1811,1241,1232,1203,1827,1257,1248,1219,1616,1543,1382,1027,1600,1527,1366,1011,Land Nomad
+972509,2024-06-23,2024-06,Black Forest,thelivi,f33d3r.raj,lotterymartin,typo,Thiru,feedertony,arunaoe,xpm0083,1696,1528,1272,1188,1711,1543,1287,1203,1877,1327,1263,1247,1862,1312,1248,1232,Black Forest
+972485,2024-06-23,2024-06,Michi,rcbfan009,xpm0083,typo,stylishsteam,thelivi,lotterymartin,arunaoe,ninjavarier,1720,1233,1174,1055,1736,1247,1188,1069,1710,1286,1277,915,1696,1272,1263,901,Michi
+972465,2024-06-23,2024-06,Arabia,thelivi,mikecbe,f33d3r.raj,guerrillawarfare2,Thiru,feedertony,lotterymartin,arunaoe,1696,1602,1514,1013,1710,1616,1528,1027,1891,1341,1300,1291,1877,1327,1286,1277,Arabia
+972424,2024-06-23,2024-06,Amazon Tunnel,Thiru,rcbfan009,feedertony,thundubeedi,mikecbe,f33d3r.raj,lotterymartin,guerrillawarfare2,1879,1705,1329,729,1891,1720,1341,741,1614,1526,1426,1025,1602,1514,1413,1013,Amazon Tunnel
+972400,2024-06-23,2024-06,Arena,aadvanced,f33d3r.raj,lotterymartin,guerrillawarfare2,Thiru,rcbfan009,feedertony,thundubeedi,1798,1513,1412,1012,1811,1526,1426,1025,1892,1720,1342,742,1879,1705,1329,729,Arena
+972361,2024-06-23,2024-06,Nomad,Thiru,mikecbe,f33d3r.raj,stylishsteam,aadvanced,rcbfan009,centurion12,Gajini,1878,1600,1499,1041,1892,1614,1513,1055,1812,1738,1396,1081,1798,1720,1382,1067,Nomad
+972340,2024-06-23,2024-06,Land Nomad,aadvanced,rcbfan009,centurion12,xpm0083,Thiru,mikecbe,f33d3r.raj,Gajini,1799,1720,1383,1220,1812,1738,1396,1233,1891,1613,1512,1094,1878,1600,1499,1081,Land Nomad
+972292,2024-06-23,2024-06,Black Forest,rcbfan009,f33d3r.raj,centurion12,xpm0083,Thiru,aravind2705,typo,guerrillawarfare2,1701,1499,1370,1207,1720,1512,1383,1220,1904,1651,1187,1025,1891,1638,1174,1012,Black Forest
+972251,2024-06-23,2024-06,Michi,Thiru,rcbfan009,typo,guerrillawarfare2,aravind2705,f33d3r.raj,centurion12,xpm0083,1889,1679,1172,1010,1904,1701,1187,1025,1666,1514,1385,1222,1651,1499,1370,1207,Michi
+972192,2024-06-23,2024-06,Arabia,aadvanced,centurion12,typo,guerrillawarfare2,Thiru,xpm0083,Gajini,stylishsteam,1786,1372,1159,997,1799,1385,1172,1010,1902,1235,1107,1054,1889,1222,1094,1041,Arabia
+972157,2024-06-23,2024-06,Amazon Tunnel,rcbfan009,mikecbe,darkknight7282,Gajini,Thiru,aadvanced,typo,thundubeedi,1660,1601,1300,1095,1679,1613,1355,1107,1914,1798,1171,754,1902,1786,1159,742,Amazon Tunnel
+972148,2024-06-23,2024-06,Arena,Thiru,rcbfan009,typo,ninjavarier,aadvanced,centurion12,darkknight7282,Gajini,1899,1636,1156,900,1914,1660,1171,915,1813,1387,1378,1110,1798,1372,1300,1095,Arena
+972134,2024-06-23,2024-06,Nomad,rcbfan009,mikecbe,typo,Gajini,Thiru,centurion12,xpm0083,ninjavarier,1610,1586,1141,1095,1636,1601,1156,1110,1914,1402,1250,915,1899,1387,1235,900,Nomad
+972102,2024-06-23,2024-06,Land Nomad,aadvanced,mikecbe,darkknight7282,xpm0083,Thiru,rcbfan009,lotterymartin,ninjavarier,1801,1574,1305,1238,1813,1586,1378,1250,1926,1631,1425,927,1914,1610,1412,915,Land Nomad
+971559,2024-06-22,2024-06,Black Forest,thelivi,mikecbe,darkknight7282,guerrillawarfare2,rcbfan009,vijay1989,xpm0083,typo,1688,1566,1250,989,1696,1574,1305,997,1645,1249,1246,1149,1631,1241,1238,1141,Black Forest
+971513,2024-06-22,2024-06,Michi,aadvanced,thelivi,xpm0083,guerrillawarfare2,rcbfan009,mikecbe,vijay1989,typo,1788,1675,1233,976,1801,1688,1246,989,1671,1579,1262,1162,1645,1566,1249,1149,Michi
+971481,2024-06-22,2024-06,Arabia,thelivi,rcbfan009,typo,guerrillawarfare2,aadvanced,mikecbe,Gajini,ninjavarier,1661,1641,1148,962,1675,1671,1162,976,1802,1593,1109,941,1788,1579,1095,927,Arabia
+971463,2024-06-22,2024-06,Amazon Tunnel,aadvanced,feedertony,vijay1989,stylishsteam,aravind2705,thelivi,Gajini,guerrillawarfare2,1787,1327,1247,1039,1802,1342,1262,1054,1681,1676,1124,977,1666,1661,1109,962,Amazon Tunnel
+971431,2024-06-22,2024-06,Arena,aravind2705,vijay1989,Gajini,,aadvanced,typo,guerrillawarfare2,,1667,1233,1110,0,1681,1247,1124,0,1801,1162,991,0,1787,1148,977,0,Arena
+971332,2024-06-22,2024-06,Nomad,aadvanced,rcbfan009,lotterymartin,Gajini,Thiru,f33d3r.raj,centurion12,guerrillawarfare2,1788,1613,1411,1097,1801,1641,1425,1110,1939,1527,1415,1004,1926,1514,1402,991,Nomad
+971309,2024-06-22,2024-06,Land Nomad,rcbfan009,f33d3r.raj,vijay1989,Gajini,Thiru,centurion12,guerrillawarfare2,ninjavarier,1586,1516,1222,1086,1613,1527,1233,1097,1950,1426,1015,952,1939,1415,1004,941,Land Nomad
+971286,2024-06-22,2024-06,Black Forest,aadvanced,lotterymartin,vijay1989,typo,rcbfan009,f33d3r.raj,centurion12,ninjavarier,1774,1395,1208,1148,1788,1411,1222,1162,1622,1530,1440,966,1586,1516,1426,952,Black Forest
+971275,2024-06-22,2024-06,Michi,f33d3r.raj,centurion12,typo,guerrillawarfare2,aadvanced,vijay1989,Gajini,ninjavarier,1516,1426,1134,1001,1530,1440,1148,1015,1788,1222,1100,980,1774,1208,1086,966,Michi
+971199,2024-06-22,2024-06,Arabia,aadvanced,feedertony,typo,stylishsteam,aravind2705,centurion12,Gajini,guerrillawarfare2,1774,1313,1120,1025,1788,1327,1134,1039,1681,1440,1114,1015,1667,1426,1100,1001,Arabia
+971124,2024-06-22,2024-06,Amazon Tunnel,Thiru,Gajini,ninjavarier,sundar7238,centurion12,feedertony,typo,guerrillawarfare2,1937,1101,967,944,1950,1114,980,957,1453,1326,1133,1028,1440,1313,1120,1015,Amazon Tunnel
+971086,2024-06-22,2024-06,Arena,aadvanced,thelivi,centurion12,ninjavarier,Thiru,aravind2705,typo,guerrillawarfare2,1760,1662,1439,953,1774,1676,1453,967,1951,1695,1147,1042,1937,1681,1133,1028,Arena
+971057,2024-06-22,2024-06,Nomad,Thiru,aravind2705,typo,Gajini,aadvanced,thelivi,centurion12,ninjavarier,1936,1680,1132,1086,1951,1695,1147,1101,1775,1677,1454,968,1760,1662,1439,953,Nomad
+970645,2024-06-21,2024-06,Land Nomad,Thiru,arunaoe,typo,sundar7238,thelivi,centurion12,Gajini,guerrillawarfare2,1919,1274,1115,927,1936,1291,1132,944,1694,1471,1103,1059,1677,1454,1086,1042,Land Nomad
+970628,2024-06-21,2024-06,Black Forest,Thiru,arunaoe,vijay1989,guerrillawarfare2,thelivi,mikecbe,typo,sundar7238,1907,1262,1210,1047,1919,1274,1222,1059,1706,1605,1127,939,1694,1593,1115,927,Black Forest
+970610,2024-06-21,2024-06,Michi,thelivi,aravind2705,Gajini,guerrillawarfare2,Thiru,centurion12,typo,sundar7238,1692,1666,1089,1033,1706,1680,1103,1047,1921,1485,1141,953,1907,1471,1127,939,Michi
+970594,2024-06-21,2024-06,Arabia,centurion12,lotterymartin,Gajini,sundar7238,Thiru,typo,guerrillawarfare2,thundubeedi,1470,1377,1074,938,1485,1395,1089,953,1936,1156,1048,769,1921,1141,1033,754,Arabia
+967511,2024-06-16,2024-06,Amazon Tunnel,aadvanced,thelivi,arunaoe,,mikecbe,bcappu,f33d3r.raj,,1758,1675,1245,0,1775,1692,1262,0,1622,1561,1533,0,1605,1544,1516,0,Amazon Tunnel
+967487,2024-06-16,2024-06,Arena,thelivi,mikecbe,f33d3r.raj,xpm0083,aadvanced,bcappu,lotterymartin,arunaoe,1662,1609,1520,1220,1675,1622,1533,1233,1771,1574,1393,1258,1758,1561,1377,1245,Arena
+967468,2024-06-16,2024-06,Nomad,aadvanced,xpm0083,reubenthomas05,,mikecbe,f33d3r.raj,sundar7238,,1755,1204,1100,0,1771,1220,1192,0,1625,1536,954,0,1609,1520,938,0,Nomad
+967401,2024-06-16,2024-06,Land Nomad,aadvanced,f33d3r.raj,ninjavarier,,mikecbe,centurion12,Gajini,,1739,1520,952,0,1755,1536,968,0,1641,1486,1090,0,1625,1470,1074,0,Land Nomad
+967384,2024-06-16,2024-06,Black Forest,aadvanced,mikecbe,Gajini,ninjavarier,f33d3r.raj,centurion12,feedertony,sundar7238,1726,1628,1077,939,1739,1641,1090,952,1533,1499,1339,967,1520,1486,1326,954,Black Forest
+967355,2024-06-16,2024-06,Michi,mikecbe,rcbfan009,lotterymartin,feedertony,aadvanced,f33d3r.raj,centurion12,Gajini,1616,1588,1377,1327,1628,1622,1393,1339,1738,1545,1511,1089,1726,1533,1499,1077,Michi
+967310,2024-06-16,2024-06,Arabia,rcbfan009,f33d3r.raj,lotterymartin,stylishsteam,mikecbe,centurion12,feedertony,sundar7238,1547,1531,1359,1011,1588,1545,1377,1025,1630,1525,1341,981,1616,1511,1327,967,Arabia
+967297,2024-06-16,2024-06,Amazon Tunnel,centurion12,feedertony,Gajini,sundar7238,lotterymartin,vijay1989,xpm0083,guerrillawarfare2,1512,1328,1076,968,1525,1341,1089,981,1378,1223,1217,1061,1359,1210,1204,1048,Amazon Tunnel
+967282,2024-06-16,2024-06,Arena,centurion12,feedertony,vijay1989,sundar7238,rcbfan009,xpm0083,Gajini,guerrillawarfare2,1499,1315,1210,955,1512,1328,1223,968,1590,1230,1089,1074,1547,1217,1076,1061,Arena
+967270,2024-06-16,2024-06,Nomad,aadvanced,xpm0083,Gajini,sundar7238,centurion12,feedertony,guerrillawarfare2,stylishsteam,1724,1216,1075,941,1738,1230,1089,955,1513,1329,1088,1025,1499,1315,1074,1011,Nomad
+967214,2024-06-16,2024-06,Land Nomad,aadvanced,rcbfan009,lotterymartin,xpm0083,mikecbe,bcappu,centurion12,Gajini,1710,1540,1358,1202,1724,1590,1378,1216,1644,1588,1527,1089,1630,1574,1513,1075,Land Nomad
+967192,2024-06-16,2024-06,Black Forest,aadvanced,centurion12,feedertony,Gajini,mikecbe,rcbfan009,lotterymartin,sundar7238,1698,1515,1317,1077,1710,1527,1329,1089,1656,1587,1376,953,1644,1540,1358,941,Black Forest
+966913,2024-06-15,2024-06,Michi,rcbfan009,centurion12,vijay1989,guerrillawarfare2,mikecbe,arunaoe,xpm0083,Gajini,1539,1504,1199,1077,1587,1515,1210,1088,1667,1269,1213,1088,1656,1258,1202,1077,Michi
+966897,2024-06-15,2024-06,Arabia,aadvanced,centurion12,guerrillawarfare2,sundar7238,rcbfan009,arunaoe,vijay1989,Gajini,1685,1491,1064,940,1698,1504,1077,953,1606,1282,1212,1101,1539,1269,1199,1088,Arabia
+966881,2024-06-15,2024-06,Amazon Tunnel,aadvanced,arunaoe,Gajini,guerrillawarfare2,rcbfan009,centurion12,sundar7238,ninjavarier,1673,1270,1089,1052,1685,1282,1101,1064,1681,1503,952,951,1606,1491,940,939,Amazon Tunnel
+966858,2024-06-15,2024-06,Arena,aadvanced,centurion12,Gajini,,arunaoe,guerrillawarfare2,sundar7238,ninjavarier,1655,1485,1071,0,1673,1503,1089,0,1288,1070,970,0,1270,1052,952,0,Arena
+966725,2024-06-15,2024-06,Nomad,aadvanced,f33d3r.raj,sundar7238,thundubeedi,centurion12,vijay1989,Gajini,guerrillawarfare2,1641,1517,956,755,1655,1531,970,769,1499,1226,1085,1084,1485,1212,1071,1070,Nomad
+966691,2024-06-15,2024-06,Land Nomad,aadvanced,vijay1989,Gajini,guerrillawarfare2,f33d3r.raj,centurion12,stylishsteam,sundar7238,1624,1209,1068,1067,1641,1226,1085,1084,1534,1516,1042,973,1517,1499,1025,956,Land Nomad
+966660,2024-06-15,2024-06,Black Forest,f33d3r.raj,centurion12,stylishsteam,thundubeedi,aadvanced,Gajini,guerrillawarfare2,ninjavarier,1521,1503,1029,742,1534,1516,1042,755,1637,1081,1080,982,1624,1068,1067,969,Black Forest
+966167,2024-06-14,2024-06,Michi,mikecbe,aadvanced,ninjavarier,sundar7238,thelivi,vijay1989,guerrillawarfare2,stylishsteam,1659,1629,974,965,1667,1637,982,973,1670,1217,1088,1037,1662,1209,1080,1029,Michi
+966140,2024-06-14,2024-06,Arabia,thelivi,guerrillawarfare2,Gajini,stylishsteam,aadvanced,vijay1989,ninjavarier,sundar7238,1656,1074,1067,1023,1670,1088,1081,1037,1644,1231,988,979,1629,1217,974,965,Arabia
+963330,2024-06-09,2024-06,Amazon Tunnel,mikecbe,lotterymartin,vijay1989,typo,aadvanced,f33d3r.raj,guerrillawarfare2,Gajini,1646,1355,1218,1143,1659,1376,1231,1156,1658,1534,1087,1080,1644,1521,1074,1067,Amazon Tunnel
+963289,2024-06-09,2024-06,Arena,f33d3r.raj,arunaoe,vijay1989,xpm0083,aadvanced,lotterymartin,typo,ninjavarier,1520,1274,1204,1199,1534,1288,1218,1213,1673,1378,1157,1002,1658,1355,1143,988,Arena
+963241,2024-06-09,2024-06,Nomad,aadvanced,f33d3r.raj,sundar7238,,thelivi,typo,Gajini,,1664,1512,971,0,1673,1520,979,0,1664,1165,1088,0,1656,1157,1080,0,Nomad
+963201,2024-06-09,2024-06,Land Nomad,thelivi,aadvanced,vijay1989,Gajini,mikecbe,f33d3r.raj,feedertony,ninjavarier,1651,1650,1191,1075,1664,1664,1204,1088,1659,1525,1330,1015,1646,1512,1317,1002,Land Nomad
+963164,2024-06-09,2024-06,Black Forest,f33d3r.raj,feedertony,vijay1989,ninjavarier,mikecbe,aadvanced,sundar7238,thundubeedi,1509,1314,1175,999,1525,1330,1191,1015,1675,1669,987,758,1659,1650,971,742,Black Forest
+963156,2024-06-09,2024-06,Michi,aadvanced,f33d3r.raj,vijay1989,thundubeedi,thelivi,feedertony,stylishsteam,sundar7238,1654,1496,1162,745,1669,1509,1175,758,1664,1327,1036,1000,1651,1314,1023,987,Michi
+963138,2024-06-09,2024-06,Arabia,aravind2705,aadvanced,vijay1989,sundar7238,centurion12,f33d3r.raj,feedertony,Gajini,1651,1635,1147,985,1666,1654,1162,1000,1518,1511,1342,1090,1503,1496,1327,1075,Arabia
+963108,2024-06-09,2024-06,Amazon Tunnel,mikecbe,feedertony,ninjavarier,sundar7238,centurion12,typo,vijay1989,stylishsteam,1662,1329,986,972,1675,1342,999,985,1531,1178,1160,1049,1518,1165,1147,1036,Amazon Tunnel
+963087,2024-06-09,2024-06,Arena,aadvanced,bcappu,ninjavarier,sundar7238,mikecbe,typo,vijay1989,stylishsteam,1618,1575,973,959,1635,1588,986,972,1675,1191,1173,1062,1662,1178,1160,1049,Arena
+963039,2024-06-09,2024-06,Nomad,mikecbe,thelivi,guerrillawarfare2,sundar7238,aadvanced,feedertony,typo,vijay1989,1660,1649,1072,944,1675,1664,1087,959,1639,1344,1206,1188,1618,1329,1191,1173,Nomad
+963020,2024-06-09,2024-06,Land Nomad,thelivi,lotterymartin,feedertony,vijay1989,aravind2705,aadvanced,typo,sundar7238,1635,1355,1330,1174,1649,1378,1344,1188,1665,1659,1220,958,1651,1639,1206,944,Land Nomad
+963002,2024-06-09,2024-06,Black Forest,mikecbe,feedertony,typo,vijay1989,aravind2705,lotterymartin,arunaoe,sundar7238,1647,1317,1207,1161,1660,1330,1220,1174,1678,1379,1287,971,1665,1355,1274,958,Black Forest
+962417,2024-06-08,2024-06,Michi,fenrir05,typo,guerrillawarfare2,sundar7238,lotterymartin,feedertony,arunaoe,vijay1989,1920,1190,1055,954,1939,1207,1072,971,1411,1334,1304,1178,1379,1317,1287,1161,Michi
+962260,2024-06-08,2024-06,Arabia,aadvanced,typo,vijay1989,,centurion12,f33d3r.raj,guerrillawarfare2,,1619,1164,1152,0,1659,1190,1178,0,1557,1537,1081,0,1531,1511,1055,0,Arabia
+961751,2024-06-07,2024-06,Amazon Tunnel,mikecbe,thelivi,bcappu,,Thiru,aadvanced,vijay1989,,1634,1622,1562,0,1647,1635,1575,0,1949,1641,1165,0,1936,1619,1152,0,Amazon Tunnel
+961717,2024-06-07,2024-06,Arena,aadvanced,thelivi,vijay1989,,Thiru,bcappu,sundar7238,,1599,1598,1141,0,1641,1622,1165,0,1973,1586,978,0,1949,1562,954,0,Arena
+961705,2024-06-07,2024-06,Nomad,Thiru,bcappu,sundar7238,,aadvanced,thelivi,vijay1989,,1962,1575,967,0,1973,1586,978,0,1620,1609,1152,0,1599,1598,1141,0,Nomad
+958384,2024-06-02,2024-06,Land Nomad,thelivi,f33d3r.raj,feedertony,typo,aadvanced,mikecbe,xpm0083,guerrillawarfare2,1595,1523,1320,1150,1609,1537,1334,1164,1648,1648,1213,1095,1620,1634,1199,1081,Land Nomad
+958352,2024-06-02,2024-06,Black Forest,mikecbe,f33d3r.raj,sundar7238,reubenthomas05,thelivi,xpm0083,typo,guerrillawarfare2,1635,1510,954,950,1648,1523,967,1045,1608,1226,1163,1108,1595,1213,1150,1095,Black Forest
+958217,2024-06-02,2024-06,Michi,aravind2705,aadvanced,typo,guerrillawarfare2,mikecbe,bcappu,f33d3r.raj,thundubeedi,1665,1621,1150,1095,1678,1648,1163,1108,1648,1588,1523,758,1635,1575,1510,745,Michi
+958188,2024-06-02,2024-06,Arabia,rcbfan009,bcappu,typo,guerrillawarfare2,aadvanced,f33d3r.raj,xpm0083,sundar7238,1600,1577,1139,1084,1681,1588,1150,1095,1646,1534,1237,965,1621,1523,1226,954,Arabia
+958154,2024-06-02,2024-06,Amazon Tunnel,Thiru,mikecbe,guerrillawarfare2,sundar7238,aadvanced,f33d3r.raj,xpm0083,typo,1948,1634,1070,951,1962,1648,1084,965,1680,1548,1251,1153,1646,1534,1237,1139,Amazon Tunnel
+958129,2024-06-02,2024-06,Arena,Thiru,f33d3r.raj,typo,vijay1989,aadvanced,mikecbe,xpm0083,stylishsteam,1936,1536,1141,1140,1948,1548,1153,1152,1710,1646,1263,1074,1680,1634,1251,1062,Arena
+958113,2024-06-02,2024-06,Nomad,mikecbe,thelivi,f33d3r.raj,vijay1989,Thiru,aravind2705,typo,stylishsteam,1632,1594,1522,1126,1646,1608,1536,1140,1950,1679,1155,1088,1936,1665,1141,1074,Nomad
+956481,2024-05-31,2024-05,Land Nomad,bcappu,feedertony,arunaoe,guerrillawarfare2,Thiru,typo,vijay1989,sundar7238,1563,1306,1290,1056,1577,1320,1304,1070,1964,1169,1140,965,1950,1155,1126,951,Land Nomad
+956440,2024-05-31,2024-05,Black Forest,Thiru,arunaoe,typo,guerrillawarfare2,bcappu,centurion12,feedertony,sundar7238,1950,1276,1155,1042,1964,1290,1169,1056,1577,1571,1320,979,1563,1557,1306,965,Black Forest
+952117,2024-05-26,2024-05,Michi,Thiru,xpm0083,Gajini,guerrillawarfare2,mikecbe,feedertony,typo,vijay1989,1936,1249,1076,1028,1950,1263,1090,1042,1646,1334,1169,1154,1632,1320,1155,1140,Michi
+952085,2024-05-26,2024-05,Arabia,mikecbe,centurion12,feedertony,Gajini,Thiru,xpm0083,typo,vijay1989,1632,1557,1320,1062,1646,1571,1334,1076,1950,1263,1183,1168,1936,1249,1169,1154,Arabia
+951807,2024-05-26,2024-05,Amazon Tunnel,aravind2705,centurion12,typo,Gajini,mikecbe,f33d3r.raj,xpm0083,guerrillawarfare2,1662,1540,1166,1045,1679,1557,1183,1062,1649,1539,1280,1045,1632,1522,1263,1028,Amazon Tunnel
+951780,2024-05-26,2024-05,Arena,centurion12,f33d3r.raj,xpm0083,typo,aravind2705,mikecbe,guerrillawarfare2,Gajini,1527,1526,1267,1153,1540,1539,1280,1166,1675,1662,1058,1058,1662,1649,1045,1045,Arena
+951737,2024-05-26,2024-05,Nomad,centurion12,f33d3r.raj,stylishsteam,Gajini,mikecbe,xpm0083,typo,ninjavarier,1515,1514,1076,1046,1527,1526,1088,1058,1674,1279,1165,985,1662,1267,1153,973,Nomad
+951677,2024-05-26,2024-05,Land Nomad,centurion12,xpm0083,stylishsteam,guerrillawarfare2,mikecbe,vijay1989,typo,thundubeedi,1503,1267,1064,1046,1515,1279,1076,1058,1686,1180,1177,770,1674,1168,1165,758,Land Nomad
+951648,2024-05-26,2024-05,Black Forest,vijay1989,typo,guerrillawarfare2,,mikecbe,centurion12,,,1169,1166,0,0,1180,1177,0,0,1605,1697,0,0,1594,1686,0,0,Black Forest
+950790,2024-05-25,2024-05,Michi,aadvanced,centurion12,typo,thundubeedi,Thiru,stylishsteam,Gajini,guerrillawarfare2,1666,1498,1150,754,1710,1514,1166,770,1966,1080,1062,1051,1950,1064,1046,1035,Michi
+950561,2024-05-25,2024-05,Arabia,f33d3r.raj,guerrillawarfare2,thundubeedi,,typo,Gajini,ninjavarier,,1499,1036,739,0,1514,1051,754,0,1165,1077,1000,0,1150,1062,985,0,Arabia
+950535,2024-05-25,2024-05,Amazon Tunnel,f33d3r.raj,guerrillawarfare2,ninjavarier,,typo,stylishsteam,Gajini,,1488,1025,989,0,1499,1036,1000,0,1176,1091,1088,0,1165,1080,1077,0,Amazon Tunnel
+950496,2024-05-25,2024-05,Arena,typo,Gajini,guerrillawarfare2,,f33d3r.raj,ninjavarier,thundubeedi,,1159,1071,1008,0,1176,1088,1025,0,1505,1006,756,0,1488,989,739,0,Arena
+950401,2024-05-25,2024-05,Nomad,thelivi,Gajini,guerrillawarfare2,,f33d3r.raj,centurion12,thundubeedi,,1567,1044,981,0,1594,1071,1008,0,1532,1525,783,0,1505,1498,756,0,Nomad
+950393,2024-05-25,2024-05,Land Nomad,f33d3r.raj,centurion12,thundubeedi,,thelivi,Gajini,guerrillawarfare2,,1523,1516,774,0,1532,1525,783,0,1576,1053,990,0,1567,1044,981,0,Land Nomad
+949540,2024-05-24,2024-05,Black Forest,mikecbe,thelivi,centurion12,feedertony,Thiru,aadvanced,vijay1989,typo,1684,1563,1503,1307,1697,1576,1516,1320,1979,1704,1182,1172,1966,1666,1169,1159,Black Forest
+949496,2024-05-24,2024-05,Michi,Thiru,thelivi,vijay1989,typo,aadvanced,mikecbe,feedertony,Gajini,1967,1551,1170,1160,1979,1563,1182,1172,1745,1696,1319,1065,1704,1684,1307,1053,Michi
+949457,2024-05-24,2024-05,Arabia,Thiru,centurion12,feedertony,typo,aadvanced,mikecbe,thelivi,thundubeedi,1956,1492,1308,1149,1967,1503,1319,1160,1786,1707,1562,785,1745,1696,1551,774,Arabia
+949430,2024-05-24,2024-05,Amazon Tunnel,Thiru,thelivi,feedertony,thundubeedi,aadvanced,centurion12,typo,Gajini,1942,1548,1294,771,1956,1562,1308,785,1842,1506,1163,1079,1786,1492,1149,1065,Amazon Tunnel
+949274,2024-05-24,2024-05,Arena,centurion12,stylishsteam,Gajini,guerrillawarfare2,aravind2705,thelivi,feedertony,,1493,1078,1066,0,1506,1091,1079,0,1518,1688,1561,0,1505,1675,1548,0,Arena
+944141,2024-05-19,2024-05,Nomad,Thiru,thelivi,vijay1989,typo,mikecbe,lotterymartin,arunaoe,xpm0083,1931,1550,1159,1152,1942,1561,1170,1163,1718,1434,1287,1278,1707,1411,1276,1267,Nomad
+944090,2024-05-19,2024-05,Land Nomad,Thiru,arunaoe,xpm0083,typo,mikecbe,thelivi,vijay1989,Gajini,1919,1275,1266,1140,1931,1287,1278,1152,1730,1562,1171,1078,1718,1550,1159,1066,Land Nomad
+944032,2024-05-19,2024-05,Black Forest,mikecbe,arunaoe,typo,Gajini,thelivi,feedertony,xpm0083,guerrillawarfare2,1716,1261,1126,1064,1730,1275,1140,1078,1576,1321,1280,991,1562,1307,1266,977,Black Forest
+943805,2024-05-19,2024-05,Michi,mikecbe,thelivi,thundubeedi,,f33d3r.raj,feedertony,vijay1989,,1697,1557,752,0,1716,1576,771,0,1542,1340,1190,0,1523,1321,1171,0,Michi
+943735,2024-05-19,2024-05,Arabia,f33d3r.raj,vijay1989,typo,,thelivi,feedertony,thundubeedi,,1531,1179,1115,0,1542,1190,1126,0,1568,1351,763,0,1557,1340,752,0,Arabia
+943520,2024-05-19,2024-05,Amazon Tunnel,f33d3r.raj,typo,thundubeedi,,feedertony,Gajini,ninjavarier,,1509,1093,741,0,1531,1115,763,0,1373,1086,1028,0,1351,1064,1006,0,Amazon Tunnel
+943496,2024-05-19,2024-05,Arena,f33d3r.raj,Gajini,ninjavarier,,mikecbe,typo,thundubeedi,,1493,1070,1012,0,1509,1086,1028,0,1713,1109,757,0,1697,1093,741,0,Arena
+942464,2024-05-18,2024-05,Nomad,mikecbe,thelivi,feedertony,typo,Thiru,centurion12,arunaoe,Gajini,1696,1551,1356,1092,1713,1568,1373,1109,1936,1510,1278,1087,1919,1493,1261,1070,Nomad
+942399,2024-05-18,2024-05,Land Nomad,mikecbe,centurion12,feedertony,arunaoe,Thiru,thelivi,typo,Gajini,1684,1498,1344,1266,1696,1510,1356,1278,1948,1563,1104,1099,1936,1551,1092,1087,Land Nomad
+942314,2024-05-18,2024-05,Black Forest,thelivi,arunaoe,thundubeedi,,centurion12,typo,Gajini,,1535,1238,729,0,1563,1266,757,0,1526,1132,1127,0,1498,1104,1099,0,Black Forest
+942236,2024-05-18,2024-05,Michi,centurion12,typo,Gajini,,thelivi,arunaoe,thundubeedi,,1518,1124,1119,0,1526,1132,1127,0,1543,1246,737,0,1535,1238,729,0,Michi
+941887,2024-05-18,2024-05,Arabia,f33d3r.raj,feedertony,Gajini,,Thiru,typo,thundubeedi,,1480,1331,1106,0,1493,1344,1119,0,1961,1137,750,0,1948,1124,737,0,Arabia
+941814,2024-05-18,2024-05,Amazon Tunnel,feedertony,Gajini,ninjavarier,,f33d3r.raj,typo,thundubeedi,,1314,1089,995,0,1331,1106,1012,0,1497,1154,767,0,1480,1137,750,0,Amazon Tunnel
+940734,2024-05-17,2024-05,Arena,mikecbe,centurion12,typo,,Thiru,feedertony,Gajini,,1663,1497,1133,0,1684,1518,1154,0,1982,1335,1110,0,1961,1314,1089,0,Arena
+940679,2024-05-17,2024-05,Nomad,centurion12,typo,Gajini,,aravind2705,feedertony,thundubeedi,,1473,1109,1086,0,1497,1133,1110,0,1713,1359,791,0,1688,1335,767,0,Nomad
+936928,2024-05-12,2024-05,Land Nomad,Thiru,bcappu,typo,Gajini,mikecbe,f33d3r.raj,xpm0083,vijay1989,1969,1564,1096,1073,1982,1577,1109,1086,1676,1510,1293,1192,1663,1497,1280,1179,Land Nomad
+936890,2024-05-12,2024-05,Black Forest,mikecbe,bcappu,typo,ninjavarier,f33d3r.raj,xpm0083,arunaoe,vijay1989,1661,1549,1081,980,1676,1564,1096,995,1525,1308,1261,1207,1510,1293,1246,1192,Black Forest
+936858,2024-05-12,2024-05,Michi,Thiru,bcappu,vijay1989,ninjavarier,mikecbe,f33d3r.raj,xpm0083,Gajini,1956,1536,1194,967,1969,1549,1207,980,1674,1538,1321,1086,1661,1525,1308,1073,Michi
+936769,2024-05-12,2024-05,Arabia,mikecbe,centurion12,feedertony,Gajini,f33d3r.raj,bcappu,xpm0083,typo,1660,1459,1345,1072,1674,1473,1359,1086,1552,1550,1335,1095,1538,1536,1321,1081,Arabia
+936746,2024-05-12,2024-05,Amazon Tunnel,centurion12,feedertony,typo,ninjavarier,bcappu,xpm0083,Gajini,thundubeedi,1445,1331,1081,953,1459,1345,1095,967,1564,1349,1086,805,1550,1335,1072,791,Amazon Tunnel
+936736,2024-05-12,2024-05,Arena,bcappu,f33d3r.raj,xpm0083,Gajini,mikecbe,centurion12,feedertony,ninjavarier,1552,1540,1337,1074,1564,1552,1349,1086,1672,1457,1343,965,1660,1445,1331,953,Arena
+936728,2024-05-12,2024-05,Nomad,f33d3r.raj,centurion12,vijay1989,ninjavarier,bcappu,feedertony,xpm0083,thundubeedi,1526,1443,1180,951,1540,1457,1194,965,1566,1357,1351,819,1552,1343,1337,805,Nomad
+936714,2024-05-12,2024-05,Land Nomad,mikecbe,centurion12,stylishsteam,thundubeedi,feedertony,xpm0083,vijay1989,sundar7238,1659,1430,1065,806,1672,1443,1078,819,1370,1364,1193,992,1357,1351,1180,979,Land Nomad
+936661,2024-05-12,2024-05,Black Forest,mikecbe,centurion12,feedertony,vijay1989,bcappu,f33d3r.raj,xpm0083,typo,1646,1417,1357,1180,1659,1430,1370,1193,1579,1539,1377,1094,1566,1526,1364,1081,Black Forest
+936648,2024-05-12,2024-05,Michi,mikecbe,f33d3r.raj,centurion12,typo,aravind2705,xpm0083,feedertony,vijay1989,1631,1524,1402,1079,1646,1539,1417,1094,1730,1392,1372,1195,1713,1377,1357,1180,Michi
+936628,2024-05-12,2024-05,Arabia,aravind2705,f33d3r.raj,vijay1989,typo,mikecbe,xpm0083,feedertony,sundar7238,1716,1511,1182,1066,1730,1524,1195,1079,1644,1405,1385,1005,1631,1392,1372,992,Arabia
+936619,2024-05-12,2024-05,Amazon Tunnel,mikecbe,xpm0083,vijay1989,sundar7238,aravind2705,feedertony,typo,ninjavarier,1630,1391,1168,991,1644,1405,1182,1005,1731,1399,1080,965,1716,1385,1066,951,Amazon Tunnel
+936004,2024-05-11,2024-05,Arena,bcappu,feedertony,sundar7238,,f33d3r.raj,arunaoe,Gajini,,1564,1384,976,0,1579,1399,991,0,1526,1276,1089,0,1511,1261,1074,0,Arena
+935987,2024-05-11,2024-05,Nomad,Thiru,vijay1989,Gajini,,f33d3r.raj,centurion12,feedertony,,1928,1140,1061,0,1956,1168,1089,0,1554,1430,1412,0,1526,1402,1384,0,Nomad
+935985,2024-05-11,2024-05,Land Nomad,Thiru,feedertony,typo,sundar7238,f33d3r.raj,centurion12,vijay1989,Gajini,1918,1402,1070,966,1928,1412,1080,976,1564,1440,1150,1071,1554,1430,1140,1061,Land Nomad
+935975,2024-05-11,2024-05,Black Forest,aravind2705,stylishsteam,sundar7238,,centurion12,vijay1989,Gajini,,1712,1049,950,0,1731,1065,966,0,1456,1166,1087,0,1440,1150,1071,0,Black Forest
+935966,2024-05-11,2024-05,Michi,Thiru,f33d3r.raj,typo,sundar7238,aravind2705,centurion12,vijay1989,stylishsteam,1904,1550,1056,936,1918,1564,1070,950,1729,1470,1180,1063,1712,1456,1166,1049,Michi
+935910,2024-05-11,2024-05,Arabia,f33d3r.raj,centurion12,,,bcappu,feedertony,,,1529,1449,0,0,1550,1470,0,0,1585,1423,0,0,1564,1402,0,0,Arabia
+935409,2024-05-10,2024-05,Amazon Tunnel,mikecbe,bcappu,arunaoe,typo,Thiru,xpm0083,vijay1989,ninjavarier,1616,1571,1262,1042,1630,1585,1276,1056,1918,1405,1194,979,1904,1391,1180,965,Amazon Tunnel
+935395,2024-05-10,2024-05,Arena,Thiru,xpm0083,typo,ninjavarier,mikecbe,bcappu,vijay1989,sundar7238,1901,1388,1025,962,1918,1405,1042,979,1633,1588,1211,953,1616,1571,1194,936,Arena
+935375,2024-05-10,2024-05,Nomad,bcappu,arunaoe,vijay1989,stylishsteam,mikecbe,centurion12,typo,sundar7238,1573,1247,1196,1047,1588,1262,1211,1063,1648,1464,1040,968,1633,1449,1025,953,Nomad
+932138,2024-05-05,2024-05,Land Nomad,Thiru,arkantos3801,vijay1989,sundar7238,mikecbe,f33d3r.raj,arunaoe,stylishsteam,1886,1454,1181,953,1901,1469,1196,968,1663,1544,1262,1064,1648,1529,1247,1047,Land Nomad
+932114,2024-05-05,2024-05,Black Forest,mikecbe,arkantos3801,xpm0083,arunaoe,Thiru,f33d3r.raj,vijay1989,typo,1649,1440,1374,1248,1663,1454,1388,1262,1900,1558,1195,1054,1886,1544,1181,1040,Black Forest
+932016,2024-05-05,2024-05,Michi,mikecbe,f33d3r.raj,xpm0083,typo,Thiru,bcappu,Gajini,ninjavarier,1635,1544,1360,1040,1649,1558,1374,1054,1914,1587,1101,976,1900,1573,1087,962,Michi
+931984,2024-05-05,2024-05,Arabia,mikecbe,bcappu,f33d3r.raj,thundubeedi,Thiru,xpm0083,Gajini,typo,1623,1575,1532,794,1635,1587,1544,806,1926,1372,1113,1052,1914,1360,1101,1040,Arabia
+931946,2024-05-05,2024-05,Amazon Tunnel,bcappu,f33d3r.raj,vijay1989,Gajini,Thiru,xpm0083,typo,sundar7238,1561,1518,1181,1099,1575,1532,1195,1113,1940,1386,1066,967,1926,1372,1052,953,Amazon Tunnel
+931938,2024-05-05,2024-05,Arena,mikecbe,bcappu,typo,ninjavarier,f33d3r.raj,arkantos3801,vijay1989,sundar7238,1609,1547,1052,962,1623,1561,1066,976,1532,1454,1195,981,1518,1440,1181,967,Arena
+931910,2024-05-05,2024-05,Nomad,bcappu,arkantos3801,stylishsteam,sundar7238,f33d3r.raj,xpm0083,typo,ninjavarier,1533,1440,1049,967,1547,1454,1064,981,1546,1400,1066,976,1532,1386,1052,962,Nomad
+931903,2024-05-05,2024-05,Land Nomad,f33d3r.raj,xpm0083,ninjavarier,,bcappu,Gajini,sundar7238,,1539,1393,969,0,1546,1400,976,0,1540,1106,974,0,1533,1099,967,0,Land Nomad
+931835,2024-05-05,2024-05,Black Forest,Thiru,vijay1989,Gajini,,bcappu,f33d3r.raj,xpm0083,,1950,1205,1116,0,1973,1228,1139,0,1530,1529,1383,0,1507,1506,1360,0,Black Forest
+931821,2024-05-05,2024-05,Michi,f33d3r.raj,xpm0083,typo,,bcappu,vijay1989,Gajini,,1515,1369,1052,0,1529,1383,1066,0,1544,1219,1130,0,1530,1205,1116,0,Michi
+931787,2024-05-05,2024-05,Arabia,bcappu,xpm0083,typo,ninjavarier,f33d3r.raj,vijay1989,Gajini,sundar7238,1530,1355,1038,955,1544,1369,1052,969,1529,1233,1144,988,1515,1219,1130,974,Arabia
+931101,2024-05-04,2024-05,Amazon Tunnel,f33d3r.raj,arunaoe,Gajini,,centurion12,arkantos3801,typo,,1507,1226,1122,0,1529,1248,1144,0,1486,1462,1060,0,1464,1440,1038,0,Amazon Tunnel
+931084,2024-05-04,2024-05,Arena,f33d3r.raj,arkantos3801,typo,,centurion12,arunaoe,Gajini,,1496,1451,1049,0,1507,1462,1060,0,1497,1237,1133,0,1486,1226,1122,0,Arena
+930831,2024-05-04,2024-05,Nomad,centurion12,f33d3r.raj,arkantos3801,,Gajini,stylishsteam,typo,sundar7238,1487,1486,1441,0,1497,1496,1451,0,1143,1060,1059,0,1133,1049,1049,0,Nomad
+930798,2024-05-04,2024-05,Land Nomad,Gajini,typo,ninjavarier,,centurion12,f33d3r.raj,,,1131,1047,0,0,1143,1059,0,0,1498,1499,0,0,1486,1487,0,0,Land Nomad
+930787,2024-05-04,2024-05,Black Forest,Thiru,Gajini,typo,,centurion12,f33d3r.raj,stylishsteam,,1933,1114,1030,0,1950,1131,1047,0,1516,1515,1081,0,1499,1498,1060,0,Black Forest
+929974,2024-05-03,2024-05,Michi,centurion12,arunaoe,Gajini,,f33d3r.raj,vijay1989,typo,,1500,1221,1098,0,1516,1237,1114,0,1531,1249,1046,0,1515,1233,1030,0,Michi
+929928,2024-05-03,2024-05,Arabia,Thiru,arkantos3801,Gajini,typo,f33d3r.raj,centurion12,arunaoe,stylishsteam,1922,1430,1087,1035,1933,1441,1098,1046,1542,1511,1232,1094,1531,1500,1221,1081,Arabia
+929891,2024-05-03,2024-05,Amazon Tunnel,Thiru,arunaoe,sundar7238,,f33d3r.raj,arkantos3801,typo,,1909,1219,985,0,1922,1232,998,0,1555,1443,1048,0,1542,1430,1035,0,Amazon Tunnel
+929860,2024-05-03,2024-05,Arena,Thiru,stylishsteam,typo,,f33d3r.raj,arkantos3801,sundar7238,,1892,1072,1031,0,1909,1094,1048,0,1572,1460,1002,0,1555,1443,985,0,Arena
+925690,2024-04-28,2024-04,Nomad,mikecbe,arunaoe,sundar7238,guerrillawarfare2,f33d3r.raj,ddk220,ninjavarier,thundubeedi,1594,1204,987,976,1609,1219,1002,991,1587,1462,958,809,1572,1415,943,794,Nomad
+925604,2024-04-28,2024-04,Land Nomad,arkantos3801,ddk220,feedertony,guerrillawarfare2,f33d3r.raj,bcappu,typo,sundar7238,1449,1422,1412,965,1460,1462,1423,976,1598,1541,1042,998,1587,1530,1031,987,Land Nomad
+925568,2024-04-28,2024-04,Black Forest,f33d3r.raj,mikecbe,Gajini,typo,ddk220,feedertony,xpm0083,guerrillawarfare2,1586,1582,1075,1030,1598,1594,1087,1042,1469,1424,1367,977,1422,1412,1355,965,Black Forest
+925522,2024-04-28,2024-04,Michi,aravind2705,feedertony,xpm0083,thundubeedi,f33d3r.raj,mikecbe,Gajini,sundar7238,1710,1409,1352,794,1729,1424,1367,809,1601,1597,1090,1013,1586,1582,1075,998,Michi
+925497,2024-04-28,2024-04,Arabia,arkantos3801,vijay1989,Gajini,stylishsteam,f33d3r.raj,feedertony,guerrillawarfare2,thundubeedi,1434,1234,1075,1052,1449,1249,1090,1072,1616,1424,992,809,1601,1409,977,794,Arabia
+925475,2024-04-28,2024-04,Amazon Tunnel,f33d3r.raj,bcappu,stylishsteam,guerrillawarfare2,mikecbe,arkantos3801,vijay1989,thundubeedi,1603,1528,1034,979,1616,1541,1052,992,1610,1447,1247,822,1597,1434,1234,809,Amazon Tunnel
+925461,2024-04-28,2024-04,Arena,bcappu,feedertony,xpm0083,guerrillawarfare2,f33d3r.raj,arkantos3801,Gajini,sundar7238,1516,1412,1340,967,1528,1424,1352,979,1615,1459,1087,1025,1603,1447,1075,1013,Arena
+925447,2024-04-28,2024-04,Nomad,feedertony,xpm0083,vijay1989,Gajini,bcappu,arkantos3801,sundar7238,guerrillawarfare2,1398,1326,1233,1073,1412,1340,1247,1087,1530,1473,1039,981,1516,1459,1025,967,Nomad
+925426,2024-04-28,2024-04,Land Nomad,mikecbe,Gajini,typo,thundubeedi,feedertony,stylishsteam,sundar7238,ninjavarier,1596,1059,1016,808,1610,1073,1030,822,1412,1055,1053,972,1398,1034,1039,958,Land Nomad
+925412,2024-04-28,2024-04,Black Forest,mikecbe,feedertony,xpm0083,thundubeedi,fenrir05,Gajini,sundar7238,ninjavarier,1583,1399,1313,795,1596,1412,1326,808,1935,1072,1066,985,1920,1059,1053,972,Black Forest
+925395,2024-04-28,2024-04,Michi,f33d3r.raj,mikecbe,typo,,aravind2705,xpm0083,Gajini,,1600,1568,1001,0,1615,1583,1016,0,1730,1328,1087,0,1710,1313,1072,0,Michi
+924612,2024-04-27,2024-04,Arabia,bcappu,centurion12,ninjavarier,guerrillawarfare2,f33d3r.raj,arkantos3801,Gajini,thundubeedi,1514,1495,969,965,1530,1511,985,981,1616,1489,1103,811,1600,1473,1087,795,Arabia
+924581,2024-04-27,2024-04,Amazon Tunnel,centurion12,arkantos3801,feedertony,Gajini,f33d3r.raj,bcappu,vijay1989,guerrillawarfare2,1483,1477,1387,1091,1495,1489,1399,1103,1628,1526,1245,977,1616,1514,1233,965,Amazon Tunnel
+924547,2024-04-27,2024-04,Arena,Thiru,centurion12,feedertony,stylishsteam,f33d3r.raj,thelivi,bcappu,guerrillawarfare2,1879,1470,1374,1036,1892,1483,1387,1055,1641,1556,1539,990,1628,1543,1526,977,Arena
+924525,2024-04-27,2024-04,Nomad,centurion12,feedertony,guerrillawarfare2,,f33d3r.raj,Gajini,stylishsteam,,1453,1357,973,0,1470,1374,990,0,1658,1108,1064,0,1641,1091,1036,0,Nomad
+924487,2024-04-27,2024-04,Land Nomad,Thiru,centurion12,feedertony,thundubeedi,f33d3r.raj,thelivi,Gajini,sundar7238,1865,1439,1343,797,1879,1453,1357,811,1672,1570,1122,1080,1658,1556,1108,1066,Land Nomad
+924471,2024-04-27,2024-04,Black Forest,Thiru,arkantos3801,feedertony,Gajini,f33d3r.raj,thelivi,centurion12,sundar7238,1849,1461,1327,1106,1865,1477,1343,1122,1688,1586,1455,1096,1672,1570,1439,1080,Black Forest
+924433,2024-04-27,2024-04,Michi,Thiru,centurion12,feedertony,ninjavarier,f33d3r.raj,thelivi,Gajini,sundar7238,1836,1442,1314,956,1849,1455,1327,969,1701,1599,1119,1109,1688,1586,1106,1096,Michi
+924421,2024-04-27,2024-04,Arabia,Thiru,f33d3r.raj,thelivi,,centurion12,feedertony,Gajini,sundar7238,1824,1689,1587,0,1836,1701,1599,0,1454,1326,1131,0,1442,1314,1119,0,Arabia
+923811,2024-04-26,2024-04,Amazon Tunnel,Thiru,mikecbe,arkantos3801,guerrillawarfare2,f33d3r.raj,thelivi,feedertony,sundar7238,1810,1554,1447,959,1824,1568,1461,973,1703,1601,1340,1135,1689,1587,1326,1121,Amazon Tunnel
+923793,2024-04-26,2024-04,Arena,f33d3r.raj,thelivi,arkantos3801,sundar7238,Thiru,mikecbe,feedertony,stylishsteam,1689,1587,1433,1121,1703,1601,1447,1135,1824,1568,1354,1087,1810,1554,1340,1064,Arena
+923769,2024-04-26,2024-04,Nomad,centurion12,arunaoe,sundar7238,stylishsteam,thelivi,vijay1989,Gajini,thundubeedi,1440,1190,1107,1062,1454,1204,1121,1087,1601,1259,1145,811,1587,1245,1131,797,Nomad
+923726,2024-04-26,2024-04,Land Nomad,thelivi,bcappu,feedertony,,arunaoe,Gajini,sundar7238,guerrillawarfare2,1586,1524,1339,0,1601,1539,1354,0,1205,1160,1122,0,1190,1145,1107,0,Land Nomad
+920414,2024-04-21,2024-04,Black Forest,Thiru,xpm0083,typo,guerrillawarfare2,bcappu,arunaoe,Gajini,sundar7238,1810,1314,987,960,1824,1328,1001,974,1538,1219,1174,1136,1524,1205,1160,1122,Black Forest
+920380,2024-04-21,2024-04,Arabia,f33d3r.raj,mikecbe,arkantos3801,guerrillawarfare2,Thiru,bcappu,arunaoe,typo,1675,1554,1419,946,1689,1568,1433,960,1824,1552,1233,1001,1810,1538,1219,987,Arabia
+920362,2024-04-21,2024-04,Michi,Thiru,f33d3r.raj,sundar7238,guerrillawarfare2,mikecbe,bcappu,arkantos3801,typo,1808,1659,1120,930,1824,1675,1136,946,1570,1568,1435,1017,1554,1552,1419,1001,Michi
+920333,2024-04-21,2024-04,Arena,mikecbe,bcappu,sundar7238,thundubeedi,centurion12,xpm0083,arunaoe,ninjavarier,1557,1555,1107,798,1570,1568,1120,811,1453,1327,1246,969,1440,1314,1233,956,Arena
+920239,2024-04-21,2024-04,Land Nomad,arunaoe,Gajini,sundar7238,ninjavarier,f33d3r.raj,typo,guerrillawarfare2,thundubeedi,1231,1159,1092,954,1246,1174,1107,969,1674,1032,945,813,1659,1017,930,798,Land Nomad
+920223,2024-04-21,2024-04,Amazon Tunnel,arunaoe,Gajini,sundar7238,,f33d3r.raj,guerrillawarfare2,thundubeedi,,1213,1141,1074,0,1231,1159,1092,0,1692,963,831,0,1674,945,813,0,Amazon Tunnel
+920195,2024-04-21,2024-04,Nomad,Gajini,sundar7238,ninjavarier,,arunaoe,typo,thundubeedi,,1125,1058,938,0,1141,1074,954,0,1229,1048,847,0,1213,1032,831,0,Nomad
+920130,2024-04-21,2024-04,Black Forest,Thiru,f33d3r.raj,arkantos3801,typo,mikecbe,bcappu,centurion12,xpm0083,1793,1677,1420,1033,1808,1692,1435,1048,1572,1570,1468,1342,1557,1555,1453,1327,Black Forest
+920120,2024-04-21,2024-04,Arabia,Thiru,centurion12,arkantos3801,xpm0083,f33d3r.raj,mikecbe,bcappu,Gajini,1778,1453,1405,1327,1793,1468,1420,1342,1692,1587,1585,1140,1677,1572,1570,1125,Arabia
+920106,2024-04-21,2024-04,Michi,Thiru,xpm0083,Gajini,guerrillawarfare2,f33d3r.raj,bcappu,ninjavarier,thundubeedi,1765,1314,1127,950,1778,1327,1140,963,1705,1598,951,860,1692,1585,938,847,Michi
+920097,2024-04-21,2024-04,Arena,Thiru,centurion12,typo,ninjavarier,f33d3r.raj,mikecbe,guerrillawarfare2,thundubeedi,1751,1439,1019,937,1765,1453,1033,951,1719,1601,964,874,1705,1587,950,860,Arena
+920051,2024-04-21,2024-04,Land Nomad,f33d3r.raj,mikecbe,typo,,Thiru,centurion12,sundar7238,,1703,1585,1003,0,1719,1601,1019,0,1767,1455,1074,0,1751,1439,1058,0,Land Nomad
+919570,2024-04-20,2024-04,Amazon Tunnel,f33d3r.raj,mikecbe,Gajini,typo,Thiru,feedertony,arunaoe,guerrillawarfare2,1689,1571,1113,989,1703,1585,1127,1003,1781,1353,1243,978,1767,1339,1229,964,Amazon Tunnel
+919533,2024-04-20,2024-04,Nomad,Thiru,centurion12,feedertony,typo,f33d3r.raj,mikecbe,arunaoe,guerrillawarfare2,1767,1441,1339,975,1781,1455,1353,989,1703,1585,1257,992,1689,1571,1243,978,Nomad
+919514,2024-04-20,2024-04,Black Forest,centurion12,arunaoe,Gajini,,f33d3r.raj,guerrillawarfare2,typo,,1428,1244,1100,0,1441,1257,1113,0,1716,1005,988,0,1703,992,975,0,Black Forest
+919480,2024-04-20,2024-04,Arabia,Thiru,f33d3r.raj,guerrillawarfare2,,centurion12,Gajini,typo,thundubeedi,1752,1701,990,0,1767,1716,1005,0,1443,1115,1003,0,1428,1100,988,0,Arabia
+919413,2024-04-20,2024-04,Michi,bcappu,feedertony,typo,guerrillawarfare2,fenrir05,sundar7238,ninjavarier,thundubeedi,1584,1325,989,976,1598,1339,1003,990,1952,1088,951,903,1935,1074,937,889,Michi
+919399,2024-04-20,2024-04,Arena,f33d3r.raj,centurion12,sundar7238,thundubeedi,fenrir05,Gajini,typo,guerrillawarfare2,1687,1429,1074,889,1701,1443,1088,903,1970,1129,1003,990,1952,1115,989,976,Arena
+919330,2024-04-20,2024-04,Land Nomad,f33d3r.raj,typo,guerrillawarfare2,,centurion12,Gajini,sundar7238,,1669,985,972,0,1687,1003,990,0,1447,1147,1092,0,1429,1129,1074,0,Land Nomad
+919308,2024-04-20,2024-04,Amazon Tunnel,f33d3r.raj,Gajini,typo,guerrillawarfare2,centurion12,vijay1989,sundar7238,thundubeedi,1654,1132,970,957,1669,1147,985,972,1462,1274,1107,904,1447,1259,1092,889,Amazon Tunnel
+919295,2024-04-20,2024-04,Nomad,f33d3r.raj,sundar7238,thundubeedi,,centurion12,Gajini,typo,,1638,1091,888,0,1654,1107,904,0,1478,1148,986,0,1462,1132,970,0,Nomad
+919236,2024-04-20,2024-04,Black Forest,bcappu,centurion12,guerrillawarfare2,,f33d3r.raj,Gajini,typo,,1575,1469,948,0,1584,1478,957,0,1647,1157,995,0,1638,1148,986,0,Black Forest
+919208,2024-04-20,2024-04,Arabia,f33d3r.raj,bcappu,typo,guerrillawarfare2,Thiru,centurion12,ninjavarier,thundubeedi,1633,1561,981,934,1647,1575,995,948,1766,1483,965,902,1752,1469,951,888,Arabia
+918642,2024-04-19,2024-04,Amazon Tunnel,f33d3r.raj,feedertony,vijay1989,typo,mikecbe,bcappu,sundar7238,guerrillawarfare2,1617,1309,1258,965,1633,1325,1274,981,1601,1577,1107,950,1585,1561,1091,934,Amazon Tunnel
+918590,2024-04-19,2024-04,Land Nomad,f33d3r.raj,feedertony,typo,guerrillawarfare2,bcappu,vijay1989,sundar7238,thundubeedi,1599,1291,947,932,1617,1309,965,950,1595,1276,1125,920,1577,1258,1107,902,Land Nomad
+918566,2024-04-19,2024-04,Land Nomad,f33d3r.raj,centurion12,guerrillawarfare2,,mikecbe,vijay1989,typo,,1588,1472,921,0,1599,1483,932,0,1612,1287,958,0,1601,1276,947,0,Land Nomad
+918550,2024-04-19,2024-04,Land Nomad,centurion12,vijay1989,typo,thundubeedi,mikecbe,f33d3r.raj,feedertony,,1459,1274,945,0,1472,1287,958,0,1510,1625,1601,0,1497,1612,1588,0,Land Nomad
+918150,2024-04-18,2024-04,Arabia,Thiru,bcappu,vijay1989,arunaoe,mikecbe,f33d3r.raj,thelivi,guerrillawarfare2,1754,1583,1262,1232,1766,1595,1274,1244,1637,1613,1598,933,1625,1601,1586,921,Arabia
+918120,2024-04-18,2024-04,Arena,mikecbe,bcappu,vijay1989,sundar7238,Thiru,thelivi,arunaoe,guerrillawarfare2,1622,1568,1247,1110,1637,1583,1262,1125,1769,1613,1247,948,1754,1598,1232,933,Arena
+918103,2024-04-18,2024-04,Land Nomad,mikecbe,f33d3r.raj,sundar7238,typo,thelivi,centurion12,Gajini,guerrillawarfare2,1608,1599,1096,931,1622,1613,1110,945,1627,1473,1171,962,1613,1459,1157,948,Land Nomad
+918077,2024-04-18,2024-04,Land Nomad,f33d3r.raj,Gajini,guerrillawarfare2,,thelivi,sundar7238,thundubeedi,,1584,1156,947,0,1599,1171,962,0,1642,1111,922,0,1627,1096,907,0,Land Nomad
+918050,2024-04-18,2024-04,Land Nomad,f33d3r.raj,centurion12,sundar7238,thiyagup,thelivi,feedertony,typo,thundubeedi,1570,1459,1097,717,1584,1473,1111,741,1656,1318,945,936,1642,1304,931,922,Land Nomad
+918006,2024-04-18,2024-04,Land Nomad,Thiru,Gajini,sundar7238,typo,f33d3r.raj,feedertony,guerrillawarfare2,thundubeedi,1758,1145,1086,934,1769,1156,1097,945,1581,1329,958,947,1570,1318,947,936,Land Nomad
+917993,2024-04-18,2024-04,Land Nomad,f33d3r.raj,centurion12,Gajini,,Thiru,feedertony,sundar7238,,1560,1438,1124,0,1581,1459,1145,0,1779,1350,1107,0,1758,1329,1086,0,Land Nomad
+915269,2024-04-14,2024-04,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",Thiru,mikecbe,xpm0083,thundubeedi,f33d3r.raj,bcappu,feedertony,typo,1769,1570,1303,932,1780,1581,1314,943,1609,1571,1360,946,1598,1560,1349,935,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+915258,2024-04-14,2024-04,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,mikecbe,xpm0083,vijay1989,Thiru,bcappu,feedertony,typo,1644,1558,1291,1247,1656,1570,1303,1259,1781,1583,1372,958,1769,1571,1360,946,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+915233,2024-04-14,2024-04,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",f33d3r.raj,bcappu,sundar7238,thundubeedi,thelivi,feedertony,Gajini,guerrillawarfare2,1596,1570,1098,919,1609,1583,1111,932,1657,1385,1140,971,1644,1372,1127,958,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+915205,2024-04-14,2024-04,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,f33d3r.raj,centurion12,guerrillawarfare2,Thiru,mikecbe,feedertony,thundubeedi,1640,1579,1421,954,1657,1596,1438,971,1798,1575,1402,936,1781,1558,1385,919,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+902697,2024-03-31,2024-03,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",aravind2705,feedertony,centurion12,sundar7238,mikecbe,f33d3r.raj,vijay1989,stylishsteam,1590,1432,1381,1050,1612,1444,1393,1062,1633,1451,1194,1132,1621,1439,1182,1101,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+883662,2024-03-10,2024-03,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,feedertony,vijay1989,thundubeedi,bcappu,centurion12,guerrillawarfare2,sundar7238,1628,1383,1097,892,1645,1402,1114,911,1624,1369,1085,1037,1607,1336,1068,1020,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+883655,2024-03-10,2024-03,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",Thiru,guerrillawarfare2,Gajini,sundar7238,bcappu,feedertony,typo,thundubeedi,1701,1069,1043,1021,1718,1085,1059,1037,1640,1401,960,910,1624,1383,944,892,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+859480,2024-02-11,2024-02,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",bcappu,f33d3r.raj,feedertony,dosa7368,thelivi,Thiru,Gajini,guerrillawarfare2,1569,1439,1435,998,1585,1453,1452,1014,1680,1658,1101,1049,1658,1635,1083,1034,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+859454,2024-02-11,2024-02,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",aadvanced,bcappu,guerrillawarfare2,dosa7368,Thiru,f33d3r.raj,feedertony,thundubeedi,1809,1553,1034,983,1857,1569,1049,998,1681,1452,1452,841,1658,1439,1435,812,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+858299,2024-02-10,2024-02,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",bcappu,f33d3r.raj,vijay1989,thundubeedi,Thiru,feedertony,Gajini,dosa7368,1586,1397,1071,1060,1610,1412,1087,1075,1648,1456,1118,844,1633,1445,1095,813,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+846614,2024-01-28,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",centurion12,feedertony,f33d3r.raj,Gajini,Thiru,arunaoe,typo,dosa7368,1542,1387,1384,1000,1572,1415,1407,1066,1613,1334,1188,1181,1579,1296,1138,1152,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+846031,2024-01-27,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,centurion12,feedertony,dosa7368,bcappu,mikecbe,arunaoe,guerrillawarfare2,1679,1509,1357,1147,1717,1542,1387,1183,1623,1613,1381,1085,1593,1580,1331,1048,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+845994,2024-01-27,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,mikecbe,thundubeedi,Gajini,feedertony,f33d3r.raj,guerrillawarfare2,dosa7368,1596,1577,1011,879,1640,1613,1069,907,1389,1388,1167,1151,1357,1360,1124,1110,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+845965,2024-01-27,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",bcappu,f33d3r.raj,feedertony,thundubeedi,centurion12,xpm0083,guerrillawarfare2,dosa7368,1590,1358,1354,945,1623,1388,1389,1011,1581,1317,1215,1196,1543,1278,1167,1151,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+845712,2024-01-27,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",thelivi,feedertony,f33d3r.raj,,centurion12,mikecbe,Gajini,,1441,1374,1317,0,1506,1428,1361,0,1629,1629,941,0,1581,1577,901,0,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"
+844279,2024-01-25,2024-01,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​",mikecbe,centurion12,thelivi,typo,aravind2705,f33d3r.raj,feedertony,Gajini,1500,1400,1400,1100,1546,1446,1446,1146,1400,1400,1300,1200,1354,1354,1254,1154,"<@511604233267707925>: Https://Www.Twitch.Tv/Feedertony
+​"

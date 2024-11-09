@@ -7,13 +7,14 @@ import pickle
 
 class MyClient(discord.Client):
     async def on_ready(self):
-        channel = client.get_channel(933299509805600778) #tg-bot
+        channel = client.get_channel(933299509805600778) #tg-bot Aoe2 Bombay
+        channel = client.get_channel(1200081751272325170) #tg-bot Aoe2-Dota2
         #channel = client.get_channel(327134162769281026) #game-discussions
         match_starts = []
         match_results = []
         count = 0
-        #async for msg in channel.history(limit=20000):
         async for msg in channel.history(limit=5000000000):
+        #async for msg in channel.history(limit=500):
             try:
                 if str(msg.author) == 'Pubobot#8845' and len(msg.embeds) > 0: #TG-Bot
                     #if msg.embeds[0].title == '__**Domestic** has started!__':
@@ -78,10 +79,10 @@ class MyClient(discord.Client):
                 pass
 
         match_starts_df = pd.DataFrame(match_starts)
-        match_starts_df.to_csv('data/match_starts_new.csv', index=False)
+        match_starts_df.to_csv('tw_data/match_starts.csv', index=False)
 
         match_results_df = pd.DataFrame(match_results)
-        match_results_df.to_csv('data/match_results_raw_new.csv', index=False)
+        match_results_df.to_csv('tw_data/match_results_raw.csv', index=False)
         print('done')
 
 
