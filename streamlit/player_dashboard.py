@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,7 +8,9 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from collections import Counter
 
-df = pd.read_csv('../tw_data/matches.csv')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(script_dir, '../tw_data/')
+df = pd.read_csv(data_dir + '/matches.csv')
 df.sort_values(by='match_id', inplace=True)
 all_player_games = df['w1'].values.tolist() + \
     df['w2'].values.tolist() + \
