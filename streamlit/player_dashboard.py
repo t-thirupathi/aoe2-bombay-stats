@@ -9,7 +9,14 @@ from dateutil.relativedelta import relativedelta
 from collections import Counter
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(script_dir, '../tw_data/')
+
+server = st.selectbox('Select Server', ['AOE Bombay', 'AOE2-DOTA2'])
+
+server_data_dirs = {
+    'AOE Bombay': '../data/',
+    'AOE2-DOTA2': '../tw_data'
+}
+data_dir = os.path.join(script_dir, server_data_dirs[server])
 df = pd.read_csv(data_dir + '/matches.csv')
 df.sort_values(by='match_id', inplace=True)
 all_player_games = df['w1'].values.tolist() + \
