@@ -1,5 +1,10 @@
 Stats of Age of Empires II games played in Aoe Bombay discord server using tg-bot
 
+Setup:
+`python3 -m venv venv`
+`source venv/bin/activate`
+`pip3 install -r requirements.txt`
+
 Steps:
 1. Run `python discord_scraper.py`
 2. `mv data/match_starts_new.csv data/match_starts.csv`
