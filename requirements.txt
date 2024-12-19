@@ -3,3 +3,5 @@ pandas
 jupyterlab
 seaborn
 streamlit
+python-dotenv
+matplotlib

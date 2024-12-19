@@ -1,10 +1,11 @@
 from ast import literal_eval
+import glob
 import pandas as pd
 from collections import Counter
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-res = pd.read_csv('tw_data/match_results.csv')
+res = pd.read_csv('data/match_results.csv')
 
 for col in ['w1_or', 'w2_or', 'w3_or', 'w4_or', 
             'w1_nr', 'w2_nr', 'w3_nr', 'w4_nr', 
@@ -14,8 +15,10 @@ for col in ['w1_or', 'w2_or', 'w3_or', 'w4_or',
     res[col].fillna(0, inplace=True)
     res[col] = res[col].astype(int)
     
-
-start = pd.read_csv('tw_data/match_starts.csv')
+file_pattern = 'data/match_starts*.csv'
+csv_files = glob.glob(file_pattern)
+start = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index=True)
+# start = pd.read_csv('data/match_starts.csv')
 
 start = start.drop_duplicates(subset=['match_id'])
 

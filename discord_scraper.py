@@ -3,17 +3,21 @@
 import discord
 import os
 import pandas as pd
-import pickle
+from dotenv import load_dotenv
+
+load_dotenv()
+client_secret = os.getenv('DISCORD_CLIENT_TOKEN')
 
 class MyClient(discord.Client):
     async def on_ready(self):
         channel = client.get_channel(933299509805600778) #tg-bot Aoe2 Bombay
-        channel = client.get_channel(1200081751272325170) #tg-bot Aoe2-Dota2
+        # channel = client.get_channel(1200081751272325170) #tg-bot Aoe2-Dota2
         #channel = client.get_channel(327134162769281026) #game-discussions
         match_starts = []
         match_results = []
         count = 0
-        async for msg in channel.history(limit=5000000000):
+        start_date = end_date = 0
+        async for msg in channel.history(limit=25000):
         #async for msg in channel.history(limit=500):
             try:
                 if str(msg.author) == 'Pubobot#8845' and len(msg.embeds) > 0: #TG-Bot
@@ -39,6 +43,9 @@ class MyClient(discord.Client):
 
                         map_ = msg.embeds[0].fields[3].value.strip(' `*\xa0')
                         date_created = msg.created_at.date()
+                        if not start_date:
+                            start_date = date_created
+                        end_date = date_created
                         print(date_created)
 
                         match_start_data = {'match_id': match_id, 
@@ -79,10 +86,10 @@ class MyClient(discord.Client):
                 pass
 
         match_starts_df = pd.DataFrame(match_starts)
-        match_starts_df.to_csv('tw_data/match_starts.csv', index=False)
+        match_starts_df.to_csv(f'data/match_starts_{end_date}_{start_date}.csv', index=False)
 
         match_results_df = pd.DataFrame(match_results)
-        match_results_df.to_csv('tw_data/match_results_raw.csv', index=False)
+        match_results_df.to_csv(f'data/match_results_raw_{end_date}_{start_date}.csv', index=False)
         print('done')
 
 
@@ -90,4 +97,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTE2MTcyMjE3OTEwNTMyOTI5Mw.GqfWeS.zfnDRWznjxC5zqgLSfDOwXhHkGKFzaznwygjTI')
+client.run(client_secret)
