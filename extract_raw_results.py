@@ -108,5 +108,7 @@ for s in df['0']:
         print(e)
 
 df = pd.DataFrame(results).T.rename_axis('match_id')
-df.to_csv('tw_data/match_results.csv')
+df = df.drop_duplicates()
+
+df.to_csv('data/match_results.csv')
     

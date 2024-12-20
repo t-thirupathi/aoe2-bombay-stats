@@ -129,7 +129,7 @@ def fix_map_only_name(map_):
 combined['map'] = combined['map'].apply(fix_map_name)
 combined['map_only'] = combined['map'].apply(fix_map_only_name)
 
-combined.to_csv('tw_data/matches.csv', index=False)
+combined.to_csv('data/matches.csv', index=False)
 
 print(combined.head())
 
