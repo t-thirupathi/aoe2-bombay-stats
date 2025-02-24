@@ -8,8 +8,6 @@ Setup:
 Steps:
 
 1. Run `python discord_scraper.py`
-<!-- 2. `mv data/match_starts_new.csv data/match_starts.csv`
-3. `mv data/match_results_raw_new.csv data/match_results_raw.csv` -->
-4. Run `python extract_raw_results.py`
-5. Run `python process_data.py`
-6. Run `streamlit run streamlit/player_dashboard.py`
+2. Run `python extract_raw_results.py`
+3. Run `python process_data.py`
+4. Run `streamlit run streamlit_scripts/player_dashboard.py`
