@@ -67,8 +67,6 @@ def get_player_rating(row, player):
     if row['l4'] == player:
         return row['l4_nr']
 player_df['player_rating'] = player_df.apply(get_player_rating, player=player, axis=1)
-st.write('Recent matches')
-st.write(player_df.sort_values(by='match_id', ascending=False).head())
 
 date_skeleton = pd.DataFrame(pd.date_range(min(player_df['date']), max(player_df['date']), freq='d').astype('str'), columns=['date'])
 plot = sns.lineplot(data=date_skeleton.merge(player_df, on='date', how='left'), x='date', y='player_rating')
@@ -132,7 +130,6 @@ matches_by_month = all_months_df.merge(matches_by_month.reset_index(), how='left
 
 st.bar_chart(matches_by_month)
 
-min_games = st.number_input("Minimum games", value=5)
 
 def player_map_stats(player, min_games=5):
     won_games = player_df[player_df['won']].groupby('map')['match_id'].count().sort_values(ascending=False).reset_index() 
@@ -147,8 +144,6 @@ def player_map_stats(player, min_games=5):
     results = results[results['total'] >= min_games].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
     results.index += 1
     return results
-
-st.dataframe(player_map_stats(player, min_games))
 
 
 def teammate_stats(df, player, teammate=True, min_games=5):
@@ -219,8 +214,16 @@ def opponent_stats(df, player, min_games=5):
     results.index += 1
     return results
 
+min_games = st.number_input("Minimum games", value=5)
+
+if server != 'AOE2-DOTA2':
+    st.write('Map stats')
+    st.dataframe(player_map_stats(player, min_games))
+
 st.write('Teammate stats')
 st.write(teammate_stats(df, player, min_games))
 st.write('Opponent stats')
 st.write(opponent_stats(df, player, min_games))
 
+st.write('Recent matches')
+st.write(player_df.sort_values(by='match_id', ascending=False).head())
