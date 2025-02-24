@@ -10,7 +10,7 @@ from collections import Counter
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-server = st.selectbox('Select Server', ['AOE Bombay', 'AOE2-DOTA2'])
+server = st.selectbox('Select Server', ['AOE2-DOTA2', 'AOE Bombay', ])
 
 server_data_dirs = {
     'AOE Bombay': '../data/',
@@ -128,7 +128,9 @@ matches_by_month = all_months_df.merge(matches_by_month.reset_index(), how='left
 
 st.bar_chart(matches_by_month)
 
-def player_map_stats(player):
+min_games = st.number_input("Minimum games", value=5)
+
+def player_map_stats(player, min_games=5):
     won_games = player_df[player_df['won']].groupby('map')['match_id'].count().sort_values(ascending=False).reset_index() 
     lost_games = player_df[~player_df['won']].groupby('map')['match_id'].count().sort_values(ascending=False).reset_index() 
 
@@ -138,14 +140,14 @@ def player_map_stats(player):
     results = results[['map', 'total', 'play_rate', 'won', 'lost']]
     results['win_rate'] = round(results['won'] / results['total'] * 100, 2)
     print(results[['total', 'won', 'lost']].sum(), round(results['won'].sum() / results['total'].sum() * 100, 2))
-    results = results[results['total'] >= 1].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
+    results = results[results['total'] >= min_games].sort_values(by='win_rate', ascending=False).reset_index(drop=True)
     results.index += 1
     return results
 
-st.dataframe(player_map_stats(player))
+st.dataframe(player_map_stats(player, min_games))
 
 
-def teammate_stats(df, player, teammate=True):
+def teammate_stats(df, player, teammate=True, min_games=5):
     won_df = player_df[player_df['won']]
     lost_df = player_df[~player_df['won']]
 
@@ -175,11 +177,11 @@ def teammate_stats(df, player, teammate=True):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
-    results = stats_df[stats_df['total'] >= 1].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= min_games].reset_index(drop=True)
     results.index += 1
     return results
 
-def opponent_stats(df, player):
+def opponent_stats(df, player, min_games=5):
     won_df = player_df[player_df['won']]
     lost_df = player_df[~player_df['won']]
 
@@ -209,13 +211,12 @@ def opponent_stats(df, player):
                 'win_rate': round(won*100/(won+lost), 2)
             })
     stats_df = pd.DataFrame(stats).sort_values(by='win_rate', ascending=False)
-    results = stats_df[stats_df['total'] >= 1].reset_index(drop=True)
+    results = stats_df[stats_df['total'] >= min_games].reset_index(drop=True)
     results.index += 1
     return results
 
-
 st.write('Teammate stats')
-st.write(teammate_stats(df, player))
+st.write(teammate_stats(df, player, min_games))
 st.write('Opponent stats')
-st.write(opponent_stats(df, player))
+st.write(opponent_stats(df, player, min_games))
 

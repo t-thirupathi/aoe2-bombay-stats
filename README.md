@@ -12,4 +12,4 @@ Steps:
 3. `mv data/match_results_raw_new.csv data/match_results_raw.csv` -->
 4. Run `python extract_raw_results.py`
 5. Run `python process_data.py`
-6. Run `cd streamlit run streamlit/player_dashboard.py`
+6. Run `streamlit run streamlit/player_dashboard.py`

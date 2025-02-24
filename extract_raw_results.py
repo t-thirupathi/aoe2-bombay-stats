@@ -2,10 +2,9 @@ import pandas as pd
 import glob
 
 results = {}
-file_pattern = 'data/match_results_raw*.csv'
+file_pattern = 'tw_data/match_results_raw*.csv'
 csv_files = glob.glob(file_pattern)
 df = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index=True)
-# df = pd.read_csv('data/match_results_raw.csv')
 
 for s in df['0']:
     try:
@@ -110,5 +109,5 @@ for s in df['0']:
 df = pd.DataFrame(results).T.rename_axis('match_id')
 df = df.drop_duplicates()
 
-df.to_csv('data/match_results.csv')
+df.to_csv('tw_data/match_results.csv')
     

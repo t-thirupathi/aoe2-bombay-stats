@@ -10,22 +10,19 @@ client_secret = os.getenv('DISCORD_CLIENT_TOKEN')
 
 class MyClient(discord.Client):
     async def on_ready(self):
-        channel = client.get_channel(933299509805600778) #tg-bot Aoe2 Bombay
-        # channel = client.get_channel(1200081751272325170) #tg-bot Aoe2-Dota2
+        # channel = client.get_channel(933299509805600778) #tg-bot Aoe2 Bombay
+        channel = client.get_channel(1200081751272325170) #tg-bot Aoe2-Dota2
         #channel = client.get_channel(327134162769281026) #game-discussions
         match_starts = []
         match_results = []
         count = 0
         start_date = end_date = 0
-        async for msg in channel.history(limit=25000):
-        #async for msg in channel.history(limit=500):
+        async for msg in channel.history(limit=2500000000):
             try:
                 if str(msg.author) == 'Pubobot#8845' and len(msg.embeds) > 0: #TG-Bot
                     #if msg.embeds[0].title == '__**Domestic** has started!__':
-                    if msg.embeds[0].title and msg.embeds[0].title.endswith('has started!__'):
+                    if 'has started!__' in msg.embeds[0].title and msg.embeds[0].title:
                         queue = (msg.embeds[0].title).split('**')[1]
-                        #print(queue)
-                        #all_start_msg_data = {}
                         #fields = [i.value for i in msg.embeds[0].fields]
                         #footer = msg.embeds[0].footer.text
                         #datetime = msg.created_at
@@ -38,8 +35,8 @@ class MyClient(discord.Client):
                         match_id = int(msg.embeds[0].footer.text.split(':')[-1].strip())
                         team_a_players = msg.embeds[0].fields[0].value.split('\u200b')[1:]
                         team_b_players = msg.embeds[0].fields[1].value.split('\u200b')[1:][:-1]
-                        team_a_players = [int(i.strip('`〈ABCDEFGHI★〉<@> `\n')) for i in team_a_players]
-                        team_b_players = [int(i.strip('`〈ABCDEFGHI★〉<@> `\n')) for i in team_b_players]
+                        team_a_players = [int(i.strip('`〈ABCDEFGHIJKLMNOPQRSTUVWXYZ★〉<@> `\n')) for i in team_a_players]
+                        team_b_players = [int(i.strip('`〈ABCDEFGHIJKLMNOPQRSTUVWXYZ★〉<@> `\n')) for i in team_b_players]
 
                         map_ = msg.embeds[0].fields[3].value.strip(' `*\xa0')
                         date_created = msg.created_at.date()
@@ -53,6 +50,7 @@ class MyClient(discord.Client):
                                             'map': map_, 
                                             'team_a_players': team_a_players, 
                                             'team_b_players': team_b_players, 
+                                            'queue': queue,
                                             }
 
                         match_starts.append(match_start_data)
@@ -61,7 +59,6 @@ class MyClient(discord.Client):
                 if str(msg.content).startswith('```markdown\n'):
                     #print(msg.content)
                     queue = (msg.content).split('\n')[1].split('(')[0]
-                    #print(queue)
                     match_results.append(str(msg.content))
                     #print(str(msg.content))
                     #Domestic(742942) results
@@ -77,7 +74,7 @@ class MyClient(discord.Client):
                     #> Tragedy 669 ⟼ 647
                     #> adirath 628 ⟼ 606```
             except Exception as e:
-                print(e)
+                print("Error:", e)
                 print(msg.embeds[0].title)
                 print(msg.content)
                 print(msg.embeds[0].footer.text)
@@ -86,10 +83,10 @@ class MyClient(discord.Client):
                 pass
 
         match_starts_df = pd.DataFrame(match_starts)
-        match_starts_df.to_csv(f'data/match_starts_{end_date}_{start_date}.csv', index=False)
+        match_starts_df.to_csv(f'tw_data/match_starts_{end_date}_{start_date}.csv', index=False)
 
         match_results_df = pd.DataFrame(match_results)
-        match_results_df.to_csv(f'data/match_results_raw_{end_date}_{start_date}.csv', index=False)
+        match_results_df.to_csv(f'tw_data/match_results_raw_{end_date}_{start_date}.csv', index=False)
         print('done')
 
 
