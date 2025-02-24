@@ -90,12 +90,16 @@ def player_stats(df):
     lost = matches - won
     win_rate = round((won / matches) * 100, 2)
     avg_rating = round(df['player_rating'].mean(), 0)
+    min_rating = round(df['player_rating'].min(), 0)
+    max_rating = round(df['player_rating'].max(), 0)
 
     stats = {'Played': matches, 
              'Won': won, 
              'Lost': lost, 
              'Win rate': win_rate, 
-             'Avg rating': avg_rating
+             'Min rating': min_rating,
+             'Max rating': max_rating,             
+             'Avg rating': avg_rating,
              }
 
     return pd.DataFrame(stats, index=[0])
