@@ -1,38 +1,27 @@
-# This example requires the 'message_content' privileged intent to function.
+"""Module for scraping Discord messages."""
 
-import discord
 import os
+import discord
 import pandas as pd
 from dotenv import load_dotenv
 
-load_dotenv()
-client_secret = os.getenv("DISCORD_CLIENT_TOKEN")
 
-
-class MyClient(discord.Client):
+class DiscordScraper(discord.Client):
+    """Class for scraping Discord messages."""
     async def on_ready(self):
+        """Scrape Discord messages."""
         # channel = client.get_channel(933299509805600778) #tg-bot Aoe2 Bombay
         channel = client.get_channel(1200081751272325170)  # tg-bot Aoe2-Dota2
         # channel = client.get_channel(327134162769281026) #game-discussions
         match_starts = []
         match_results = []
-        count = 0
         start_date = end_date = 0
-        async for msg in channel.history(limit=2500000000):
+        async for msg in channel.history(limit=2500):
             try:
                 if str(msg.author) == "Pubobot#8845" and len(msg.embeds) > 0:  # TG-Bot
                     # if msg.embeds[0].title == '__**Domestic** has started!__':
-                    if "has started!__" in msg.embeds[0].title and msg.embeds[0].title:
+                    if msg.embeds[0].title and "has started!__" in msg.embeds[0].title:
                         queue = (msg.embeds[0].title).split("**")[1]
-                        # fields = [i.value for i in msg.embeds[0].fields]
-                        # footer = msg.embeds[0].footer.text
-                        # datetime = msg.created_at
-
-                        # match_start_data = {}
-                        # match_start_data['match_id'] = msg.embeds[0].footer.text
-                        # for i in msg.embeds[0].fields:
-                        #    match_start_data[i.name] = i.value
-
                         match_id = int(msg.embeds[0].footer.text.split(":")[-1].strip())
                         team_a_players = (
                             msg.embeds[0].fields[0].value.split("\u200b")[1:]
@@ -92,7 +81,6 @@ class MyClient(discord.Client):
                 print(msg.embeds[0].footer.text)
                 for i in msg.embeds[0].fields:
                     print(i.name, i.value)
-                pass
 
         match_starts_df = pd.DataFrame(match_starts)
         match_starts_df.to_csv(
@@ -106,8 +94,11 @@ class MyClient(discord.Client):
         print("done")
 
 
-intents = discord.Intents.default()
-intents.message_content = True
+if __name__ == "__main__":
+    intents = discord.Intents.default()
+    intents.message_content = True
 
-client = MyClient(intents=intents)
-client.run(client_secret)
+    client = DiscordScraper(intents=intents)
+    load_dotenv()
+    client_secret = os.getenv("DISCORD_CLIENT_TOKEN")
+    client.run(client_secret)

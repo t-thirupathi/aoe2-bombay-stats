@@ -1,15 +1,12 @@
+"""Module for displaying map statistics in Streamlit."""
+
 import os
+from collections import Counter
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-from collections import Counter
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(script_dir, "../tw_data/")
+data_dir = os.path.join(script_dir, "../data/")
 df = pd.read_csv(data_dir + "/matches.csv")
 df.sort_values(by="match_id", inplace=True)
 
@@ -30,6 +27,7 @@ map_counts = df["map"].value_counts()
 frequent_maps = map_counts[map_counts >= 20].index.tolist()
 
 map_ = st.selectbox("Select a map", sorted(frequent_maps))
+min_games = st.number_input("Minimum games", value=20)
 
 # Filter matches involving the given player
 map_df = df[df["map"] == map_]
@@ -48,7 +46,6 @@ all_players = list(
     )
 )
 all_players = list(filter(pd.notna, all_players))
-
 
 stats = []
 for player in all_players:
@@ -84,6 +81,6 @@ for player in all_players:
             }
         )
 stats_df = pd.DataFrame(stats).sort_values(by="win_rate", ascending=False)
-results = stats_df[stats_df["total"] >= 5].reset_index(drop=True)
+results = stats_df[stats_df["total"] >= min_games].reset_index(drop=True)
 results.index += 1
 st.write(results)

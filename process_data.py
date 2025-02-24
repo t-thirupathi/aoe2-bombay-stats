@@ -1,9 +1,9 @@
+"""Module for processing match data."""
+
 from ast import literal_eval
 import glob
+from collections import Counter, defaultdict
 import pandas as pd
-from collections import Counter
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 res = pd.read_csv("tw_data/match_results.csv")
 
@@ -28,16 +28,18 @@ for col in [
     res[col].fillna(0, inplace=True)
     res[col] = res[col].astype(int)
 
-file_pattern = "tw_data/match_starts*.csv"
-csv_files = glob.glob(file_pattern)
+# Read match starts
+FILE_PATTERN = "tw_data/match_starts*.csv"
+csv_files = glob.glob(FILE_PATTERN)
 start = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index=True)
 
 start = start.drop_duplicates(subset=["match_id"])
 
+# Merge match results and starts
 combined = res.merge(start, on="match_id", how="inner")
 
-
 def w_players(row):
+    """Get winning players."""
     if row["team_a_won"]:
         players = literal_eval(row["team_a_players"])
     else:
@@ -46,9 +48,9 @@ def w_players(row):
     players = players + [""] * (4 - len(players))
     players = "|".join(players)
     return players
-
 
 def l_players(row):
+    """Get losing players."""
     if row["team_a_won"]:
         players = literal_eval(row["team_b_players"])
     else:
@@ -57,19 +59,16 @@ def l_players(row):
     players = players + [""] * (4 - len(players))
     players = "|".join(players)
     return players
-
 
 combined["winners"] = combined.apply(w_players, axis=1)
 combined["losers"] = combined.apply(l_players, axis=1)
 
 combined.head()
 
-from collections import defaultdict
-
 player_map = defaultdict(list)
 
-
 def map_players(row):
+    """Map players."""
     winners = [int("0" + i) for i in row["winners"].split("|")]
     losers = [int("0" + i) for i in row["losers"].split("|")]
     w1, w2, w3, w4 = row["w1"], row["w2"], row["w3"], row["w4"]
@@ -80,7 +79,6 @@ def map_players(row):
     for a, b in zip(losers, [l1, l2, l3, l4]):
         player_map[a].append(b)
 
-
 combined.apply(map_players, axis=1)
 
 player_map_final = {}
@@ -89,16 +87,15 @@ for k, v in player_map.items():
 
 print("total players", len(player_map))
 
-
 def id_to_name(ids):
+    """Convert IDs to names."""
     x = []
     for i in ids.split("|"):
         try:
             x.append(player_map[int(i)])
-        except:
+        except KeyError:
             x.append("")
     return "|".join(x)
-
 
 combined["winners"] = combined["winners"].apply(id_to_name)
 combined["losers"] = combined["losers"].apply(id_to_name)
@@ -129,7 +126,6 @@ c[["w1", "w2", "w3", "w4"]] = c["winners"].str.split("|", expand=True)
 
 combined[["w1", "w2", "w3", "w4"]] = combined["winners"].str.split("|", expand=True)
 combined[["l1", "l2", "l3", "l4"]] = combined["losers"].str.split("|", expand=True)
-
 
 combined.drop(["winners", "losers"], axis=1, inplace=True)
 
@@ -168,10 +164,9 @@ combined = combined[
     ]
 ]
 
-combined
-
 
 def fix_map_name(map_):
+    """Fix map name."""
     random_civs = False
     if "random civ" in map_.lower():
         random_civs = True
@@ -180,10 +175,9 @@ def fix_map_name(map_):
         map_name += " (Random civs)"
     return map_name
 
-
 def fix_map_only_name(map_):
+    """Fix map only name."""
     return map_.lower().split("(")[0].split("-")[0].strip().title()
-
 
 combined["map"] = combined["map"].apply(fix_map_name)
 combined["map_only"] = combined["map"].apply(fix_map_only_name)

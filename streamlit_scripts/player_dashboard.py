@@ -1,12 +1,11 @@
+from collections import Counter
+from datetime import datetime
 import os
 import streamlit as st
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from datetime import datetime
 from dateutil.relativedelta import relativedelta
-from collections import Counter
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -250,7 +249,7 @@ def player_map_stats(player, min_games=5):
     return results
 
 
-def teammate_stats(df, player, teammate=True, min_games=5):
+def teammate_stats(player, min_games=5):
     won_df = player_df[player_df["won"]]
     lost_df = player_df[~player_df["won"]]
 
@@ -291,7 +290,7 @@ def teammate_stats(df, player, teammate=True, min_games=5):
     return results
 
 
-def opponent_stats(df, player, min_games=5):
+def opponent_stats(player, min_games=5):
     won_df = player_df[player_df["won"]]
     lost_df = player_df[~player_df["won"]]
 
@@ -339,9 +338,9 @@ if server != "AOE2-DOTA2":
     st.dataframe(player_map_stats(player, min_games))
 
 st.write("Teammate stats")
-st.write(teammate_stats(df, player, min_games))
+st.write(teammate_stats(player, min_games))
 st.write("Opponent stats")
-st.write(opponent_stats(df, player, min_games))
+st.write(opponent_stats(player, min_games))
 
 st.write("Recent matches")
 st.write(player_df.sort_values(by="match_id", ascending=False).head())

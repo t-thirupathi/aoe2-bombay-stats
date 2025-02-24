@@ -1,11 +1,13 @@
-import pandas as pd
-import glob
+"""Module for extracting raw match results."""
 
-results = {}
-file_pattern = "tw_data/match_results_raw*.csv"
-csv_files = glob.glob(file_pattern)
+import glob
+import pandas as pd
+
+FILE_PATTERN = "tw_data/match_results_raw*.csv"
+csv_files = glob.glob(FILE_PATTERN)
 df = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index=True)
 
+results = {}
 for s in df["0"]:
     try:
         s = s.split("\n")
