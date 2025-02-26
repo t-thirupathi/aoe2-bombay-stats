@@ -10,10 +10,10 @@ from dateutil.relativedelta import relativedelta
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 server = st.selectbox(
-    "Select Server",
+    "Select Discord Server",
     [
-        "AOE2-DOTA2",
         "AOE Bombay",
+        "AOE2-DOTA2",
     ],
 )
 
@@ -47,7 +47,7 @@ all_players = list(
     )
 )
 
-player = st.selectbox("Select a player", ["Thiru"] + all_players)
+player = st.selectbox("Select Player", ["Thiru"] + all_players)
 
 # Filter matches involving the given player
 player_df = df[
