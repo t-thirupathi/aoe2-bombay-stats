@@ -8,7 +8,7 @@ import seaborn as sns
 from dateutil.relativedelta import relativedelta
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
+data_dir = os.path.join(script_dir, "../data/")
 server = st.selectbox(
     "Select Discord Server",
     [
@@ -17,9 +17,8 @@ server = st.selectbox(
     ],
 )
 
-server_data_dirs = {"AOE Bombay": "../data/", "AOE2-DOTA2": "../tw_data"}
-data_dir = os.path.join(script_dir, server_data_dirs[server])
-df = pd.read_csv(data_dir + "/matches.csv")
+server_data_dir = os.path.join(data_dir, server)
+df = pd.read_csv(server_data_dir + "/matches.csv")
 df.sort_values(by="match_id", inplace=True)
 all_player_games = (
     df["w1"].values.tolist()

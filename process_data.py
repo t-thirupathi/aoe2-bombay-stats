@@ -4,8 +4,13 @@ from ast import literal_eval
 import glob
 from collections import Counter, defaultdict
 import pandas as pd
+import argparse
 
-res = pd.read_csv("tw_data/match_results.csv")
+argparser = argparse.ArgumentParser()
+argparser.add_argument("--server", type=str, default="Aoe2-Dota2", help="Discord server")
+args = argparser.parse_args()
+
+res = pd.read_csvf("data/{args.server}/match_results.csv")
 
 for col in [
     "w1_or",
@@ -182,6 +187,6 @@ def fix_map_only_name(map_):
 combined["map"] = combined["map"].apply(fix_map_name)
 combined["map_only"] = combined["map"].apply(fix_map_only_name)
 
-combined.to_csv("tw_data/matches.csv", index=False)
+combined.to_csv(f"data/{args.server}/matches.csv", index=False)
 
 print(combined.head())

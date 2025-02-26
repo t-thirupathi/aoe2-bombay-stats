@@ -2,8 +2,14 @@
 
 import glob
 import pandas as pd
+import argparse
 
-FILE_PATTERN = "tw_data/match_results_raw*.csv"
+argparser = argparse.ArgumentParser()
+argparser.add_argument("--server", type=str, default="Aoe2-Dota2", help="Discord server")
+args = argparser.parse_args()
+
+
+FILE_PATTERN = f"data/{args.server}/match_results_raw*.csv"
 csv_files = glob.glob(FILE_PATTERN)
 df = pd.concat([pd.read_csv(file) for file in csv_files], ignore_index=True)
 
@@ -111,4 +117,4 @@ for s in df["0"]:
 df = pd.DataFrame(results).T.rename_axis("match_id")
 df = df.drop_duplicates()
 
-df.to_csv("tw_data/match_results.csv")
+df.to_csv(f"data/{args.server}/match_results.csv", index=False)
