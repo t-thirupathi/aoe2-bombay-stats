@@ -182,6 +182,8 @@ all_months = (
     "2024-10",
     "2024-11",
     "2024-12",
+    "2025-01",
+    "2025-02",
 )
 all_months = df["year_month"].unique()
 all_months_df = pd.DataFrame(all_months, columns=["year_month"])
@@ -209,6 +211,7 @@ matches_by_month = (
     .astype(int)
 )
 
+st.write("Games played by month")
 st.bar_chart(matches_by_month)
 
 
