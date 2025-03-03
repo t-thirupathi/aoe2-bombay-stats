@@ -5,7 +5,7 @@ import pandas as pd
 import argparse
 
 argparser = argparse.ArgumentParser()
-argparser.add_argument("--server", type=str, default="Aoe2-Dota2", help="Discord server")
+argparser.add_argument("--server", type=str, default="AOE2-DOTA2", help="Discord server")
 args = argparser.parse_args()
 
 
