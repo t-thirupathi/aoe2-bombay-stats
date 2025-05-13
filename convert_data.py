@@ -1,16 +1,25 @@
 import pandas as pd
+import os
+import argparse
 
+argparser = argparse.ArgumentParser()
+argparser.add_argument("--server", type=str, default="AOE2-DOTA2", help="Discord server")
+args = argparser.parse_args()
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(script_dir, "new_data", args.server)
+print(f"Data directory: {data_dir}")
 # === Helper: Clean CSV ===
 def clean_csv(df, expected_columns):
-    df = df[df[df.columns[0]] != df.columns[0]]  # remove duplicate headers
-    df.columns = expected_columns
+    # df = df[df[df.columns[0]] != df.columns[0]]  # remove duplicate headers
+    # df.columns = expected_columns
     return df
 
 # === Load and clean CSVs ===
-matches = clean_csv(pd.read_csv("qc_matches.csv"), ["match_id", "at", "queue", "winner_team", "maps"])
-player_matches = clean_csv(pd.read_csv("qc_player_matches.csv"), ["match_id", "user_id", "team"])
-players = clean_csv(pd.read_csv("qc_players.csv"), ["user_id", "nick", "is_hidden", "rating", "deviation", "wins", "losses", "draws", "streak"])
-# ratings = clean_csv(pd.read_csv("qc_rating_history.csv"), ["match_id", "at", "user_id", "rating_before", "rating_change", "deviation_before", "deviation_change", "reason"])
+matches = clean_csv(pd.read_csv(os.path.join(data_dir, "qc_matches.csv")), ["match_id", "at", "queue", "winner_team", "maps"])
+player_matches = clean_csv(pd.read_csv(os.path.join(data_dir, "qc_player_matches.csv")), ["match_id", "user_id", "team"])
+players = clean_csv(pd.read_csv(os.path.join(data_dir, "qc_players.csv")), ["user_id", "nick", "is_hidden", "rating", "deviation", "wins", "losses", "draws", "streak"])
+# ratings = clean_csv(pd.read_csv(os.path.join(data_dir, "qc_rating_history.csv")), ["match_id", "at", "user_id", "rating_before", "rating_change", "deviation_before", "deviation_change", "reason"])
 
 # === Convert column types ===
 matches = matches.dropna(subset=["match_id", "winner_team"])
@@ -50,14 +59,14 @@ for _, match in matches.iterrows():
     winner_team = match["winner_team"]
 
     pmatch = player_matches[player_matches["match_id"] == match_id]
-    # if pmatch.shape[0] != 8:
-    #     skipped_matches.append((match_id, "not 8 players"))
-    #     continue
+    if pmatch.shape[0] != 8:
+        skipped_matches.append((match_id, "not 8 players"))
+        continue
 
     teams = pmatch.groupby("team")["user_id"].apply(list).to_dict()
-    # if not all(t in teams for t in [0, 1]) or len(teams[0]) != 4 or len(teams[1]) != 4:
-    #     skipped_matches.append((match_id, "missing or malformed teams"))
-    #     continue
+    if not all(t in teams for t in [0, 1]) or len(teams[0]) != 4 or len(teams[1]) != 4:
+        skipped_matches.append((match_id, "missing or malformed teams"))
+        continue
 
     winners = teams[winner_team]
     losers = teams[1 - winner_team]
@@ -91,7 +100,7 @@ columns = [
 ]
 
 df_out = pd.DataFrame(output_rows, columns=columns)
-df_out.to_csv("matches.csv", index=False)
+df_out.to_csv(os.path.join(data_dir, "matches.csv"), index=False)
 
 # === Summary ===
 if skipped_matches:

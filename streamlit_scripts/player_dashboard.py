@@ -8,7 +8,7 @@ import seaborn as sns
 from dateutil.relativedelta import relativedelta
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(script_dir, "../data/")
+data_dir = os.path.join(script_dir, "../new_data/")
 server = st.selectbox(
     "Select Discord Server",
     [
