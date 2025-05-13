@@ -12,8 +12,8 @@ data_dir = os.path.join(script_dir, "../new_data/")
 server = st.selectbox(
     "Select Discord Server",
     [
-        "AOE Bombay",
         "AOE2-DOTA2",
+        "AOE Bombay",
     ],
 )
 
@@ -184,6 +184,9 @@ all_months = (
     "2024-12",
     "2025-01",
     "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
 )
 all_months = df["year_month"].unique()
 all_months_df = pd.DataFrame(all_months, columns=["year_month"])
