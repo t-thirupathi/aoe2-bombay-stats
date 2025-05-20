@@ -88,7 +88,7 @@ def get_player_rating(row, player):
 
 
 player_df["player_rating"] = player_df.apply(get_player_rating, player=player, axis=1)
-
+print("player_df", player_df)
 date_skeleton = pd.DataFrame(
     pd.date_range(min(player_df["date"]), max(player_df["date"]), freq="d").astype(
         "str"
